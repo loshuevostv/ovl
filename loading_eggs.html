@@ -1,0 +1,164 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <style type="text/css">
+    @keyframes wiggle {
+      25% { transform: rotate(-4deg) scale(1.1); }
+      50% { transform: rotate(0deg) scale(1); }
+      75% { transform: rotate(4deg) scale(1.1); }
+    }
+    .wiggle {
+      animation: wiggle 1s infinite;
+    }
+    @keyframes loadingEgg {
+     4% { transform: translate(0, 0) scale(1, 1); }
+     5% { transform: translate(0, 10%) scale(1.25, 0.95); }
+     5.25% { transform: translate(0, -1.4000000000000004%) scale(1.193, 0.969); }
+     5.5% { transform: translate(0, -11.600000000000001%) scale(1.142, 0.986); }
+     5.75% { transform: translate(0, -20.6%) scale(1.097, 1.001); }
+     6% { transform: translate(0, -28.400000000000006%) scale(1.0579999999999998, 1.014); }
+     6.25% { transform: translate(0, -35%) scale(1.025, 1.025); }
+     6.5% { transform: translate(0, -40.4%) scale(0.998, 1.034); }
+     6.75% { transform: translate(0, -44.599999999999994%) scale(0.977, 1.041); }
+     7% { transform: translate(0, -47.599999999999994%) scale(0.962, 1.046); }
+     7.25% { transform: translate(0, -49.400000000000006%) scale(0.9529999999999998, 1.0490000000000002); }
+     7.5% { transform: translate(0, -50%) scale(0.95, 1.05); }
+     7.75% { transform: translate(0, -49.4%) scale(0.953, 1.049); }
+     8% { transform: translate(0, -47.599999999999994%) scale(0.962, 1.046); }
+     8.25% { transform: translate(0, -44.599999999999994%) scale(0.977, 1.041); }
+     8.5% { transform: translate(0, -40.400000000000006%) scale(0.998, 1.034); }
+     8.75% { transform: translate(0, -35%) scale(1.025, 1.025); }
+     9% { transform: translate(0, -28.39999999999999%) scale(1.058, 1.014); }
+     9.25% { transform: translate(0, -20.6%) scale(1.097, 1.001); }
+     9.5% { transform: translate(0, -11.599999999999994%) scale(1.142, 0.986); }
+     9.75% { transform: translate(0, -1.4000000000000092%) scale(1.1929999999999998, 0.969); }
+     10% { transform: translate(0, 10%) scale(1.25, 0.95); }
+     11% { transform: translate(0, 0) scale(1, 1); }
+
+     60% { transform: translate(0, 0) scale(1, 1); }
+     70% { transform: translate(0, 0) scale(1.25, 0.9); }
+     80% { transform: translate(0, 0) scale(1, 1); }
+
+     100% { transform: translate(0, 0) scale(1, 1); }
+    }
+
+    @keyframes swipingEgg {
+     0% { transform: translate(0, 0); }
+     60% { transform: translate(0, 0); }
+     70% { transform: translate(2000px, 0); }
+     70.001% { transform: translate(-2000px, 0); }
+     80% { transform: translate(0, 0); }
+    }
+
+    body { margin: 0; overflow: hidden; }
+    .egg-wrap {
+      position: absolute;
+      left: 0px;
+      top: 100px;
+      animation: swipingEgg 10s infinite;
+      animation-timing-function: ease-in-out;
+    }
+
+    .egg {
+      width: 150px;
+      height: 150px;
+      background-image: url(eggs/snorlax.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      animation: loadingEgg 10s infinite;
+      animation-timing-function: linear;
+    }
+
+    .egg-wrap.e1 { left: 100px; animation-delay: 2.25s; }
+    .egg-wrap.e2 { left: 250px; animation-delay: 2s; }
+    .egg-wrap.e3 { left: 400px; animation-delay: 1.75s; }
+    .egg-wrap.e4 { left: 550px; animation-delay: 1.5s; }
+    .egg-wrap.e5 { left: 700px; animation-delay: 1.25s; }
+    .egg-wrap.e6 { left: 850px; animation-delay: 1s; }
+
+    .egg-wrap.e1 .egg { background-image: url(eggs/charizard.png); animation-delay: 2.25s; }
+    .egg-wrap.e2 .egg { background-image: url(eggs/zeraora.png); animation-delay: 2s; }
+    .egg-wrap.e3 .egg { background-image: url(eggs/venusaur.png); animation-delay: 1.75s; }
+    .egg-wrap.e4 .egg { background-image: url(eggs/lucario.png); animation-delay: 1.5s; }
+    .egg-wrap.e5 .egg { background-image: url(eggs/cramorant.png); animation-delay: 1.25s; }
+    .egg-wrap.e6 .egg { background-image: url(eggs/garchomp.png); animation-delay: 1s; }
+
+    .loading-line {
+      position: absolute;
+      top: 250px;
+      width: 100%;
+      height: 150px;
+      background: rgb(248,125,23);
+      box-shadow: 0px 6px 10px rgb(0 0 0 / 40%);
+      font-size: 70px;
+      font-family: "Open Sans";
+      font-weight: 800;
+      color: white;
+      text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    .line-title {
+      padding: 20px 20%;
+      box-sizing: border-box;
+    }
+
+    .line-title .line-title-left { float:left; }
+    .line-title .line-title-right { float:right; }
+  </style>
+
+  <script type="text/javascript">
+    var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+
+    var toMS = function (sec_num) {
+     var minutes = Math.floor(sec_num / 60);
+     var seconds = sec_num - (minutes * 60);
+
+     if (minutes < 10) {minutes = "0"+minutes;}
+     if (seconds < 10) {seconds = "0"+seconds;}
+     return minutes+':'+seconds;
+    }
+
+    var seconds = parseInt(q["t"], 10);
+
+    window.onload = function() {
+      document.getElementById("timer").innerHTML = toMS(seconds);
+
+      var x = setInterval(function() {
+        document.getElementById("timer").innerHTML = toMS(seconds--);
+
+        if (seconds < 0) {
+          clearInterval(x);
+          return;
+        }
+      }, 1000);
+    };
+   </script>
+ </head>
+ <body class="loading-eggs">
+  <div class="egg-wrap e1">
+   <div class="egg"></div>
+  </div>
+  <div class="egg-wrap e2">
+   <div class="egg"></div>
+  </div>
+  <div class="egg-wrap e3">
+   <div class="egg"></div>
+  </div>
+  <div class="egg-wrap e4">
+   <div class="egg"></div>
+  </div>
+  <div class="egg-wrap e5">
+   <div class="egg"></div>
+  </div>
+  <div class="egg-wrap e6">
+   <div class="egg"></div>
+  </div>
+  <div class="loading-line">
+   <div class="line-title">
+     <div class="line-title-left">Starting soon!</div>
+     <div class="line-title-right wiggle" id="timer">00:00</div>
+   </div>
+  </div>
+ </body>
+</html>
