@@ -1,0 +1,35 @@
+body {
+    background: rgb(27, 10, 120);
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+    -webkit-text-size-adjust: 100%;
+}
+
+.deck-entry>span, .deck-entry>div, .deck-entry>i {
+    display: table-cell;
+}
+
+.deck-entry>span {
+    width: 120px;
+    text-align: right;
+    padding: 5px 10px 5px 5px;
+}
+
+.deck-entry>i {
+    padding-left: 7px;
+    cursor: pointer;
+    opacity: .7;
+}
+
+.deck-entry>i:hover {
+    opacity: 1;
+}
+
+.deck-entry select {
+    padding: 3px;
+    border-radius: 5px;
+    width: 120px;
+}
