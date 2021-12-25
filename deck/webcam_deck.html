@@ -78,14 +78,14 @@
             };
 
             var sourceToggler = function(sourceid) {
-                    var icon = document.createElement("i");
-                    icon.className = "fas fa-eye";
+                var icon = document.createElement("i");
+                icon.className = "fas fa-eye";
 
-                    icon.onclick = function() {
-                        obs.send('GetSceneItemProperties', {
-                            item: sourceid
-                        }).then(data => {
-                            obs.send('SetSceneItemProperties', {
+                icon.onclick = function() {
+                    obs.send('GetSceneItemProperties', {
+                        item: sourceid
+                    }).then(data => {
+                        obs.send('SetSceneItemProperties', {
                             item: sourceid,
                             visible: !data.visible
                         });
@@ -95,11 +95,20 @@
                     });
                 };
 
+                icon.classList.add("fa-eye-slash");
+                obs.send('GetSceneItemProperties', {
+                    item: sourceid
+                }).then(data => {
+                    if (data.visible) icon.classList.remove("fa-eye-slash");
+                });
+
                 return icon;
             };
 
             obs.on('ConnectionOpened', () => {
-                document.getElementById("webcam-1").appendChild(webcamSelector("Webcam #1", true));
+                var camWrap = document.getElementById("webcam-1");
+                camWrap.appendChild(webcamSelector("Webcam #1", true));
+                camWrap.appendChild(sourceRefresher("Webcam #1"));
 
                 for (var i = 2; i <= 5; i++) {
                     var camWrap = document.getElementById("webcam-"+i);
@@ -112,8 +121,10 @@
                 var discVoices = document.getElementById("disc-voices");
                 discVoices.appendChild(sourceRefresher("Discord Voice Chat"));
                 discVoices.appendChild(sourceToggler("Discord Voice Chat"));
-
             });
+
+            obs.on('SwitchScenes', () => { document.location.reload(); })
+            obs.on('SceneCollectionChanged', () => { document.location.reload(); });
         };
     </script>
   </head>
