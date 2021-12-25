@@ -8,28 +8,29 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-.deck-entry>span, .deck-entry>div, .deck-entry>i {
-    display: table-cell;
+.deck-entry>span, .deck-entry>div, .deck-entry i {
+    display: inline-block;
 }
 
 .deck-entry>span {
-    width: 120px;
+    width: 45px;
+    min-width: 45px;
     text-align: right;
     padding: 4px 5px 4px 5px;
 }
 
-.deck-entry>i {
+.deck-entry i {
     padding-left: 7px;
     cursor: pointer;
     opacity: .7;
 }
 
-.deck-entry>i:hover {
+.deck-entry i:hover {
     opacity: 1;
 }
 
 .deck-entry select {
     padding: 1px;
     border-radius: 5px;
-    width: 120px;
+    width: 80px;
 }

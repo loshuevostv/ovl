@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="deck.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script type="text/javascript" src="obs-websocket.js"></script>
+    <script type="text/javascript" src="https://loshuevostv.github.io/ovl/webcam_presets.json"></script>
+
+    <script type="text/javascript">
+        const obs = new OBSWebSocket();
+
+        obs.connect({
+            address: "localhost:4444"
+        });
+
+        var webcamSelector = function(sourceid, maincam) {
+            var select = document.createElement("select");
+
+            for (user in presets) {
+                var opt = document.createElement("option");
+                opt.value = user;
+                opt.innerHTML = presets[user].screen_name;
+                select.appendChild(opt);
+            }
+
+            select.disabled = true;
+            select.onchange = function() {
+                if (this.value=="") return;
+
+                obs.send('SetSourceSettings', {
+                    sourceName: sourceid,
+                    sourceSettings: {
+                        "url": "https://loshuevostv.github.io/ovl/webcam.html?t=" + this.value
+                    }
+                });
+
+                if (maincam) {
+                    obs.send('SetSourceSettings', {
+                        sourceName: sourceid +" Overlay",
+                        sourceSettings: {
+                            "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
+                        }
+                    });
+
+                    obs.send('SetSourceSettings', {
+                        sourceName: "Main Webcam Overlay (Focus)",
+                        sourceSettings: {
+                            "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
+                        }
+                    });
+                }
+            };
+
+            obs.send('GetSourceSettings', {
+                sourceName: sourceid
+            }).then(data => {
+                select.disabled = false;
+                select.value = data.sourceSettings.url.split("t=")[1].split("&")[0];
+            });
+
+            return select;
+        };
+
+        var sourceRefresher = function(sourceid) {
+            var icon = document.createElement("i");
+            icon.className = "fas fa-redo";
+
+            icon.onclick = function() {
+                obs.send('RefreshBrowserSource', {
+                    sourceName: sourceid
+                });
+            }
+
+            return icon;
+        };
+
+        var sourceToggler = function(sourceid) {
+            var icon = document.createElement("i");
+            icon.className = "fas fa-eye";
+
+            icon.onclick = function() {
+                obs.send('GetSceneItemProperties', {
+                    item: sourceid
+                }).then(data => {
+                    obs.send('SetSceneItemProperties', {
+                        item: sourceid,
+                        visible: !data.visible
+                    });
+
+                    if (data.visible) icon.classList.add("fa-eye-slash");
+                    else icon.classList.remove("fa-eye-slash");
+                });
+            };
+
+            return icon;
+        };
+
+        window.onload = function() {
+            obs.on('ConnectionOpened', () => {
+                document.getElementById("webcam-1").appendChild(webcamSelector("Webcam #1", true));
+
+                for (var i = 2; i <= 5; i++) {
+                    var camWrap = document.getElementById("webcam-"+i);
+
+                    camWrap.appendChild(webcamSelector("Webcam #"+i, false));
+                    camWrap.appendChild(sourceRefresher("Webcam #"+i));
+                    camWrap.appendChild(sourceToggler("Webcam #"+i));
+                }
+
+                var discVoices = document.getElementById("disc-voices");
+                discVoices.appendChild(sourceRefresher("Discord Voice Chat"));
+                discVoices.appendChild(sourceToggler("Discord Voice Chat"));
+
+            });
+        };
+    </script>
+  </head>
+  <body>
+    <div class="deck">
+        <div class="deck-webcams">
+            <div class="deck-entry"><span>Main</span><div id="webcam-1"></div></div>
+            <div class="deck-entry"><span>Cam #2</span><div id="webcam-2"></div></div>
+            <div class="deck-entry"><span>Cam #3</span><div id="webcam-3"></div></div>
+            <div class="deck-entry"><span>Cam #4</span><div id="webcam-4"></div></div>
+            <div class="deck-entry"><span>Cam #5</span><div id="webcam-5"></div></div>
+            <div class="deck-entry"><span>Discord</span><div id="disc-voices"></div></div>
+        </div>
+    </div>
+
+    <div id="webcam-switch-buttons"></div>
+  </body>
+</html>
