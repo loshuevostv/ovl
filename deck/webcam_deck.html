@@ -9,95 +9,95 @@
     <script type="text/javascript" src="https://loshuevostv.github.io/ovl/webcam_presets.json"></script>
 
     <script type="text/javascript">
-        const obs = new OBSWebSocket();
+        window.onload = function() {
+            const obs = new OBSWebSocket();
 
-        obs.connect({
-            address: "localhost:4444"
-        });
-
-        var webcamSelector = function(sourceid, maincam) {
-            var select = document.createElement("select");
-
-            for (user in presets) {
-                var opt = document.createElement("option");
-                opt.value = user;
-                opt.innerHTML = presets[user].screen_name;
-                select.appendChild(opt);
-            }
-
-            select.disabled = true;
-            select.onchange = function() {
-                if (this.value=="") return;
-
-                obs.send('SetSourceSettings', {
-                    sourceName: sourceid,
-                    sourceSettings: {
-                        "url": "https://loshuevostv.github.io/ovl/webcam.html?t=" + this.value
-                    }
-                });
-
-                if (maincam) {
-                    obs.send('SetSourceSettings', {
-                        sourceName: sourceid +" Overlay",
-                        sourceSettings: {
-                            "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
-                        }
-                    });
-
-                    obs.send('SetSourceSettings', {
-                        sourceName: "Main Webcam Overlay (Focus)",
-                        sourceSettings: {
-                            "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
-                        }
-                    });
-                }
-            };
-
-            obs.send('GetSourceSettings', {
-                sourceName: sourceid
-            }).then(data => {
-                select.disabled = false;
-                select.value = data.sourceSettings.url.split("t=")[1].split("&")[0];
+            obs.connect({
+                address: "localhost:4444"
             });
 
-            return select;
-        };
+            var webcamSelector = function(sourceid, maincam) {
+                var select = document.createElement("select");
 
-        var sourceRefresher = function(sourceid) {
-            var icon = document.createElement("i");
-            icon.className = "fas fa-redo";
+                for (user in presets) {
+                    var opt = document.createElement("option");
+                    opt.value = user;
+                    opt.innerHTML = presets[user].screen_name;
+                    select.appendChild(opt);
+                }
 
-            icon.onclick = function() {
-                obs.send('RefreshBrowserSource', {
-                    sourceName: sourceid
-                });
-            }
+                select.disabled = true;
+                select.onchange = function() {
+                    if (this.value=="") return;
 
-            return icon;
-        };
-
-        var sourceToggler = function(sourceid) {
-            var icon = document.createElement("i");
-            icon.className = "fas fa-eye";
-
-            icon.onclick = function() {
-                obs.send('GetSceneItemProperties', {
-                    item: sourceid
-                }).then(data => {
-                    obs.send('SetSceneItemProperties', {
-                        item: sourceid,
-                        visible: !data.visible
+                    obs.send('SetSourceSettings', {
+                        sourceName: sourceid,
+                        sourceSettings: {
+                            "url": "https://loshuevostv.github.io/ovl/webcam.html?t=" + this.value
+                        }
                     });
 
-                    if (data.visible) icon.classList.add("fa-eye-slash");
-                    else icon.classList.remove("fa-eye-slash");
+                    if (maincam) {
+                        obs.send('SetSourceSettings', {
+                            sourceName: sourceid +" Overlay",
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
+                            }
+                        });
+
+                        obs.send('SetSourceSettings', {
+                            sourceName: "Main Webcam Overlay (Focus)",
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
+                            }
+                        });
+                    }
+                };
+
+                obs.send('GetSourceSettings', {
+                    sourceName: sourceid
+                }).then(data => {
+                    select.disabled = false;
+                    select.value = data.sourceSettings.url.split("t=")[1].split("&")[0];
                 });
+
+                return select;
             };
 
-            return icon;
-        };
+            var sourceRefresher = function(sourceid) {
+                var icon = document.createElement("i");
+                icon.className = "fas fa-redo";
 
-        window.onload = function() {
+                icon.onclick = function() {
+                    obs.send('RefreshBrowserSource', {
+                        sourceName: sourceid
+                    });
+                }
+
+                return icon;
+            };
+
+            var sourceToggler = function(sourceid) {
+                    var icon = document.createElement("i");
+                    icon.className = "fas fa-eye";
+
+                    icon.onclick = function() {
+                        obs.send('GetSceneItemProperties', {
+                            item: sourceid
+                        }).then(data => {
+                            obs.send('SetSceneItemProperties', {
+                            item: sourceid,
+                            visible: !data.visible
+                        });
+
+                        if (data.visible) icon.classList.add("fa-eye-slash");
+                        else icon.classList.remove("fa-eye-slash");
+                    });
+                };
+
+                return icon;
+            };
+
             obs.on('ConnectionOpened', () => {
                 document.getElementById("webcam-1").appendChild(webcamSelector("Webcam #1", true));
 
