@@ -64,6 +64,56 @@
                 return select;
             };
 
+            var timerController = function(sourceid) {
+                var wrapper = document.createElement("div");
+                wrapper.className = "timer-controller";
+
+                var inputMin = document.createElement("input");
+                inputMin.disabled = true;
+                inputMin.type = "number";
+                inputMin.value = "10";
+                inputMin.min = 0;
+                wrapper.appendChild(inputMin);
+
+                var inputSec = document.createElement("input");
+                inputSec.disabled = true;
+                inputSec.type = "number";
+                inputSec.value = "0";
+                inputSec.min = 0;
+                inputSec.max = 59;
+                wrapper.appendChild(inputSec);
+
+                var icon = document.createElement("i");
+                icon.className = "fas fa-redo";
+                wrapper.appendChild(icon);
+
+                obs.send('GetSourceSettings', {
+                    sourceName: sourceid
+                }).then(data => {
+                    var seconds = data.sourceSettings.url.split("t=")[1].split("&")[0];
+                    try { seconds = parseInt(seconds); }
+                    catch(x) { seconds = 600; }
+
+                    inputMin.value = Math.floor(seconds / 60) +"";
+                    inputMin.disabled = false;
+
+                    inputSec.value = (seconds % 60) +"";
+                    inputSec.disabled = false;
+
+                    icon.onclick = function() {
+                        var seconds = parseInt(inputMin.value) * 60 + parseInt(inputSec.value);
+
+                        obs.send('SetSourceSettings', {
+                            sourceName: sourceid,
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/timer_bar.html?t=" + (seconds)
+                            }
+                        }).then(() => obs.send('RefreshBrowserSource', { sourceName: sourceid }));
+                    };
+                });
+                return wrapper;
+            }
+
             var sourceRefresher = function(sourceid) {
                 var icon = document.createElement("i");
                 icon.className = "fas fa-redo";
@@ -106,6 +156,8 @@
             };
 
             obs.on('ConnectionOpened', () => {
+                document.getElementById("timer").appendChild(timerController("Timer Bar"));
+
                 var camWrap = document.getElementById("webcam-1");
                 camWrap.appendChild(webcamSelector("Webcam #1", true));
                 camWrap.appendChild(sourceRefresher("Webcam #1"));
@@ -131,6 +183,7 @@
   <body>
     <div class="deck">
         <div class="deck-webcams">
+            <div class="deck-entry"><span>Timer</span><div id="timer"></div></div>
             <div class="deck-entry"><span>Main</span><div id="webcam-1"></div></div>
             <div class="deck-entry"><span>Cam #2</span><div id="webcam-2"></div></div>
             <div class="deck-entry"><span>Cam #3</span><div id="webcam-3"></div></div>

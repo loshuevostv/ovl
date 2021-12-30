@@ -29,8 +29,13 @@ body {
     opacity: 1;
 }
 
-.deck-entry select {
+.deck-entry select, .timer-controller input {
     padding: 1px;
     border-radius: 5px;
     width: 80px;
+}
+
+.timer-controller input {
+    text-align: center;
+    width: 34px;
 }
