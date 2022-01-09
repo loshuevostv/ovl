@@ -188,6 +188,7 @@ body {
 }
 
 .social-box.twitter .social-egg { background-image: url(images/twitter_egg.png); }
+.social-box.discord .social-egg { background-image: url(images/discord_egg.png); }
 .social-box.instagram .social-egg {
   background-image: url(images/instagram_egg.png);
   animation-delay: 2s;
@@ -206,4 +207,11 @@ body {
 }
 .social-box.instagram .social-icon {
   background-image: url(images/instagram_icon.png);
+}
+.social-box.discord .social-text {
+  background-color: rgb(120,133,191);
+  border-color: rgb(255,255,255);
+}
+.social-box.discord .social-icon {
+  background-image: url(images/discord_icon.svg);
 }
