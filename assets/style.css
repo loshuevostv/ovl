@@ -1,0 +1,217 @@
+@keyframes hatchingEgg {
+  0.4% { transform: translate(0, 0) scale(1, 1); }
+  0.5% { transform: translate(0, 10%) scale(1.25, 0.95); }
+  0.525% { transform: translate(0, -1.4000000000000004%) scale(1.193, 0.969); }
+  0.55% { transform: translate(0, -11.600000000000001%) scale(1.142, 0.986); }
+  0.575% { transform: translate(0, -20.6%) scale(1.097, 1.001); }
+  0.6% { transform: translate(0, -28.400000000000006%) scale(1.0579999999999998, 1.014); }
+  0.625% { transform: translate(0, -35%) scale(1.025, 1.025); }
+  0.65% { transform: translate(0, -40.4%) scale(0.998, 1.034); }
+  0.675% { transform: translate(0, -44.599999999999994%) scale(0.977, 1.041); }
+  0.7% { transform: translate(0, -47.599999999999994%) scale(0.962, 1.046); }
+  0.725% { transform: translate(0, -49.400000000000006%) scale(0.9529999999999998, 1.0490000000000002); }
+  0.75% { transform: translate(0, -50%) scale(0.95, 1.05); }
+  0.775% { transform: translate(0, -49.4%) scale(0.953, 1.049); }
+  0.8% { transform: translate(0, -47.599999999999994%) scale(0.962, 1.046); }
+  0.825% { transform: translate(0, -44.599999999999994%) scale(0.977, 1.041); }
+  0.85% { transform: translate(0, -40.400000000000006%) scale(0.998, 1.034); }
+  0.875% { transform: translate(0, -35%) scale(1.025, 1.025); }
+  0.9% { transform: translate(0, -28.39999999999999%) scale(1.058, 1.014); }
+  0.925% { transform: translate(0, -20.6%) scale(1.097, 1.001); }
+  0.95% { transform: translate(0, -11.599999999999994%) scale(1.142, 0.986); }
+  0.975% { transform: translate(0, -1.4000000000000092%) scale(1.1929999999999998, 0.969); }
+  1% { transform: translate(0, 10%) scale(1.25, 0.95); }
+  1.1% { transform: translate(0, 0) scale(1, 1); }
+
+  100% { transform: translate(0, 0) scale(1, 1); }
+ }
+
+@keyframes jump {
+  0% { transform: translate(0, 0) scale(1.25, 0.75); }
+  50% { transform: translate(0, -10%) scale(1, 1); }
+  100% { transform: translate(0, 0) scale(1.25, 0.75); }
+}
+
+@keyframes jumpstop {
+  0% { transform: translate(0, 0) scale(1, 1); }
+  0.5% { transform: translate(0, 10%) scale(1.25, 0.75); }
+  1% { transform: translate(0, 0) scale(1, 1); }
+  1.5% { transform: translate(0, 10%) scale(1.25, 0.75); }
+  2% { transform: translate(0, 0) scale(1,1); }
+}
+
+body {
+  margin: 0 5px 5px 0;
+  overflow: hidden;
+}
+
+.overlay-box {
+  width: 100%;
+  height: 100%;
+  border: solid 5px rgb(248,125,23);
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgb(0,0,0,.4);
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.webcam-box {
+  margin: 0 5px 30px 0;
+}
+
+.webcam-box iframe {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.webcam-box .webcam-name-tag {
+  position: absolute;
+  z-index: 1000;
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+  bottom: 10px;
+  left: 40px;
+  background: linear-gradient(45deg, rgb(51,52,56), rgb(18,16,19));
+  padding: 7px 5px 10px 35px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  color: white;
+  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+  -webkit-text-size-adjust: 100%;
+  text-align: left;
+}
+
+.webcam-egg {
+  background-image: url(eggs/snorlax.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom: 0px;
+  animation: hatchingEgg 100s infinite; 
+  z-index: 1500;
+}
+
+.webcam-box.just-chatting {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.webcam-box.just-chatting.plus2 {
+    padding-top: 65px;
+}
+
+.webcam-box.just-chatting.plus2 .webcam-box-wrap {
+    width: 570px;
+    height: 350px;
+}
+
+.webcam-box.just-chatting.plus4 {
+    padding-top: 145px;
+}
+
+.webcam-box.just-chatting.plus4 .webcam-box-wrap {
+    width: 370px;
+    height: 280px;
+}
+
+.webcam-box.just-chatting.plus6 {
+    padding-top: 0px;
+}
+
+.webcam-box.just-chatting.plus6 .webcam-box-wrap {
+    height: 252px;
+}
+
+.webcam-box.just-chatting .webcam-box-wrap {
+    width: 690px;
+    height: 380px;
+    position: relative;
+    padding-bottom: 30px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-box {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.social-box .social-egg {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  z-index: 1000;
+  animation: jumpstop 60s infinite;
+}
+
+.social-box .social-icon {
+  position: absolute;
+  left: 225px;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1500;
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px rgb(1 1 1 / 40%);
+}
+
+.social-box .social-text {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 45px;
+  top: 8px;
+  padding: 10px 10px 10px 10px;
+  border: solid 3px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  color: white;
+  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+  -webkit-text-size-adjust: 100%;
+  text-align: center;
+}
+
+.social-box.twitter .social-egg { background-image: url(images/twitter_egg.png); }
+.social-box.discord .social-egg { background-image: url(images/discord_egg.png); }
+.social-box.instagram .social-egg {
+  background-image: url(images/instagram_egg.png);
+  animation-delay: 2s;
+}
+
+.social-box.twitter .social-text {
+  background-color: rgb(122,185,228);
+  border-color: rgb(95,144,176);
+}
+.social-box.twitter .social-icon {
+  background-image: url(images/twitter_icon.png);
+}
+.social-box.instagram .social-text {
+  background-color: rgb(179,83,157);
+  border-color: rgb(243,226,90);
+}
+.social-box.instagram .social-icon {
+  background-image: url(images/instagram_icon.png);
+}
+.social-box.discord .social-text {
+  background-color: rgb(120,133,191);
+  border-color: rgb(255,255,255);
+}
+.social-box.discord .social-icon {
+  background-image: url(images/discord_icon.svg);
+}
