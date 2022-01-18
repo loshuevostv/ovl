@@ -1,0 +1,72 @@
+var presets = {
+ "lori": {
+  "screen_name": "Lori2608",
+  "egg": "lucario",
+  "border": "rgb(88, 134, 168)"
+ },
+ "gzetk": {
+  "screen_name": "gzetk",
+  "egg": "greedent",
+  "border": "rgb(197, 160, 146)"
+ },
+ "pietro": {
+  "screen_name": "Trainer",
+  "egg": "greninja",
+  "border": "rgb(69, 115, 207)"
+ },
+ "lollo": {
+  "screen_name": "Lollo",
+  "egg": "zeraora",
+  "border": "rgb(241, 229, 71)"
+ },
+ "dani": {
+  "screen_name": "Danlion",
+  "egg": "venusaur",
+  "border": "rgb(135, 201, 216)"
+ },
+ "marghe": {
+  "screen_name": "Meggy92",
+  "egg": "eldegoss",
+  "border": "rgb(108, 112, 43)"
+ },
+ "ilaria": {
+  "screen_name": "Amaya",
+  "egg": "wigglytuff",
+  "border": "rgb(217, 174, 192)"
+ },
+ "kurumi": {
+  "screen_name": "Kurumi97",
+  "egg": "blastoise",
+  "border": "rgb(141, 186, 213)"
+ },
+ "kappa": {
+  "screen_name": "Kappa2TK",
+  "egg": "cramorant",
+  "border": "rgb(77, 125, 212)"
+ },
+ "ly": {
+  "screen_name": "Ly",
+  "egg": "sylveon",
+  "border": "rgb(192, 121, 147)"
+ },
+ "zero": {
+  "screen_name": "Zer0",
+  "egg": "cinderace",
+  "border": "rgb(203, 74, 55)"
+ },
+ "dome": {
+  "screen_name": "D0m3",
+  "egg": "snorlax",
+  "border": "rgb(51, 79, 117)"
+ },
+ "raccomandato": {
+  "screen_name": "raccomandato",
+  "egg": "mamoswine",
+  "border": "rgb(152, 103, 54)"
+ },
+ "virg": {
+  "screen_name": "V1RG",
+  "egg": "gardevoir",
+  "border": "rgb(209, 235, 143)"
+ }
+};
