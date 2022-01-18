@@ -1,0 +1,5 @@
+bin/**/*
+data/**/*
+git/**/*
+obs-plugins/**/*
+obs_portable_mode
