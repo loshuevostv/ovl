@@ -2224,3 +2224,34 @@
 10:55:16.155: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
 10:55:16.159: [Lua: lh-sync.lua] To https://github.com/loshuevostv/ovl.git
 10:55:16.162: [Lua: lh-sync.lua]    4ba018e..27900e5  main -> main
+10:57:18.025: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+10:57:18.025: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+10:57:18.025: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+10:57:18.025: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+10:57:18.026: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+10:57:18.026: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+10:57:18.026: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+10:57:18.026: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+10:57:18.026: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+10:57:18.027: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+10:57:18.027: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+10:57:18.027: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0"): Permission denied
+10:57:18.028: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0'
+10:57:18.028: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1"): Permission denied
+10:57:18.028: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1'
+10:57:18.029: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2"): Permission denied
+10:57:18.029: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2'
+10:57:18.029: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3"): Permission denied
+10:57:18.029: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3'
+10:57:18.030: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index"): Permission denied
+10:57:18.030: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index'
+10:57:18.616: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit -m "OBS Sync"
+10:57:18.617: [Lua: lh-sync.lua] [main 56fd6c9] OBS Sync
+10:57:18.617: [Lua: lh-sync.lua]  3 files changed, 80 insertions(+), 2 deletions(-)
+10:57:19.284: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+10:57:19.284: [Lua: lh-sync.lua] Already up to date.
+10:57:49.515: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
+10:57:49.515: [Lua: lh-sync.lua] fatal: helper error (-1): User cancelled dialog.
+10:57:49.515: [Lua: lh-sync.lua] bash: /dev/tty: No such device or address
+10:57:49.516: [Lua: lh-sync.lua] error: failed to execute prompt script (exit code 1)
+10:57:49.518: [Lua: lh-sync.lua] fatal: could not read Password for 'https://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@github.com': No such file or directory
