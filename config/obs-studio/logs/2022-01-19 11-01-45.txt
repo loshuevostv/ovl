@@ -468,3 +468,36 @@
 11:02:10.368: [Lua: lh-sync.lua] bash: /dev/tty: No such device or address
 11:02:10.368: [Lua: lh-sync.lua] error: failed to execute prompt script (exit code 1)
 11:02:10.371: [Lua: lh-sync.lua] fatal: could not read Password for 'https://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@github.com': No such file or directory
+11:05:18.142: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+11:05:18.143: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+11:05:18.143: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+11:05:18.144: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+11:05:18.145: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+11:05:18.146: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_2"): Permission denied
+11:05:18.147: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_2'
+11:05:18.147: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_3"): Permission denied
+11:05:18.147: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_3'
+11:05:18.148: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+11:05:18.150: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+11:05:18.151: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+11:05:18.151: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+11:05:18.152: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+11:05:18.152: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+11:05:18.153: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/LOG.
+11:05:18.153: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:05:18.153: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/LOG.
+11:05:18.154: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:05:18.154: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/LOG.
+11:05:18.155: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:05:19.451: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit -m "OBS Sync"
+11:05:19.451: [Lua: lh-sync.lua] [main dd764af] OBS Sync
+11:05:19.452: [Lua: lh-sync.lua]  11 files changed, 407 insertions(+), 6 deletions(-)
+11:05:19.452: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/Code Cache/js/index-dir/the-real-index (100%)
+11:05:19.452: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/index-dir/the-real-index (100%)
+11:05:20.096: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+11:05:20.096: [Lua: lh-sync.lua] Already up to date.
+11:05:26.403: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push https://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@github.com/loshuevostv/ovl.git
+11:05:26.404: [Lua: lh-sync.lua] fatal: helper error (-1): User cancelled dialog.
+11:05:26.404: [Lua: lh-sync.lua] bash: /dev/tty: No such device or address
+11:05:26.404: [Lua: lh-sync.lua] error: failed to execute prompt script (exit code 1)
+11:05:26.405: [Lua: lh-sync.lua] fatal: could not read Password for 'https://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@github.com': No such file or directory
