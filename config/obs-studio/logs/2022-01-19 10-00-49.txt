@@ -1962,3 +1962,265 @@
 10:52:42.714: [Lua: lh-sync.lua] Already up to date.
 10:52:43.248: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
 10:52:43.249: [Lua: lh-sync.lua] Everything up-to-date
+10:53:27.240: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+10:53:27.240: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+10:53:27.240: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+10:53:27.240: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+10:53:27.240: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+10:53:27.241: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+10:53:27.241: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+10:53:27.241: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+10:53:27.242: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+10:53:27.242: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+10:53:27.242: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+10:53:27.242: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0"): Permission denied
+10:53:27.243: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0'
+10:53:27.243: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1"): Permission denied
+10:53:27.243: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1'
+10:53:27.243: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2"): Permission denied
+10:53:27.244: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2'
+10:53:27.244: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3"): Permission denied
+10:53:27.244: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3'
+10:53:27.244: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index"): Permission denied
+10:53:27.245: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index'
+10:53:30.701: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit -m "OBS Sync"
+10:53:30.702: [Lua: lh-sync.lua] [main 27900e5] OBS Sync
+10:53:30.702: [Lua: lh-sync.lua]  258 files changed, 2409 insertions(+), 571 deletions(-)
+10:53:30.703: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/basic/scenes/LH.json
+10:53:30.703: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/basic/scenes/LH.json.bak
+10:53:30.703: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/logs/2022-01-19 08-52-37.txt
+10:53:30.704: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/logs/2022-01-19 08-58-19.txt
+10:53:30.704: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/logs/2022-01-19 08-58-59.txt
+10:53:30.704: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/logs/2022-01-19 09-58-40.txt
+10:53:30.705: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/logs/2022-01-19 09-59-27.txt
+10:53:30.705: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/logs/2022-01-19 10-00-49.txt
+10:53:30.705: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000009
+10:53:30.706: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000a
+10:53:30.706: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000b
+10:53:30.706: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000c
+10:53:30.707: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000d
+10:53:30.707: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000e
+10:53:30.707: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000f
+10:53:30.707: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000010
+10:53:30.708: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000011
+10:53:30.708: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000012
+10:53:30.708: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000013
+10:53:30.708: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000014
+10:53:30.709: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000015
+10:53:30.709: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000016
+10:53:30.709: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000017
+10:53:30.709: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000018
+10:53:30.710: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000019
+10:53:30.710: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001a
+10:53:30.710: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001b
+10:53:30.710: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001c
+10:53:30.711: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001d
+10:53:30.711: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001e
+10:53:30.711: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001f
+10:53:30.712: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000020
+10:53:30.712: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000021
+10:53:30.712: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000022
+10:53:30.712: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000023
+10:53:30.712: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000024
+10:53:30.713: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000025
+10:53:30.713: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000026
+10:53:30.713: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000027
+10:53:30.715: Last log entry repeated for 11 more lines
+10:53:30.715: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/00d8869c615168b2_0
+10:53:30.716: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/0ef9abe8c8f8ce22_0
+10:53:30.716: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/1525ae895c6ef9d5_0
+10:53:30.716: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/162bc5710fd36f0d_0
+10:53:30.716: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/17a26cbf3a510ea7_0
+10:53:30.716: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/180b937ceb771a4a_0
+10:53:30.717: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/225e16905eb13873_0
+10:53:30.717: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/2992bcf434b5b8a0_0
+10:53:30.718: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/2c58bf549eb7ed64_0
+10:53:30.718: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/3121b9e5687cd737_0
+10:53:30.718: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/45a42ac04ea529e9_0
+10:53:30.719: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/45bcf75e86d1a6ec_0
+10:53:30.719: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/4ec306979c3dd612_0
+10:53:30.719: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/559b6ef5905bb640_0
+10:53:30.719: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/5f7a339f955bdde4_0
+10:53:30.720: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/62144520dfd05224_0
+10:53:30.720: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/6559ccc8213813d0_0
+10:53:30.720: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/6cc03995ba285d6c_0
+10:53:30.720: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/806da66bbdfafb5d_0
+10:53:30.720: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/83fa5b6f0d20c02e_0
+10:53:30.721: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/86bbc930b63aefe9_0
+10:53:30.721: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/9be83311ee0d2b62_0
+10:53:30.721: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/b9a3a41d7d3b2de8_0
+10:53:30.721: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/c37ea0a0143233d4_0
+10:53:30.722: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/d5cb1988e58d83a8_0
+10:53:30.722: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/dabf9cb1d3334af6_0
+10:53:30.722: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/e2a1b24de8994934_0
+10:53:30.722: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/e3328d8e3ec10ba5_0
+10:53:30.723: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/e502024ab27efd97_0
+10:53:30.723: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/ec4b488224e2c6c0_0
+10:53:30.723: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Code Cache/js/ef5fda6eb4c77e28_0
+10:53:30.725: Last log entry repeated for 5 more lines
+10:53:30.725: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/Code Cache/js/index-dir/the-real-index (100%)
+10:53:30.725: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/000003.log
+10:53:30.725: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/CURRENT
+10:53:30.726: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/LOCK
+10:53:30.726: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/LOG
+10:53:30.726: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/LOG.old
+10:53:30.727: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/MANIFEST-000001
+10:53:30.727: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/Network Persistent State (100%)
+10:53:30.727: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/QuotaManager
+10:53:30.728: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/QuotaManager-journal
+10:53:30.728: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Session Storage/000003.log
+10:53:30.728: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Session Storage/CURRENT
+10:53:30.729: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Session Storage/LOCK
+10:53:30.729: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Session Storage/LOG
+10:53:30.730: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/Session Storage/MANIFEST-000001
+10:53:30.730: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/000003.log
+10:53:30.731: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/CURRENT
+10:53:30.732: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/data_0
+10:53:30.732: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/data_1
+10:53:30.732: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/data_2
+10:53:30.733: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/data_3
+10:53:30.733: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000002
+10:53:30.733: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000003
+10:53:30.734: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000004
+10:53:30.734: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000005
+10:53:30.734: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000006
+10:53:30.735: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000007
+10:53:30.735: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000008
+10:53:30.735: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000009
+10:53:30.736: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_00000a
+10:53:30.736: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_00000b
+10:53:30.736: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_00000c
+10:53:30.737: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_00000d
+10:53:30.737: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_00000e
+10:53:30.737: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_00000f
+10:53:30.738: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000010
+10:53:30.738: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000011
+10:53:30.738: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000014
+10:53:30.739: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/f_000016
+10:53:30.739: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cache/index
+10:53:30.739: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/08de3101cade0244_0
+10:53:30.740: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/17c98b0ff5a8f071_0
+10:53:30.740: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/18c7b48dadf51ebf_0
+10:53:30.740: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/2142ac18a5704f27_0
+10:53:30.741: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/21b15a8cba9f7e0d_0
+10:53:30.741: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/45dd0c315900d1b1_0
+10:53:30.742: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/51538036c45c5725_0
+10:53:30.742: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/61affd1e2cae055a_0
+10:53:30.742: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/65ab85b057bace20_0
+10:53:30.743: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/68758b950c3c4664_0
+10:53:30.743: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/6c688f754cfaa3d9_0
+10:53:30.744: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/71a92a6aa813e742_0
+10:53:30.744: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/73dbd9634039754b_0
+10:53:30.744: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/7833cb5f7d908ed7_0
+10:53:30.745: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/8538fe388ea1981d_0
+10:53:30.745: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/8ddf8240c9c0b950_0
+10:53:30.745: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/8e8a013077f3712a_0
+10:53:30.746: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/cdf58c62d635a9b8_0
+10:53:30.746: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/d89d3a552fca3e26_0
+10:53:30.747: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/e26fb43faa6f7953_0
+10:53:30.747: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/f47597b6bcdf6550_0
+10:53:30.747: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/fe6f98a4f24caebe_0
+10:53:30.748: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/index
+10:53:30.748: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Code Cache/js/index-dir/the-real-index
+10:53:30.749: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cookies
+10:53:30.749: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Cookies-journal
+10:53:30.750: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/GPUCache/data_0
+10:53:30.750: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/GPUCache/data_1
+10:53:30.751: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/GPUCache/data_2
+10:53:30.751: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/GPUCache/data_3
+10:53:30.751: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/GPUCache/index
+10:53:30.752: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/LOCK
+10:53:30.752: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/LOG
+10:53:30.753: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/LOG.old
+10:53:30.753: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Local Storage/leveldb/000003.log
+10:53:30.754: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Local Storage/leveldb/CURRENT
+10:53:30.754: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Local Storage/leveldb/LOCK
+10:53:30.754: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Local Storage/leveldb/LOG
+10:53:30.755: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Local Storage/leveldb/LOG.old
+10:53:30.755: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Local Storage/leveldb/MANIFEST-000001
+10:53:30.756: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/MANIFEST-000001
+10:53:30.756: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Network Persistent State
+10:53:30.757: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Session Storage/000003.log
+10:53:30.757: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Session Storage/CURRENT
+10:53:30.757: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Session Storage/LOCK
+10:53:30.758: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Session Storage/LOG
+10:53:30.758: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Session Storage/LOG.old
+10:53:30.759: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Session Storage/MANIFEST-000001
+10:53:30.759: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/TransportSecurity
+10:53:30.760: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/EE3D94AC47C9E259/Visited Links
+10:53:30.760: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/000003.log
+10:53:30.761: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/CURRENT
+10:53:30.761: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000002
+10:53:30.762: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000003
+10:53:30.762: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000004
+10:53:30.763: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000005
+10:53:30.764: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000006
+10:53:30.764: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000007
+10:53:30.765: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000008
+10:53:30.765: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000009
+10:53:30.766: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_00000a
+10:53:30.766: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_00000b
+10:53:30.767: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_00000c
+10:53:30.767: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_00000d
+10:53:30.768: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_00000e
+10:53:30.768: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_00000f
+10:53:30.769: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000010
+10:53:30.769: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000011
+10:53:30.770: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000013
+10:53:30.770: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000014
+10:53:30.771: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/08de3101cade0244_0
+10:53:30.771: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/17c98b0ff5a8f071_0
+10:53:30.772: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/18c7b48dadf51ebf_0
+10:53:30.772: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/2142ac18a5704f27_0
+10:53:30.773: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/21b15a8cba9f7e0d_0
+10:53:30.773: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/45dd0c315900d1b1_0
+10:53:30.774: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/51538036c45c5725_0
+10:53:30.774: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/61affd1e2cae055a_0
+10:53:30.775: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/65ab85b057bace20_0
+10:53:30.775: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/68758b950c3c4664_0
+10:53:30.776: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/6c688f754cfaa3d9_0
+10:53:30.777: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/71a92a6aa813e742_0
+10:53:30.777: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/73dbd9634039754b_0
+10:53:30.778: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/7833cb5f7d908ed7_0
+10:53:30.778: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/8538fe388ea1981d_0
+10:53:30.779: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/8ddf8240c9c0b950_0
+10:53:30.779: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/8e8a013077f3712a_0
+10:53:30.780: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/cdf58c62d635a9b8_0
+10:53:30.780: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/d89d3a552fca3e26_0
+10:53:30.781: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/e26fb43faa6f7953_0
+10:53:30.782: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/f47597b6bcdf6550_0
+10:53:30.782: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/fe6f98a4f24caebe_0
+10:53:30.783: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/index
+10:53:30.783: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Code Cache/js/index-dir/the-real-index
+10:53:30.784: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cookies
+10:53:30.785: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cookies-journal
+10:53:30.785: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/f_000001
+10:53:30.786: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/LOCK
+10:53:30.786: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/LOG
+10:53:30.787: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/LOG.old
+10:53:30.788: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/000003.log
+10:53:30.788: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/CURRENT
+10:53:30.789: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/LOCK
+10:53:30.789: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/LOG
+10:53:30.790: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/LOG.old
+10:53:30.790: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/MANIFEST-000001
+10:53:30.791: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/MANIFEST-000001
+10:53:30.792: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Network Persistent State
+10:53:30.792: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/000003.log
+10:53:30.793: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/CURRENT
+10:53:30.793: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/LOCK
+10:53:30.794: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/LOG
+10:53:30.795: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/LOG.old
+10:53:30.795: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/MANIFEST-000001
+10:53:30.796: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/TransportSecurity
+10:53:30.797: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Visited Links
+10:53:30.798: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/profiler_data/2022-01-19 08-50-17.csv.gz
+10:53:30.798: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/profiler_data/2022-01-19 08-52-37.csv.gz
+10:53:30.799: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/profiler_data/2022-01-19 08-58-19.csv.gz
+10:53:30.800: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/profiler_data/2022-01-19 09-58-40.csv.gz
+10:53:30.800: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/profiler_data/2022-01-19 09-59-27.csv.gz
+10:53:31.450: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+10:53:31.452: [Lua: lh-sync.lua] Already up to date.
+10:55:16.155: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
+10:55:16.159: [Lua: lh-sync.lua] To https://github.com/loshuevostv/ovl.git
+10:55:16.162: [Lua: lh-sync.lua]    4ba018e..27900e5  main -> main
