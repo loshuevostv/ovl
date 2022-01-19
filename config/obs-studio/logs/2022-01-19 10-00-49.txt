@@ -1884,3 +1884,81 @@
 10:52:28.449: [Lua: lh-sync.lua]  1 file changed, 1 insertion(+)
 10:52:28.992: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
 10:52:28.994: [Lua: lh-sync.lua] Everything up-to-date
+10:52:41.964: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+10:52:41.965: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+10:52:41.965: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+10:52:41.965: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+10:52:41.965: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+10:52:41.965: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+10:52:41.966: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+10:52:41.966: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+10:52:41.966: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+10:52:41.966: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+10:52:41.967: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+10:52:41.967: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0"): Permission denied
+10:52:41.967: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0'
+10:52:41.967: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1"): Permission denied
+10:52:41.968: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1'
+10:52:41.968: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2"): Permission denied
+10:52:41.968: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2'
+10:52:41.969: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3"): Permission denied
+10:52:41.969: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3'
+10:52:41.969: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index"): Permission denied
+10:52:41.969: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index'
+10:52:42.087: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit --ignore-errors -am "OBS Sync"
+10:52:42.087: [Lua: lh-sync.lua] error: unknown option `ignore-errors'
+10:52:42.087: [Lua: lh-sync.lua] usage: git commit [<options>] [--] <pathspec>...
+10:52:42.087: [Lua: lh-sync.lua] 
+10:52:42.088: [Lua: lh-sync.lua]     -q, --quiet           suppress summary after successful commit
+10:52:42.089: [Lua: lh-sync.lua]     -v, --verbose         show diff in commit message template
+10:52:42.089: [Lua: lh-sync.lua] 
+10:52:42.089: [Lua: lh-sync.lua] Commit message options
+10:52:42.089: [Lua: lh-sync.lua]     -F, --file <file>     read message from file
+10:52:42.090: [Lua: lh-sync.lua]     --author <author>     override author for commit
+10:52:42.090: [Lua: lh-sync.lua]     --date <date>         override date for commit
+10:52:42.091: [Lua: lh-sync.lua]     -m, --message <message>
+10:52:42.091: [Lua: lh-sync.lua]                           commit message
+10:52:42.091: [Lua: lh-sync.lua]     -c, --reedit-message <commit>
+10:52:42.091: [Lua: lh-sync.lua]                           reuse and edit message from specified commit
+10:52:42.092: [Lua: lh-sync.lua]     -C, --reuse-message <commit>
+10:52:42.092: [Lua: lh-sync.lua]                           reuse message from specified commit
+10:52:42.092: [Lua: lh-sync.lua]     --fixup [(amend|reword):]commit
+10:52:42.092: [Lua: lh-sync.lua]                           use autosquash formatted message to fixup or amend/reword specified commit
+10:52:42.093: [Lua: lh-sync.lua]     --squash <commit>     use autosquash formatted message to squash specified commit
+10:52:42.093: [Lua: lh-sync.lua]     --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+10:52:42.093: [Lua: lh-sync.lua]     --trailer <trailer>   add custom trailer(s)
+10:52:42.094: [Lua: lh-sync.lua]     -s, --signoff         add a Signed-off-by trailer
+10:52:42.094: [Lua: lh-sync.lua]     -t, --template <file>
+10:52:42.094: [Lua: lh-sync.lua]                           use specified template file
+10:52:42.094: [Lua: lh-sync.lua]     -e, --edit            force edit of commit
+10:52:42.095: [Lua: lh-sync.lua]     --cleanup <mode>      how to strip spaces and #comments from message
+10:52:42.095: [Lua: lh-sync.lua]     --status              include status in commit message template
+10:52:42.095: [Lua: lh-sync.lua]     -S, --gpg-sign[=<key-id>]
+10:52:42.095: [Lua: lh-sync.lua]                           GPG sign commit
+10:52:42.095: [Lua: lh-sync.lua] 
+10:52:42.096: [Lua: lh-sync.lua] Commit contents options
+10:52:42.096: [Lua: lh-sync.lua]     -a, --all             commit all changed files
+10:52:42.096: [Lua: lh-sync.lua]     -i, --include         add specified files to index for commit
+10:52:42.096: [Lua: lh-sync.lua]     --interactive         interactively add files
+10:52:42.097: [Lua: lh-sync.lua]     -p, --patch           interactively add changes
+10:52:42.097: [Lua: lh-sync.lua]     -o, --only            commit only specified files
+10:52:42.097: [Lua: lh-sync.lua]     -n, --no-verify       bypass pre-commit and commit-msg hooks
+10:52:42.097: [Lua: lh-sync.lua]     --dry-run             show what would be committed
+10:52:42.098: [Lua: lh-sync.lua]     --short               show status concisely
+10:52:42.098: [Lua: lh-sync.lua]     --branch              show branch information
+10:52:42.098: [Lua: lh-sync.lua]     --ahead-behind        compute full ahead/behind values
+10:52:42.099: [Lua: lh-sync.lua]     --porcelain           machine-readable output
+10:52:42.099: [Lua: lh-sync.lua]     --long                show status in long format (default)
+10:52:42.099: [Lua: lh-sync.lua]     -z, --null            terminate entries with NUL
+10:52:42.099: [Lua: lh-sync.lua]     --amend               amend previous commit
+10:52:42.099: [Lua: lh-sync.lua]     --no-post-rewrite     bypass post-rewrite hook
+10:52:42.099: [Lua: lh-sync.lua]     -u, --untracked-files[=<mode>]
+10:52:42.100: [Lua: lh-sync.lua]                           show untracked files, optional modes: all, normal, no. (Default: all)
+10:52:42.100: [Lua: lh-sync.lua]     --pathspec-from-file <file>
+10:52:42.100: [Lua: lh-sync.lua]                           read pathspec from file
+10:52:42.100: [Lua: lh-sync.lua]     --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+10:52:42.100: [Lua: lh-sync.lua] 
+10:52:42.713: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+10:52:42.714: [Lua: lh-sync.lua] Already up to date.
+10:52:43.248: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
+10:52:43.249: [Lua: lh-sync.lua] Everything up-to-date
