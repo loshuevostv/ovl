@@ -400,3 +400,71 @@
 11:01:52.888: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
 11:01:52.889: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
 11:01:52.950: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
+11:02:00.857: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+11:02:00.859: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/global.ini.
+11:02:00.860: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.861: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+11:02:00.861: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+11:02:00.862: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+11:02:00.862: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+11:02:00.862: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_2"): Permission denied
+11:02:00.863: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_2'
+11:02:00.863: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_3"): Permission denied
+11:02:00.863: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_3'
+11:02:00.864: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+11:02:00.864: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+11:02:00.864: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+11:02:00.864: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+11:02:00.865: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+11:02:00.865: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+11:02:00.866: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/IndexedDB/https_streamlabs.com_0.indexeddb.leveldb/LOG.old.
+11:02:00.866: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.866: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/LOG.
+11:02:00.866: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.866: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/LOG.old.
+11:02:00.866: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.867: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/Local Storage/leveldb/LOG.
+11:02:00.867: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.867: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/Local Storage/leveldb/LOG.old.
+11:02:00.867: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.867: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/Session Storage/LOG.
+11:02:00.867: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.868: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/LOG.
+11:02:00.868: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.868: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/LOG.old.
+11:02:00.868: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.869: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Local Storage/leveldb/LOG.old.
+11:02:00.869: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:00.869: [Lua: lh-sync.lua] warning: LF will be replaced by CRLF in config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Session Storage/LOG.old.
+11:02:00.869: [Lua: lh-sync.lua] The file will have its original line endings in your working directory
+11:02:02.274: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit -m "OBS Sync"
+11:02:02.275: [Lua: lh-sync.lua] [main acb3f10] OBS Sync
+11:02:02.276: [Lua: lh-sync.lua]  41 files changed, 243 insertions(+), 239 deletions(-)
+11:02:02.280: [Lua: lh-sync.lua]  rewrite config/obs-studio/basic/scenes/LH.json (69%)
+11:02:02.281: [Lua: lh-sync.lua]  copy config/obs-studio/basic/scenes/{LH.json => LH.json.bak} (100%)
+11:02:02.281: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/logs/2022-01-19 09-03-14.txt
+11:02:02.281: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/logs/2022-01-19 11-01-45.txt
+11:02:02.282: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000008
+11:02:02.282: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00000d
+11:02:02.282: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000014
+11:02:02.282: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000015
+11:02:02.282: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000016
+11:02:02.283: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000017
+11:02:02.283: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000018
+11:02:02.283: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000019
+11:02:02.283: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001a
+11:02:02.284: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_00001c
+11:02:02.284: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/Cache/f_000036
+11:02:02.284: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/Code Cache/js/ed1f297378efcdc6_0 (99%)
+11:02:02.284: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/Code Cache/js/f6be9b6747fdd08e_0 (96%)
+11:02:02.285: [Lua: lh-sync.lua]  rewrite config/obs-studio/plugin_config/obs-browser/Network Persistent State (89%)
+11:02:02.285: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/Cache/f_000013
+11:02:02.285: [Lua: lh-sync.lua]  delete mode 100644 config/obs-studio/profiler_data/2022-01-19 08-58-59.csv.gz
+11:02:02.286: [Lua: lh-sync.lua]  create mode 100644 config/obs-studio/profiler_data/2022-01-19 10-00-49.csv.gz
+11:02:03.188: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+11:02:03.188: [Lua: lh-sync.lua] Already up to date.
+11:02:10.365: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
+11:02:10.366: [Lua: lh-sync.lua] fatal: helper error (-1): User cancelled dialog.
+11:02:10.368: [Lua: lh-sync.lua] bash: /dev/tty: No such device or address
+11:02:10.368: [Lua: lh-sync.lua] error: failed to execute prompt script (exit code 1)
+11:02:10.371: [Lua: lh-sync.lua] fatal: could not read Password for 'https://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@github.com': No such file or directory
