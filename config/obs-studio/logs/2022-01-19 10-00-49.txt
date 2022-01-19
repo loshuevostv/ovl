@@ -2286,3 +2286,187 @@
 10:58:35.463: [Lua: lh-sync.lua] bash: /dev/tty: No such device or address
 10:58:35.464: [Lua: lh-sync.lua] error: failed to execute prompt script (exit code 1)
 10:58:35.464: [Lua: lh-sync.lua] fatal: could not read Password for 'https://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@github.com': No such file or directory
+11:00:04.044: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+11:00:04.044: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+11:00:04.044: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+11:00:04.045: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+11:00:04.045: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+11:00:04.046: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+11:00:04.046: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+11:00:04.046: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+11:00:04.046: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+11:00:04.047: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+11:00:04.047: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+11:00:04.047: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0"): Permission denied
+11:00:04.047: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_0'
+11:00:04.048: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1"): Permission denied
+11:00:04.048: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_1'
+11:00:04.048: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2"): Permission denied
+11:00:04.048: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_2'
+11:00:04.048: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3"): Permission denied
+11:00:04.049: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/data_3'
+11:00:04.049: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index"): Permission denied
+11:00:04.050: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/obs_profile_cookies/FC99BEAEB7FCEC82/GPUCache/index'
+11:00:04.639: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit -m "OBS Sync"
+11:00:04.639: [Lua: lh-sync.lua] [main c843244] OBS Sync
+11:00:04.639: [Lua: lh-sync.lua]  3 files changed, 33 insertions(+), 2 deletions(-)
+11:00:07.675: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+11:00:07.675: [Lua: lh-sync.lua] From https://github.com/loshuevostv/ovl
+11:00:07.675: [Lua: lh-sync.lua]    27900e5..75c6fd0  main       -> origin/main
+11:00:07.675: [Lua: lh-sync.lua] Merge made by the 'ort' strategy.
+11:00:07.676: [Lua: lh-sync.lua]  .gitignore | 2 +-
+11:00:07.676: [Lua: lh-sync.lua]  1 file changed, 1 insertion(+), 1 deletion(-)
+11:00:41.751: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
+11:00:41.752: [Lua: lh-sync.lua] To https://github.com/loshuevostv/ovl.git
+11:00:41.752: [Lua: lh-sync.lua]    75c6fd0..279da0e  main -> main
+11:00:50.681: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" add -A --ignore-errors
+11:00:50.682: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_0"): Permission denied
+11:00:50.682: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_0'
+11:00:50.684: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/Cache/data_1"): Permission denied
+11:00:50.686: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/Cache/data_1'
+11:00:50.687: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_0"): Permission denied
+11:00:50.687: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_0'
+11:00:50.688: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_1"): Permission denied
+11:00:50.689: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_1'
+11:00:50.689: [Lua: lh-sync.lua] error: open("config/obs-studio/plugin_config/obs-browser/GPUCache/data_3"): Permission denied
+11:00:50.690: [Lua: lh-sync.lua] error: unable to index file 'config/obs-studio/plugin_config/obs-browser/GPUCache/data_3'
+11:00:51.350: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" commit -m "OBS Sync"
+11:00:51.351: [Lua: lh-sync.lua] [main 69d8ccf] OBS Sync
+11:00:51.351: [Lua: lh-sync.lua]  3 files changed, 33 insertions(+), 2 deletions(-)
+11:00:51.994: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" pull -X theirs
+11:00:51.994: [Lua: lh-sync.lua] Already up to date.
+11:01:08.789: [Lua: lh-sync.lua] C:\lh-obs\git\bin\git.exe -C "C:/lh-obs" push origin main
+11:01:08.789: [Lua: lh-sync.lua] To https://github.com/loshuevostv/ovl.git
+11:01:08.790: [Lua: lh-sync.lua]    279da0e..69d8ccf  main -> main
+11:01:41.274: ==== Shutting down ==================================================
+11:01:41.324: [spectralizer] Removed audio capture from '1. Music'
+11:01:41.423: [audio-capture: 'unknown'] (audio_capture_worker_tick) shutting down
+11:01:41.424: [audio-capture: 'unknown'] (audio_capture_worker_tick) shutting down
+11:01:41.535: All scene data cleared
+11:01:41.535: ------------------------------------------------
+11:01:41.535: [obs-websocket] IO thread exited.
+11:01:41.536: [obs-websocket] server stopped successfully
+11:01:41.539: obs-browser: WS Closed:  (source: https://streamkit.discord.com/overlay/8edfb808f1b25e15519a.js:38)
+11:01:41.670: [obs-websocket] goodbye!
+11:01:42.124: [Scripting] Total detached callbacks: 32
+11:01:42.125: Freeing OBS context data
+11:01:42.205: == Profiler Results =============================
+11:01:42.205: run_program_init: 1763.28 ms
+11:01:42.205:  ┣OBSApp::AppInit: 23.598 ms
+11:01:42.205:  ┃ ┗OBSApp::InitLocale: 5.489 ms
+11:01:42.205:  ┗OBSApp::OBSInit: 1691.37 ms
+11:01:42.205:    ┣obs_startup: 49.397 ms
+11:01:42.205:    ┗OBSBasic::OBSInit: 1391.29 ms
+11:01:42.205:      ┣OBSBasic::InitBasicConfig: 11.131 ms
+11:01:42.205:      ┣OBSBasic::ResetAudio: 0.178 ms
+11:01:42.205:      ┣OBSBasic::ResetVideo: 532.655 ms
+11:01:42.205:      ┣OBSBasic::InitOBSCallbacks: 0.009 ms
+11:01:42.205:      ┣OBSBasic::InitHotkeys: 0.068 ms
+11:01:42.205:      ┣obs_load_all_modules: 626.653 ms
+11:01:42.205:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 1.715 ms
+11:01:42.205:      ┃ ┣obs_init_module(decklink-captions.dll): 0.029 ms
+11:01:42.205:      ┃ ┣obs_init_module(decklink-ouput-ui.dll): 0.62 ms
+11:01:42.205:      ┃ ┣obs_init_module(enc-amf.dll): 102.494 ms
+11:01:42.205:      ┃ ┣obs_init_module(frontend-tools.dll): 4.759 ms
+11:01:42.205:      ┃ ┣obs_init_module(image-source.dll): 0.012 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-browser.dll): 0.318 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.549 ms
+11:01:42.205:      ┃ ┃ ┗nvenc_check: 0.529 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-filters.dll): 0.06 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-outputs.dll): 0.009 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-qsv11.dll): 454.123 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-text.dll): 0.271 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-transitions.dll): 0.01 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-vst.dll): 0.002 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-websocket.dll): 2.125 ms
+11:01:42.205:      ┃ ┣obs_init_module(obs-x264.dll): 0.003 ms
+11:01:42.205:      ┃ ┣obs_init_module(rtmp-services.dll): 1.826 ms
+11:01:42.205:      ┃ ┣obs_init_module(spectralizer.dll): 0.023 ms
+11:01:42.205:      ┃ ┣obs_init_module(text-freetype2.dll): 0.072 ms
+11:01:42.205:      ┃ ┣obs_init_module(vlc-video.dll): 0.07 ms
+11:01:42.205:      ┃ ┣obs_init_module(win-capture-audio.dll): 0.003 ms
+11:01:42.205:      ┃ ┣obs_init_module(win-capture.dll): 1.621 ms
+11:01:42.205:      ┃ ┣obs_init_module(win-decklink.dll): 2.777 ms
+11:01:42.205:      ┃ ┣obs_init_module(win-dshow.dll): 2.37 ms
+11:01:42.205:      ┃ ┣obs_init_module(win-mf.dll): 0 ms
+11:01:42.205:      ┃ ┣obs_init_module(win-wasapi.dll): 0.009 ms
+11:01:42.205:      ┃ ┗reset_win32_symbol_paths: 0.277 ms
+11:01:42.205:      ┣OBSBasic::ResetOutputs: 0.283 ms
+11:01:42.205:      ┣OBSBasic::CreateHotkeys: 0.045 ms
+11:01:42.205:      ┣OBSBasic::InitService: 1.656 ms
+11:01:42.205:      ┣OBSBasic::InitPrimitives: 0.947 ms
+11:01:42.205:      ┗OBSBasic::Load: 77.173 ms
+11:01:42.205: obs_hotkey_thread(25 ms): min=0.004 ms, median=0.025 ms, max=41.37 ms, 99th percentile=0.219 ms, 99.9979% below 25 ms
+11:01:42.205: audio_thread(Audio): min=0 ms, median=0.07 ms, max=50.632 ms, 99th percentile=0.478 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.047 ms, median=1.496 ms, max=8.548 ms, 99th percentile=3.66 ms, 100% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.001 ms, median=0.02 ms, max=0.269 ms, 99th percentile=0.121 ms
+11:01:42.205:  ┣output_frame: min=0.037 ms, median=0.328 ms, max=1.385 ms, 99th percentile=0.75 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.037 ms, median=0.327 ms, max=1.383 ms, 99th percentile=0.718 ms
+11:01:42.205:  ┃   ┣render_video: min=0.007 ms, median=0.028 ms, max=0.377 ms, 99th percentile=0.156 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.003 ms, median=0.017 ms, max=0.209 ms, 99th percentile=0.139 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.026 ms, median=0.292 ms, max=1.363 ms, 99th percentile=0.63 ms
+11:01:42.205:  ┗render_displays: min=0 ms, median=1.1 ms, max=8.343 ms, 99th percentile=1.941 ms
+11:01:42.205: OBSBasic::ResetVideo: min=46.729 ms, median=61.123 ms, max=67.998 ms, 99th percentile=67.998 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.363 ms, median=1.478 ms, max=42.765 ms, 99th percentile=2.125 ms, 99.9649% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.004 ms, median=0.015 ms, max=0.291 ms, 99th percentile=0.027 ms
+11:01:42.205:  ┣output_frame: min=0.075 ms, median=0.3 ms, max=7.209 ms, 99th percentile=0.514 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.075 ms, median=0.299 ms, max=7.208 ms, 99th percentile=0.513 ms
+11:01:42.205:  ┃   ┣render_video: min=0.008 ms, median=0.021 ms, max=1.707 ms, 99th percentile=0.034 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.005 ms, median=0.013 ms, max=1.67 ms, 99th percentile=0.022 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.066 ms, median=0.274 ms, max=7.191 ms, 99th percentile=0.462 ms
+11:01:42.205:  ┗render_displays: min=0.275 ms, median=1.13 ms, max=42.591 ms, 99th percentile=1.645 ms
+11:01:42.205: OBSBasic::InitService: min=1.674 ms, median=3.256 ms, max=3.455 ms, 99th percentile=3.455 ms
+11:01:42.205: OBSBasic::ResetOutputs: min=0.424 ms, median=0.643 ms, max=0.798 ms, 99th percentile=0.798 ms
+11:01:42.205: OBSBasic::CreateHotkeys: min=0.041 ms, median=0.069 ms, max=0.082 ms, 99th percentile=0.082 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.406 ms, median=0.702 ms, max=79.351 ms, 99th percentile=4.445 ms, 99.6283% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.004 ms, median=0.009 ms, max=0.492 ms, 99th percentile=0.027 ms
+11:01:42.205:  ┣output_frame: min=0.081 ms, median=0.159 ms, max=2.75 ms, 99th percentile=0.964 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.081 ms, median=0.159 ms, max=2.749 ms, 99th percentile=0.962 ms
+11:01:42.205:  ┃   ┣render_video: min=0.008 ms, median=0.013 ms, max=0.13 ms, 99th percentile=0.108 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.005 ms, median=0.008 ms, max=0.097 ms, 99th percentile=0.02 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.07 ms, median=0.145 ms, max=2.718 ms, 99th percentile=0.93 ms
+11:01:42.205:  ┗render_displays: min=0.307 ms, median=0.513 ms, max=79.213 ms, 99th percentile=3.776 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.47 ms, median=0.952 ms, max=50.304 ms, 99th percentile=50.304 ms, 98.1132% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.006 ms, median=0.009 ms, max=0.187 ms, 99th percentile=0.187 ms
+11:01:42.205:  ┣output_frame: min=0.085 ms, median=0.199 ms, max=0.394 ms, 99th percentile=0.394 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.085 ms, median=0.198 ms, max=0.392 ms, 99th percentile=0.392 ms
+11:01:42.205:  ┃   ┣render_video: min=0.009 ms, median=0.013 ms, max=0.051 ms, 99th percentile=0.051 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.005 ms, median=0.008 ms, max=0.02 ms, 99th percentile=0.02 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.074 ms, median=0.183 ms, max=0.363 ms, 99th percentile=0.363 ms
+11:01:42.205:  ┗render_displays: min=0.358 ms, median=0.707 ms, max=50.176 ms, 99th percentile=50.176 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.398 ms, median=0.663 ms, max=6.279 ms, 99th percentile=5.432 ms, 100% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.004 ms, median=0.008 ms, max=0.037 ms, 99th percentile=0.02 ms
+11:01:42.205:  ┣output_frame: min=0.089 ms, median=0.152 ms, max=0.767 ms, 99th percentile=0.466 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.089 ms, median=0.151 ms, max=0.766 ms, 99th percentile=0.465 ms
+11:01:42.205:  ┃   ┣render_video: min=0.008 ms, median=0.013 ms, max=0.064 ms, 99th percentile=0.033 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.005 ms, median=0.008 ms, max=0.053 ms, 99th percentile=0.02 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.079 ms, median=0.138 ms, max=0.751 ms, 99th percentile=0.433 ms
+11:01:42.205:  ┗render_displays: min=0.297 ms, median=0.486 ms, max=6.102 ms, 99th percentile=5.018 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.398 ms, median=0.679 ms, max=4.685 ms, 99th percentile=2.899 ms, 100% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.004 ms, median=0.009 ms, max=3.533 ms, 99th percentile=0.132 ms
+11:01:42.205:  ┣output_frame: min=0.08 ms, median=0.153 ms, max=1.09 ms, 99th percentile=0.407 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.079 ms, median=0.153 ms, max=1.089 ms, 99th percentile=0.406 ms
+11:01:42.205:  ┃   ┣render_video: min=0.009 ms, median=0.013 ms, max=0.036 ms, 99th percentile=0.022 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.005 ms, median=0.008 ms, max=0.024 ms, 99th percentile=0.016 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.069 ms, median=0.14 ms, max=1.072 ms, 99th percentile=0.391 ms
+11:01:42.205:  ┗render_displays: min=0.303 ms, median=0.512 ms, max=2.782 ms, 99th percentile=1.644 ms
+11:01:42.205: obs_graphics_thread(33.3333 ms): min=0.054 ms, median=1.608 ms, max=741.536 ms, 99th percentile=6.091 ms, 99.983% below 33.333 ms
+11:01:42.205:  ┣tick_sources: min=0.002 ms, median=0.016 ms, max=740.739 ms, 99th percentile=2.289 ms
+11:01:42.205:  ┣output_frame: min=0.041 ms, median=0.362 ms, max=44.748 ms, 99th percentile=3.142 ms
+11:01:42.205:  ┃ ┗gs_context(video->graphics): min=0.04 ms, median=0.361 ms, max=44.746 ms, 99th percentile=3.139 ms
+11:01:42.205:  ┃   ┣render_video: min=0.007 ms, median=0.022 ms, max=43.972 ms, 99th percentile=1.24 ms
+11:01:42.205:  ┃   ┃ ┗render_main_texture: min=0.003 ms, median=0.014 ms, max=43.967 ms, 99th percentile=1.21 ms
+11:01:42.205:  ┃   ┗gs_flush: min=0.025 ms, median=0.335 ms, max=11.015 ms, 99th percentile=2.151 ms
+11:01:42.206:  ┗render_displays: min=0.001 ms, median=1.179 ms, max=72.038 ms, 99th percentile=1.912 ms
+11:01:42.206: =================================================
+11:01:42.206: == Profiler Time Between Calls ==================
+11:01:42.206: obs_hotkey_thread(25 ms): min=24.098 ms, median=25.241 ms, max=75.374 ms, 64.5203% within ±2% of 25 ms (0.0681393% lower, 35.4116% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=22.04 ms, median=33.333 ms, max=46.727 ms, 95.3488% within ±2% of 33.333 ms (2.32558% lower, 2.32558% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=17.069 ms, median=33.333 ms, max=56.473 ms, 97.9262% within ±2% of 33.333 ms (1.08963% lower, 0.984183% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=16.407 ms, median=33.333 ms, max=79.377 ms, 90.2985% within ±2% of 33.333 ms (4.85075% lower, 4.85075% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=16.349 ms, median=33.333 ms, max=50.321 ms, 82.6923% within ±2% of 33.333 ms (7.69231% lower, 9.61538% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=16.224 ms, median=33.333 ms, max=51.461 ms, 85.3659% within ±2% of 33.333 ms (6.70732% lower, 7.92683% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=16.073 ms, median=33.333 ms, max=50.586 ms, 91.7431% within ±2% of 33.333 ms (3.66972% lower, 4.58716% higher)
+11:01:42.206: obs_graphics_thread(33.3333 ms): min=1.127 ms, median=33.333 ms, max=741.545 ms, 99.4057% within ±2% of 33.333 ms (0.30001% lower, 0.294332% higher)
+11:01:42.206: =================================================
+11:01:42.310: Number of memory leaks: 14

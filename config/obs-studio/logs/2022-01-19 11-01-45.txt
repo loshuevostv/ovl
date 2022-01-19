@@ -1,0 +1,10 @@
+11:01:45.512: CPU Name: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+11:01:45.513: CPU Speed: 3492MHz
+11:01:45.513: Physical Cores: 2, Logical Cores: 4
+11:01:45.513: Physical Memory: 4035MB Total, 1998MB Free
+11:01:45.513: Windows Version: 10.0 Build 19041 (release: 2004; revision: 1415; 64-bit)
+11:01:45.513: Running as administrator: false
+11:01:45.513: Aero is Enabled (Aero is always on for windows 8 and above)
+11:01:45.513: Windows 10 Gaming Features:
+11:01:45.513: 	Game DVR: On
+11:01:45.515: Sec. Software Status:
