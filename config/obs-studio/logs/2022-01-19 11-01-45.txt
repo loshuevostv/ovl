@@ -8,3 +8,395 @@
 11:01:45.513: Windows 10 Gaming Features:
 11:01:45.513: 	Game DVR: On
 11:01:45.515: Sec. Software Status:
+11:01:45.516: 	Microsoft Defender Antivirus: enabled (AV)
+11:01:45.517: 	Windows Firewall: enabled (FW)
+11:01:45.517: Current Date/Time: 2022-01-19, 11:01:45
+11:01:45.517: Browser Hardware Acceleration: true
+11:01:45.517: Portable mode: true
+11:01:45.687: OBS 27.1.3 (64-bit, windows)
+11:01:45.687: ---------------------------------
+11:01:45.717: ---------------------------------
+11:01:45.717: audio settings reset:
+11:01:45.717: 	samples per sec: 48000
+11:01:45.717: 	speakers:        2
+11:01:45.718: ---------------------------------
+11:01:45.718: Initializing D3D11...
+11:01:45.718: Available Video Adapters: 
+11:01:45.719: 	Adapter 0: AMD Radeon HD 7000 series
+11:01:45.719: 	  Dedicated VRAM: 2135629824
+11:01:45.719: 	  Shared VRAM:    1879048192
+11:01:45.719: 	  PCI ID:         1002:6778
+11:01:45.720: 	  Driver Version: 8.17.10.1404
+11:01:45.720: 	  output 0: pos={0, 0}, size={1920, 1080}, attached=true, refresh=60, name=AAA
+11:01:45.722: Loading up D3D11 on adapter AMD Radeon HD 7000 series (0)
+11:01:45.731: D3D11 loaded successfully, feature level used: b000
+11:01:45.731: DXGI increase maximum frame latency success
+11:01:45.731: D3D11 GPU priority setup failed (not admin?)
+11:01:46.249: ---------------------------------
+11:01:46.249: video settings reset:
+11:01:46.249: 	base resolution:   1920x1080
+11:01:46.249: 	output resolution: 640x360
+11:01:46.249: 	downscale filter:  Bicubic
+11:01:46.249: 	fps:               30/1
+11:01:46.249: 	format:            NV12
+11:01:46.249: 	YUV mode:          709/Partial
+11:01:46.249: NV12 texture support enabled
+11:01:46.251: Audio monitoring device:
+11:01:46.251: 	name: Predefinito
+11:01:46.251: 	id: default
+11:01:46.251: ---------------------------------
+11:01:46.252: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+11:01:46.256: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+11:01:46.257: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+11:01:46.257: Failed to load 'en-US' text for module: 'decklink-ouput-ui.dll'
+11:01:46.432: [AMF] Unable to load 'amfrt64.dll', error code 126.
+11:01:46.435: [AMF] AMF Test failed due to one or more errors.
+11:01:46.435: Failed to initialize module 'enc-amf.dll'
+11:01:46.444: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+11:01:46.451: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+11:01:46.452: Skipping module '../../obs-plugins/64bit/libfftw3-3.dll', not an OBS plugin
+11:01:46.453: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+11:01:46.459: [obs-browser]: Version 2.16.3
+11:01:46.459: [obs-browser]: CEF Version 75.1.16+g16a67c4+chromium-75.0.3770.100
+11:01:46.464: [noise suppress]: NVIDIA RTX denoiser disabled, redistributable not found
+11:01:47.062: [obs-websocket] you can haz websockets (version 4.9.1)
+11:01:47.062: [obs-websocket] qt version (compile-time): 5.15.2 ; qt version (run-time): 5.15.2
+11:01:47.069: [obs-websocket] module loaded!
+11:01:47.092: Failed to load 'it-IT' text for module: 'spectralizer.dll'
+11:01:47.092: [spectralizer] Loading v1.3.4 build time 2021.01.28 20:03
+11:01:47.099: Couldn't find VLC installation, VLC video source disabled
+11:01:47.112: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:01:47.114: No blackmagic support
+11:01:47.126: ---------------------------------
+11:01:47.126:   Loaded Modules:
+11:01:47.126:     win-wasapi.dll
+11:01:47.126:     win-mf.dll
+11:01:47.126:     win-dshow.dll
+11:01:47.126:     win-decklink.dll
+11:01:47.126:     win-capture.dll
+11:01:47.126:     win-capture-audio.dll
+11:01:47.126:     vlc-video.dll
+11:01:47.126:     text-freetype2.dll
+11:01:47.126:     spectralizer.dll
+11:01:47.126:     rtmp-services.dll
+11:01:47.126:     obs-x264.dll
+11:01:47.126:     obs-websocket.dll
+11:01:47.126:     obs-vst.dll
+11:01:47.126:     obs-transitions.dll
+11:01:47.126:     obs-text.dll
+11:01:47.126:     obs-qsv11.dll
+11:01:47.126:     obs-outputs.dll
+11:01:47.126:     obs-filters.dll
+11:01:47.126:     obs-ffmpeg.dll
+11:01:47.126:     obs-browser.dll
+11:01:47.126:     image-source.dll
+11:01:47.126:     frontend-tools.dll
+11:01:47.126:     enc-amf.dll
+11:01:47.126:     decklink-ouput-ui.dll
+11:01:47.126:     decklink-captions.dll
+11:01:47.126:     coreaudio-encoder.dll
+11:01:47.126: ---------------------------------
+11:01:47.127: ==== Startup complete ===============================================
+11:01:47.146: All scene data cleared
+11:01:47.146: ------------------------------------------------
+11:01:47.169: [window-capture: 'Cattura_Schermo'] update settings:
+11:01:47.169: 	executable: citra-qt.exe
+11:01:47.169: 	method selected: Automatic
+11:01:47.169: 	method chosen: BitBlt
+11:01:47.169: 
+11:01:47.443: Source ID 'screen_capture' not found
+11:01:47.443: Failed to create source 'Screen Nuzlocke #1'!
+11:01:47.444: Source ID 'screen_capture' not found
+11:01:47.444: Failed to create source 'Screen Nuzlocke #3'!
+11:01:47.473: [window-capture: 'Window Capture JC'] update settings:
+11:01:47.473: 	executable: Discord.exe
+11:01:47.473: 	method selected: Automatic
+11:01:47.473: 	method chosen: WGC
+11:01:47.473: 
+11:01:47.474: [Media Source 'Loading Eggs']: settings:
+11:01:47.474: 	input:                   C:/lh-obs/docs/loading_eggs.mov
+11:01:47.474: 	input_format:            (null)
+11:01:47.474: 	speed:                   100
+11:01:47.474: 	is_looping:              yes
+11:01:47.474: 	is_linear_alpha:         no
+11:01:47.474: 	is_hw_decoding:          no
+11:01:47.474: 	is_clear_on_media_end:   yes
+11:01:47.474: 	restart_on_activate:     yes
+11:01:47.474: 	close_when_inactive:     no
+11:01:47.478: [WASAPISource::WASAPISource] Device '{0.0.1.00000000}.{fecd6162-ca14-4552-a65d-f52455668296}' not found.  Waiting for device
+11:01:47.484: Game Capture [Lori]: DecodeDeviceId failed
+11:01:47.484: Game Capture [Lori]: Video configuration failed
+11:01:47.491: Main Webcam Source [Lori]: data.GetDevice failed
+11:01:47.491: Main Webcam Source [Lori]: Video configuration failed
+11:01:47.504: [WASAPISource::WASAPISource] Device 'default' not found.  Waiting for device
+11:01:47.505: [noise suppress: 'Riduzione del rumore'] NVAFX redist is not installed.
+11:01:47.519: [spectralizer] Added audio capture to '1. Music'
+11:01:47.583: Switched to scene 'Screen Capture (Console)'
+11:01:47.584: ------------------------------------------------
+11:01:47.584: Loaded scenes:
+11:01:47.584: - scene 'Starting Soon':
+11:01:47.584:     - source: 'Audio Sources' (group)
+11:01:47.584:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.584:             - monitoring: monitor only
+11:01:47.584:         - source: '3. Discord' (audio_capture)
+11:01:47.584:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.584:             - filter: 'Guadagno' (gain_filter)
+11:01:47.584:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.584:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.584:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.584:         - source: '1. Music' (audio_capture)
+11:01:47.584:             - filter: 'Guadagno' (gain_filter)
+11:01:47.584:     - source: 'Background' (image_source)
+11:01:47.584:     - source: 'Spectralizer' (spectralizer)
+11:01:47.584:         - filter: 'Chiave chroma' (chroma_key_filter_v2)
+11:01:47.584:         - filter: 'Correzione del colore' (color_filter_v2)
+11:01:47.584:         - filter: 'Nitidizza' (sharpness_filter_v2)
+11:01:47.584:         - filter: 'Scorrimento' (scroll_filter)
+11:01:47.584:     - source: 'Loading Eggs' (ffmpeg_source)
+11:01:47.584:         - filter: 'Correzione colore' (color_filter)
+11:01:47.584:     - source: 'ChatBox in Loading' (browser_source)
+11:01:47.584:     - source: 'Social Tags' (group)
+11:01:47.584:         - source: 'Twitter Tag' (browser_source)
+11:01:47.584:         - source: 'Instagram Tag' (browser_source)
+11:01:47.584:     - source: 'Timer Bar' (browser_source)
+11:01:47.584:         - monitoring: monitor only
+11:01:47.584:     - source: 'AlertBox' (browser_source)
+11:01:47.584: - scene 'Be Right Back':
+11:01:47.584:     - source: 'Audio Sources' (group)
+11:01:47.584:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.584:             - monitoring: monitor only
+11:01:47.584:         - source: '3. Discord' (audio_capture)
+11:01:47.584:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.584:             - filter: 'Guadagno' (gain_filter)
+11:01:47.584:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.584:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.584:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.584:         - source: '1. Music' (audio_capture)
+11:01:47.584:             - filter: 'Guadagno' (gain_filter)
+11:01:47.584:     - source: 'Background' (image_source)
+11:01:47.584:     - source: 'Spectralizer' (spectralizer)
+11:01:47.584:         - filter: 'Chiave chroma' (chroma_key_filter_v2)
+11:01:47.584:         - filter: 'Correzione del colore' (color_filter_v2)
+11:01:47.584:         - filter: 'Nitidizza' (sharpness_filter_v2)
+11:01:47.584:         - filter: 'Scorrimento' (scroll_filter)
+11:01:47.584:     - source: 'Loading Eggs' (ffmpeg_source)
+11:01:47.584:         - filter: 'Correzione colore' (color_filter)
+11:01:47.584:     - source: 'ChatBox in Loading' (browser_source)
+11:01:47.584:     - source: 'Social Tags' (group)
+11:01:47.584:         - source: 'Twitter Tag' (browser_source)
+11:01:47.584:         - source: 'Instagram Tag' (browser_source)
+11:01:47.584:     - source: 'BRB Bar' (browser_source)
+11:01:47.584:     - source: 'AlertBox' (browser_source)
+11:01:47.584: - scene 'Screen Capture (Console)':
+11:01:47.584:     - source: 'Audio Sources' (group)
+11:01:47.584:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.584:             - monitoring: monitor only
+11:01:47.584:         - source: '3. Discord' (audio_capture)
+11:01:47.584:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.584:             - filter: 'Guadagno' (gain_filter)
+11:01:47.584:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.584:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.584:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.584:         - source: '1. Music' (audio_capture)
+11:01:47.584:             - filter: 'Guadagno' (gain_filter)
+11:01:47.584:     - source: 'Background' (image_source)
+11:01:47.584:     - source: 'ChatBox' (browser_source)
+11:01:47.584:     - source: 'Social Tags' (group)
+11:01:47.584:         - source: 'Twitter Tag' (browser_source)
+11:01:47.584:         - source: 'Instagram Tag' (browser_source)
+11:01:47.584:     - source: 'Capture (SC Console)' (group)
+11:01:47.584:         - source: 'Screen Capture Background' (color_source)
+11:01:47.584:         - source: 'Game Capture [Kappa]' (dshow_input)
+11:01:47.584:         - source: 'Game Capture [Lori]' (dshow_input)
+11:01:47.584:         - source: 'Cattura_Schermo' (window_capture)
+11:01:47.584:             - filter: 'Ritaglia/aggiungi una cornice' (crop_filter)
+11:01:47.585:         - source: 'Capture Overlay' (browser_source)
+11:01:47.585:     - source: 'Webcams (SC Console)' (group)
+11:01:47.585:         - source: 'Webcam #5' (browser_source)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.585:         - source: 'Webcam #4' (browser_source)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.585:         - source: 'Webcam #3' (browser_source)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.585:         - source: 'Webcam #2' (browser_source)
+11:01:47.585:         - source: 'Main Webcam Background' (color_source)
+11:01:47.585:         - source: 'Main Webcam Source [Kappa]' (dshow_input)
+11:01:47.585:         - source: 'Main Webcam Source [Lori]' (dshow_input)
+11:01:47.585:         - source: 'Webcam #1 Overlay' (browser_source)
+11:01:47.585:     - source: 'Discord Voice Chat' (browser_source)
+11:01:47.585:         - monitoring: monitor only
+11:01:47.585:     - source: 'Sub goal' (browser_source)
+11:01:47.585:     - source: 'AlertBox' (browser_source)
+11:01:47.585: - scene 'Focus (Console)':
+11:01:47.585:     - source: 'Audio Sources' (group)
+11:01:47.585:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.585:         - source: '3. Discord' (audio_capture)
+11:01:47.585:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.585:             - filter: 'Guadagno' (gain_filter)
+11:01:47.585:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.585:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.585:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.585:         - source: '1. Music' (audio_capture)
+11:01:47.585:             - filter: 'Guadagno' (gain_filter)
+11:01:47.585:     - source: 'Captures (Focus)' (group)
+11:01:47.585:         - source: 'Game Capture [Kappa]' (dshow_input)
+11:01:47.585:         - source: 'Game Capture [Lori]' (dshow_input)
+11:01:47.585:     - source: 'Social Tags (Focus)' (group)
+11:01:47.585:         - source: 'Twitter Tag' (browser_source)
+11:01:47.585:         - source: 'Instagram Tag' (browser_source)
+11:01:47.585:     - source: 'Webcam (Focus)' (group)
+11:01:47.585:         - source: 'Main Webcam Background' (color_source)
+11:01:47.585:         - source: 'Main Webcam Source [Kappa]' (dshow_input)
+11:01:47.585:         - source: 'Main Webcam Overlay (Focus)' (browser_source)
+11:01:47.585:     - source: 'AlertBox' (browser_source)
+11:01:47.585: - scene 'Screen Capture (Just Chatting)':
+11:01:47.585:     - source: 'Audio Sources' (group)
+11:01:47.585:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.585:         - source: '3. Discord' (audio_capture)
+11:01:47.585:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.585:             - filter: 'Guadagno' (gain_filter)
+11:01:47.585:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.585:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.585:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.585:         - source: '1. Music' (audio_capture)
+11:01:47.585:             - filter: 'Guadagno' (gain_filter)
+11:01:47.585:     - source: 'Background' (image_source)
+11:01:47.585:     - source: 'ChatBox' (browser_source)
+11:01:47.585:     - source: 'Social Tags' (group)
+11:01:47.585:         - source: 'Twitter Tag' (browser_source)
+11:01:47.585:         - source: 'Instagram Tag' (browser_source)
+11:01:47.585:     - source: 'Capture (JC)' (group)
+11:01:47.585:         - source: 'Screen Capture Background' (color_source)
+11:01:47.585:         - source: 'Window Capture JC' (window_capture)
+11:01:47.585:         - source: 'Capture Overlay' (browser_source)
+11:01:47.585:     - source: 'Webcams (JC Focus)' (group)
+11:01:47.585:         - source: 'Webcam #5' (browser_source)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.585:         - source: 'Webcam #4' (browser_source)
+11:01:47.585:             - monitoring: monitor only
+11:01:47.586:         - source: 'Webcam #3' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Webcam #2' (browser_source)
+11:01:47.586:         - source: 'Webcam #1' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:     - source: 'Sub goal' (browser_source)
+11:01:47.586:     - source: 'AlertBox' (browser_source)
+11:01:47.586: - scene 'Focus (Just Chatting)':
+11:01:47.586:     - source: 'Audio Sources' (group)
+11:01:47.586:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: '3. Discord' (audio_capture)
+11:01:47.586:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.586:             - filter: 'Guadagno' (gain_filter)
+11:01:47.586:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.586:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.586:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.586:         - source: '1. Music' (audio_capture)
+11:01:47.586:             - filter: 'Guadagno' (gain_filter)
+11:01:47.586:     - source: 'Background' (image_source)
+11:01:47.586:     - source: 'ChatBox in JC' (browser_source)
+11:01:47.586:         - monitoring: monitor only
+11:01:47.586:     - source: 'Social Tags (JC Focus)' (group)
+11:01:47.586:         - source: 'Twitter Tag' (browser_source)
+11:01:47.586:         - source: 'Instagram Tag' (browser_source)
+11:01:47.586:     - source: 'Webcams JC' (browser_source)
+11:01:47.586:         - monitoring: monitor only
+11:01:47.586:     - source: 'Discord Voice Chat JC' (browser_source)
+11:01:47.586:         - monitoring: monitor only
+11:01:47.586:     - source: 'Capture (JC Focus)' (group)
+11:01:47.586:         - source: 'Window Capture JC' (window_capture)
+11:01:47.586:         - source: 'Screen Overlay JC' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:     - source: 'Sub goal' (browser_source)
+11:01:47.586:     - source: 'AlertBox' (browser_source)
+11:01:47.586: - scene 'Nuzlocke':
+11:01:47.586:     - source: 'Audio Sources' (group)
+11:01:47.586:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: '3. Discord' (audio_capture)
+11:01:47.586:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.586:             - filter: 'Guadagno' (gain_filter)
+11:01:47.586:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.586:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.586:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.586:         - source: '1. Music' (audio_capture)
+11:01:47.586:             - filter: 'Guadagno' (gain_filter)
+11:01:47.586:     - source: 'Background' (image_source)
+11:01:47.586:     - source: 'ChatBox in Nuzlocke' (browser_source)
+11:01:47.586:         - monitoring: monitor only
+11:01:47.586:     - source: 'Social Tags (Nuzlocke)' (group)
+11:01:47.586:         - source: 'Twitter Tag' (browser_source)
+11:01:47.586:         - source: 'Instagram Tag' (browser_source)
+11:01:47.586:     - source: 'Captures (Nuzlocke)' (group)
+11:01:47.586:         - source: 'Screen Nuzlocke #4' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:             - filter: 'Ritaglia/Margine' (crop_filter)
+11:01:47.586:         - source: 'Screen Nuzlocke #3' (screen_capture)
+11:01:47.586:             - filter: 'Ritaglia/Margine' (crop_filter)
+11:01:47.586:         - source: 'Screen Nuzlocke #2' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:             - filter: 'Ritaglia/Margine' (crop_filter)
+11:01:47.586:         - source: 'Screen Nuzlocke #1' (screen_capture)
+11:01:47.586:             - filter: 'Ritaglia/Margine' (crop_filter)
+11:01:47.586:         - source: 'Screen Overlay HG' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Screen Overlay SS' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Screen Overlay SS' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Screen Overlay HG' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:     - source: 'Webcams (Nuzlocke)' (group)
+11:01:47.586:         - source: 'Webcam #4 (Nuzlocke)' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Webcam #3 (Nuzlocke)' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Webcam #2 (Nuzlocke)' (browser_source)
+11:01:47.586:             - monitoring: monitor only
+11:01:47.586:         - source: 'Main Webcam Background (Nuzlocke)' (color_source)
+11:01:47.587:         - source: 'Main Webcam Source [Kappa]' (dshow_input)
+11:01:47.587:         - source: 'Main Webcam Source [Lori]' (dshow_input)
+11:01:47.587:         - source: 'Main Webcam Overlay (Nuzlocke)' (browser_source)
+11:01:47.587:             - monitoring: monitor only
+11:01:47.587:     - source: 'Sub goal' (browser_source)
+11:01:47.587:     - source: 'AlertBox' (browser_source)
+11:01:47.587: - scene 'SETTINGS':
+11:01:47.587:     - source: '[Kappa]' (group)
+11:01:47.587:         - source: 'Main Webcam Source [Kappa]' (dshow_input)
+11:01:47.587:         - source: 'Game Capture [Kappa]' (dshow_input)
+11:01:47.587:     - source: '[Lori]' (group)
+11:01:47.587:         - source: 'Main Webcam Source [Lori]' (dshow_input)
+11:01:47.587:         - source: 'Game Capture [Lori]' (dshow_input)
+11:01:47.587:     - source: 'Audio Sources' (group)
+11:01:47.587:         - source: '5. Console [K]' (wasapi_input_capture)
+11:01:47.587:             - monitoring: monitor only
+11:01:47.587:         - source: '3. Discord' (audio_capture)
+11:01:47.587:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.587:             - filter: 'Guadagno' (gain_filter)
+11:01:47.587:         - source: '2. Mic' (wasapi_input_capture)
+11:01:47.587:             - filter: 'Riduzione del rumore' (noise_suppress_filter_v2)
+11:01:47.587:             - filter: 'Limitatore' (limiter_filter)
+11:01:47.587:         - source: '1. Music' (audio_capture)
+11:01:47.587:             - filter: 'Guadagno' (gain_filter)
+11:01:47.587: ------------------------------------------------
+11:01:47.626: [Media Source 'Transizione globale (Stinger)']: settings:
+11:01:47.626: 	input:                   C:/lh-obs/docs/stinger.webm
+11:01:47.626: 	input_format:            (null)
+11:01:47.626: 	speed:                   100
+11:01:47.626: 	is_looping:              no
+11:01:47.626: 	is_linear_alpha:         no
+11:01:47.626: 	is_hw_decoding:          yes
+11:01:47.626: 	is_clear_on_media_end:   yes
+11:01:47.626: 	restart_on_activate:     yes
+11:01:47.626: 	close_when_inactive:     no
+11:01:48.224: [obs-websocket] WSServer::start: Not locked to IPv4 bindings
+11:01:48.224: [obs-websocket] server started successfully on port 4444
+11:01:48.225: [obs-websocket] IO thread started.
+11:01:50.536: [obs-websocket] new client connection from [::1]:55992
+11:01:52.836: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
+11:01:52.839: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
+11:01:52.888: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
+11:01:52.889: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
+11:01:52.950: obs-browser: Uncaught TypeError: Cannot use 'in' operator to search for 'recording' in null (source: https://vdo.ninja/main.js?ver=289:1437)
