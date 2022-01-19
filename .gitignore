@@ -3,3 +3,4 @@ data/**/*
 git/**/*
 obs-plugins/**/*
 obs_portable_mode
+config/obs-studio/basic/profiles/**/*
