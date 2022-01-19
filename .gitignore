@@ -4,4 +4,4 @@ git/**/*
 obs-plugins/**/*
 obs_portable_mode
 config/obs-studio/basic/profiles/**/*
-**/Cache/*
+config/obs-studio/plugin_config/**/*
