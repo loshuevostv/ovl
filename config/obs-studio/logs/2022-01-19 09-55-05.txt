@@ -1,0 +1,187 @@
+09:55:05.414: CPU Name: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+09:55:05.414: CPU Speed: 3492MHz
+09:55:05.414: Physical Cores: 2, Logical Cores: 4
+09:55:05.414: Physical Memory: 4035MB Total, 1944MB Free
+09:55:05.414: Windows Version: 10.0 Build 19041 (release: 2004; revision: 1415; 64-bit)
+09:55:05.414: Running as administrator: false
+09:55:05.414: Aero is Enabled (Aero is always on for windows 8 and above)
+09:55:05.414: Windows 10 Gaming Features:
+09:55:05.414: 	Game DVR: On
+09:55:05.417: Sec. Software Status:
+09:55:05.418: 	Microsoft Defender Antivirus: enabled (AV)
+09:55:05.419: 	Windows Firewall: enabled (FW)
+09:55:05.419: Current Date/Time: 2022-01-19, 09:55:05
+09:55:05.420: Browser Hardware Acceleration: true
+09:55:05.420: Portable mode: true
+09:55:05.602: OBS 27.1.3 (64-bit, windows)
+09:55:05.602: ---------------------------------
+09:55:05.721: ---------------------------------
+09:55:05.721: audio settings reset:
+09:55:05.721: 	samples per sec: 48000
+09:55:05.721: 	speakers:        2
+09:55:05.724: ---------------------------------
+09:55:05.724: Initializing D3D11...
+09:55:05.724: Available Video Adapters: 
+09:55:05.730: 	Adapter 0: AMD Radeon HD 7000 series
+09:55:05.731: 	  Dedicated VRAM: 2135629824
+09:55:05.731: 	  Shared VRAM:    1879048192
+09:55:05.731: 	  PCI ID:         1002:6778
+09:55:05.732: 	  Driver Version: 8.17.10.1404
+09:55:05.732: 	  output 0: pos={0, 0}, size={1920, 1080}, attached=true, refresh=60, name=AAA
+09:55:05.741: Loading up D3D11 on adapter AMD Radeon HD 7000 series (0)
+09:55:05.759: D3D11 loaded successfully, feature level used: b000
+09:55:05.759: DXGI increase maximum frame latency success
+09:55:05.759: D3D11 GPU priority setup failed (not admin?)
+09:55:06.287: ---------------------------------
+09:55:06.287: video settings reset:
+09:55:06.287: 	base resolution:   1920x1080
+09:55:06.287: 	output resolution: 1280x720
+09:55:06.287: 	downscale filter:  Bicubic
+09:55:06.287: 	fps:               30/1
+09:55:06.287: 	format:            NV12
+09:55:06.287: 	YUV mode:          709/Partial
+09:55:06.287: NV12 texture support enabled
+09:55:06.289: Audio monitoring device:
+09:55:06.289: 	name: Predefinito
+09:55:06.289: 	id: default
+09:55:06.289: ---------------------------------
+09:55:06.290: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+09:55:06.294: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+09:55:06.295: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+09:55:06.296: Failed to load 'en-US' text for module: 'decklink-ouput-ui.dll'
+09:55:06.632: [AMF] Unable to load 'amfrt64.dll', error code 126.
+09:55:06.634: [AMF] AMF Test failed due to one or more errors.
+09:55:06.634: Failed to initialize module 'enc-amf.dll'
+09:55:06.665: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+09:55:06.679: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+09:55:06.701: Skipping module '../../obs-plugins/64bit/libfftw3-3.dll', not an OBS plugin
+09:55:06.712: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+09:55:06.718: [obs-browser]: Version 2.16.3
+09:55:06.718: [obs-browser]: CEF Version 75.1.16+g16a67c4+chromium-75.0.3770.100
+09:55:06.722: [noise suppress]: NVIDIA RTX denoiser disabled, redistributable not found
+09:55:07.174: [obs-websocket] you can haz websockets (version 4.9.1)
+09:55:07.174: [obs-websocket] qt version (compile-time): 5.15.2 ; qt version (run-time): 5.15.2
+09:55:07.175: [obs-websocket] module loaded!
+09:55:07.181: Failed to load 'it-IT' text for module: 'spectralizer.dll'
+09:55:07.181: [spectralizer] Loading v1.3.4 build time 2021.01.28 20:03
+09:55:07.184: Couldn't find VLC installation, VLC video source disabled
+09:55:07.192: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:55:07.193: No blackmagic support
+09:55:07.198: ---------------------------------
+09:55:07.198:   Loaded Modules:
+09:55:07.198:     win-wasapi.dll
+09:55:07.198:     win-mf.dll
+09:55:07.198:     win-dshow.dll
+09:55:07.198:     win-decklink.dll
+09:55:07.198:     win-capture.dll
+09:55:07.198:     win-capture-audio.dll
+09:55:07.198:     vlc-video.dll
+09:55:07.198:     text-freetype2.dll
+09:55:07.198:     spectralizer.dll
+09:55:07.198:     rtmp-services.dll
+09:55:07.198:     obs-x264.dll
+09:55:07.198:     obs-websocket.dll
+09:55:07.198:     obs-vst.dll
+09:55:07.198:     obs-transitions.dll
+09:55:07.198:     obs-text.dll
+09:55:07.198:     obs-qsv11.dll
+09:55:07.198:     obs-outputs.dll
+09:55:07.198:     obs-filters.dll
+09:55:07.198:     obs-ffmpeg.dll
+09:55:07.198:     obs-browser.dll
+09:55:07.198:     image-source.dll
+09:55:07.198:     frontend-tools.dll
+09:55:07.198:     enc-amf.dll
+09:55:07.198:     decklink-ouput-ui.dll
+09:55:07.198:     decklink-captions.dll
+09:55:07.198:     coreaudio-encoder.dll
+09:55:07.198: ---------------------------------
+09:55:07.198: ==== Startup complete ===============================================
+09:55:07.219: All scene data cleared
+09:55:07.219: ------------------------------------------------
+09:55:07.353: WASAPI: Device 'AMD HDMI Output (AMD High Definition Audio Device)' [48000 Hz] initialized
+09:55:07.353: [Loaded global audio device]: 'Audio del desktop'
+09:55:07.354: Switched to scene 'Scena'
+09:55:07.354: ------------------------------------------------
+09:55:07.354: Loaded scenes:
+09:55:07.354: - scene 'Scena':
+09:55:07.354: ------------------------------------------------
+09:55:07.495: [obs-websocket] WSServer::start: Not locked to IPv4 bindings
+09:55:07.496: [obs-websocket] server started successfully on port 4444
+09:55:07.496: [obs-websocket] IO thread started.
+09:55:10.941: [obs-websocket] new client connection from [::1]:60466
+09:55:10.960: [obs-websocket] Websocket connection with client '[::1]:60466' closed (disconnected). Code is 1000, reason is: ''
+09:55:11.270: adding 106 milliseconds of audio buffering, total audio buffering is now 106 milliseconds (source: Audio del desktop)
+09:55:11.270: 
+09:55:24.569: [obs-websocket] WSServer::start: server already on this port and protocol mode. no restart needed
+09:55:40.663: ==== Shutting down ==================================================
+09:55:40.676: WASAPI: Device 'AMD HDMI Output (AMD High Definition Audio Device)' Terminated
+09:55:40.682: All scene data cleared
+09:55:40.682: ------------------------------------------------
+09:55:40.683: [obs-websocket] IO thread exited.
+09:55:40.683: [obs-websocket] server stopped successfully
+09:55:40.794: [obs-websocket] goodbye!
+09:55:40.822: [Scripting] Total detached callbacks: 0
+09:55:40.823: Freeing OBS context data
+09:55:40.853: == Profiler Results =============================
+09:55:40.853: run_program_init: 2354.03 ms
+09:55:40.853:  ┣OBSApp::AppInit: 50.326 ms
+09:55:40.853:  ┃ ┗OBSApp::InitLocale: 11.654 ms
+09:55:40.853:  ┗OBSApp::OBSInit: 2082.46 ms
+09:55:40.853:    ┣obs_startup: 5.511 ms
+09:55:40.853:    ┗OBSBasic::OBSInit: 1863.26 ms
+09:55:40.853:      ┣OBSBasic::InitBasicConfig: 88.008 ms
+09:55:40.853:      ┣OBSBasic::ResetAudio: 0.718 ms
+09:55:40.853:      ┣OBSBasic::ResetVideo: 566.963 ms
+09:55:40.853:      ┣OBSBasic::InitOBSCallbacks: 0.009 ms
+09:55:40.853:      ┣OBSBasic::InitHotkeys: 0.072 ms
+09:55:40.853:      ┣obs_load_all_modules: 908.449 ms
+09:55:40.853:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 1.512 ms
+09:55:40.853:      ┃ ┣obs_init_module(decklink-captions.dll): 0.029 ms
+09:55:40.853:      ┃ ┣obs_init_module(decklink-ouput-ui.dll): 0.587 ms
+09:55:40.853:      ┃ ┣obs_init_module(enc-amf.dll): 336.775 ms
+09:55:40.853:      ┃ ┣obs_init_module(frontend-tools.dll): 5.398 ms
+09:55:40.853:      ┃ ┣obs_init_module(image-source.dll): 0.007 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-browser.dll): 0.318 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.443 ms
+09:55:40.853:      ┃ ┃ ┗nvenc_check: 0.427 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-filters.dll): 0.08 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-outputs.dll): 0.018 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-qsv11.dll): 442.668 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-text.dll): 0.278 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-transitions.dll): 0.017 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-vst.dll): 0.002 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-websocket.dll): 1.625 ms
+09:55:40.853:      ┃ ┣obs_init_module(obs-x264.dll): 0.003 ms
+09:55:40.853:      ┃ ┣obs_init_module(rtmp-services.dll): 1.346 ms
+09:55:40.853:      ┃ ┣obs_init_module(spectralizer.dll): 0.023 ms
+09:55:40.853:      ┃ ┣obs_init_module(text-freetype2.dll): 0.077 ms
+09:55:40.853:      ┃ ┣obs_init_module(vlc-video.dll): 0.065 ms
+09:55:40.853:      ┃ ┣obs_init_module(win-capture-audio.dll): 0.004 ms
+09:55:40.853:      ┃ ┣obs_init_module(win-capture.dll): 1.647 ms
+09:55:40.853:      ┃ ┣obs_init_module(win-decklink.dll): 2.413 ms
+09:55:40.853:      ┃ ┣obs_init_module(win-dshow.dll): 1.756 ms
+09:55:40.853:      ┃ ┣obs_init_module(win-mf.dll): 0 ms
+09:55:40.853:      ┃ ┣obs_init_module(win-wasapi.dll): 0.006 ms
+09:55:40.853:      ┃ ┗reset_win32_symbol_paths: 0.265 ms
+09:55:40.853:      ┣OBSBasic::ResetOutputs: 0.274 ms
+09:55:40.853:      ┣OBSBasic::CreateHotkeys: 0.041 ms
+09:55:40.853:      ┣OBSBasic::InitService: 1.518 ms
+09:55:40.853:      ┣OBSBasic::InitPrimitives: 15.973 ms
+09:55:40.853:      ┗OBSBasic::Load: 135.769 ms
+09:55:40.853: obs_hotkey_thread(25 ms): min=0.005 ms, median=0.025 ms, max=0.758 ms, 99th percentile=0.217 ms, 100% below 25 ms
+09:55:40.853: audio_thread(Audio): min=0 ms, median=0.064 ms, max=0.453 ms, 99th percentile=0.179 ms
+09:55:40.853: obs_graphics_thread(33.3333 ms): min=0.041 ms, median=1.531 ms, max=10.626 ms, 99th percentile=2.128 ms, 100% below 33.333 ms
+09:55:40.853:  ┣tick_sources: min=0.001 ms, median=0.016 ms, max=0.099 ms, 99th percentile=0.024 ms
+09:55:40.853:  ┣output_frame: min=0.031 ms, median=0.316 ms, max=3.433 ms, 99th percentile=0.421 ms
+09:55:40.853:  ┃ ┗gs_context(video->graphics): min=0.031 ms, median=0.315 ms, max=3.433 ms, 99th percentile=0.42 ms
+09:55:40.853:  ┃   ┣render_video: min=0.007 ms, median=0.022 ms, max=0.057 ms, 99th percentile=0.031 ms
+09:55:40.853:  ┃   ┃ ┗render_main_texture: min=0.003 ms, median=0.014 ms, max=0.04 ms, 99th percentile=0.021 ms
+09:55:40.853:  ┃   ┗gs_flush: min=0.02 ms, median=0.289 ms, max=3.421 ms, 99th percentile=0.391 ms
+09:55:40.853:  ┗render_displays: min=0 ms, median=1.159 ms, max=9.363 ms, 99th percentile=1.615 ms
+09:55:40.853: =================================================
+09:55:40.853: == Profiler Time Between Calls ==================
+09:55:40.853: obs_hotkey_thread(25 ms): min=24.597 ms, median=25.293 ms, max=30.895 ms, 61.5108% within ±2% of 25 ms (0% lower, 38.4892% higher)
+09:55:40.853: obs_graphics_thread(33.3333 ms): min=17.833 ms, median=33.333 ms, max=48.823 ms, 98.4526% within ±2% of 33.333 ms (0.676983% lower, 0.870406% higher)
+09:55:40.853: =================================================
+09:55:40.864: Number of memory leaks: 0
