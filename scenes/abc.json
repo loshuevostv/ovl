@@ -78,14 +78,12 @@
       "deinterlace_mode": 0,
       "enabled": true,
       "flags": 0,
-      "hotkeys": {
-        "OBSBasic.SelectScene": []
-      },
-      "id": "scene",
+      "hotkeys": {},
+      "id": "image_source",
       "mixers": 0,
       "monitoring_type": 0,
       "muted": false,
-      "name": "Scena",
+      "name": "Background",
       "prev_ver": 453050371,
       "private_settings": {},
       "push-to-mute": false,
@@ -93,12 +91,10 @@
       "push-to-talk": false,
       "push-to-talk-delay": 0,
       "settings": {
-        "custom_size": false,
-        "id_counter": 0,
-        "items": []
+        "file": "${lh.git.path.docs}/background.png"
       },
       "sync": 0,
-      "versioned_id": "scene",
+      "versioned_id": "image_source",
       "volume": 1.0
     },
     {
@@ -129,7 +125,6 @@
         "items": [
           {
             "align": 5,
-            "blend_type": "normal",
             "bounds": {
               "x": 0.0,
               "y": 0.0
@@ -175,12 +170,14 @@
       "deinterlace_mode": 0,
       "enabled": true,
       "flags": 0,
-      "hotkeys": {},
-      "id": "image_source",
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "id": "scene",
       "mixers": 0,
       "monitoring_type": 0,
       "muted": false,
-      "name": "Background",
+      "name": "Scena",
       "prev_ver": 453050371,
       "private_settings": {},
       "push-to-mute": false,
@@ -188,10 +185,12 @@
       "push-to-talk": false,
       "push-to-talk-delay": 0,
       "settings": {
-        "file": "${lh.git.path.docs}/background.png"
+        "custom_size": false,
+        "id_counter": 0,
+        "items": []
       },
       "sync": 0,
-      "versioned_id": "image_source",
+      "versioned_id": "scene",
       "volume": 1.0
     }
   ],
