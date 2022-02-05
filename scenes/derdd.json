@@ -1,0 +1,75 @@
+{
+  "current_program_scene": "Scena",
+  "current_scene": "Scena",
+  "current_transition": "Dissolvenza",
+  "groups": [],
+  "modules": {},
+  "name": "derdd",
+  "preview_locked": false,
+  "quick_transitions": [
+    {
+      "duration": 300,
+      "fade_to_black": false,
+      "hotkeys": [],
+      "id": 4,
+      "name": "Taglio"
+    },
+    {
+      "duration": 300,
+      "fade_to_black": false,
+      "hotkeys": [],
+      "id": 5,
+      "name": "Dissolvenza"
+    },
+    {
+      "duration": 300,
+      "fade_to_black": true,
+      "hotkeys": [],
+      "id": 6,
+      "name": "Dissolvenza"
+    }
+  ],
+  "saved_projectors": [],
+  "scaling_enabled": false,
+  "scaling_level": 0,
+  "scaling_off_x": 0.0,
+  "scaling_off_y": 0.0,
+  "scene_order": [
+    {
+      "name": "Scena"
+    }
+  ],
+  "sources": [
+    {
+      "balance": 0.5,
+      "deinterlace_field_order": 0,
+      "deinterlace_mode": 0,
+      "enabled": true,
+      "flags": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": []
+      },
+      "id": "scene",
+      "mixers": 0,
+      "monitoring_type": 0,
+      "muted": false,
+      "name": "Scena",
+      "prev_ver": 453050371,
+      "private_settings": {},
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 0,
+        "items": []
+      },
+      "sync": 0,
+      "versioned_id": "scene",
+      "volume": 1.0
+    }
+  ],
+  "transition_duration": 300,
+  "transitions": []
+}
