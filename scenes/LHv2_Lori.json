@@ -2072,7 +2072,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:\/Users\/lore9\/AppData\/Roaming\/obs-studio\/plugin_config\/lh-sync\/lh-git\/docs\/background.png",
+                "file": "${lh.git.path.docs}\/background.png",
                 "linear_alpha": false,
                 "unload": false
             },
@@ -3562,7 +3562,7 @@
                 "hw_decode": true,
                 "is_local_file": true,
                 "linear_alpha": false,
-                "local_file": "C:\/Users\/lore9\/AppData\/Roaming\/obs-studio\/plugin_config\/lh-sync\/lh-git\/docs\/loading_eggs.mov",
+                "local_file": "${lh.git.path.docs}\/loading_eggs.mov",
                 "looping": true,
                 "reconnect_delay_sec": 10,
                 "restart_on_activate": true,
@@ -7460,7 +7460,7 @@
                 "audio_monitoring": 0,
                 "hw_decode": true,
                 "invert_matte": false,
-                "path": "C:\/Users\/lore9\/AppData\/Roaming\/obs-studio\/plugin_config\/lh-sync\/lh-git\/docs\/stinger.webm",
+                "path": "${lh.git.path.docs}\/stinger.webm",
                 "tp_type": 1,
                 "track_matte_enabled": false,
                 "track_matte_layout": 0,
