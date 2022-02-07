@@ -12,23 +12,43 @@
     }
 
     @keyframes eggJump {
-      0% { transform: translateY(10%) scale(1, 1); }
-      20% { transform: translateY(10%) scale(1, 0.6); }
-      100% { transform: translateY(-80%) scale(0.9, 1); }
+      0%    { transform: translateY(52px) scale(1.05, 0.5); }
+      4.5%  { transform: translateY(40px) scale(1.05, 0.55) }
+      9%    { transform: translateY(9px) scale(1.04, 0.68); }
+      13.6% { transform: translateY(-36px) scale(1.02, 0.83); }
+      18.2% { transform: translateY(-84px) scale(1, 0.96); }
+      22.7% { transform: translateY(-125px) scale(1, 1.03); }
+      27.2% { transform: translateY(-155px) scale(0.98, 1.05); }
+      31.8% { transform: translateY(-185px) scale(0.98, 1.05); }
+      36.3% { transform: translateY(-198px) scale(0.96, 1.06); }
+      40-9% { transform: translateY(-207px) scale(0.95, 1.09); }
+      45.4% { transform: translateY(-204px) scale(0.96, 1.07); }
+      50%   { transform: translateY(-184px) scale(0.98, 1.05); }
+      54.5% { transform: translateY(-154px) scale(0.98, 1.03); }
+      59%   { transform: translateY(-124px) scale(1, 1.03); }
+      63.6% { transform: translateY(-92px) scale(1, 1); }
+      68.2% { transform: translateY(-61px) scale(1, 1); }
+      72.7% { transform: translateY(-35px) scale(1, 0.98); }
+      77.3% { transform: translateY(-12px) scale(1, 0.93); }
+      81.8% { transform: translateY(4px) scale(1.02, 0.87); }
+      86.4% { transform: translateY(16px) scale(1.03, 0.76); }
+      90.9% { transform: translateY(25px) scale(1.04, 0.69); }
+      95.6% { transform: translateY(28px) scale(1.05, 0.66); }
+      100%  { transform: translateY(52px) scale(1.05, 0.5); }
     }
+
     @keyframes eggMove {
       0% { transform: translateX(0px); }
       1% { transform: translateX(0px); }
-      9% { transform: translateX(635px); }
+      7.5% { transform: translateX(635px); }
       11% { transform: translateX(635px); }
-      19% { transform: translateX(1270px); }
+      17.5% { transform: translateX(1270px); }
       21% { transform: translateX(1270px); }
-      29% { transform: translateX(2005px); }
+      27.5% { transform: translateX(2005px); }
       31% { transform: translateX(2005px); }
-      39% { transform: translateX(2900px); }
+      37.5% { transform: translateX(2900px); }
       41% { transform: translateX(2900px); }
-      49% { transform: translateX(3400px); }
-      50% { transform: translateX(3400px); }
+      47.5% { transform: translateX(3400px); }
       100% { transform: translateX(3400px); }
     }
 
@@ -36,8 +56,8 @@
 
     .egg-wrap {
       position: absolute;
-      left: -560px;
-      top: 250px;
+      left: -540px;
+      bottom: 0px;
       animation: eggMove 10s infinite linear;
     }
 
@@ -45,9 +65,10 @@
       width: 260px;
       height: 260px;
       background-image: url(eggs/snorlax.png);
-      background-size: 100%;
+      background-size: 106%;
       background-repeat: no-repeat;
-      animation: eggJump 0.5s alternate infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      background-position: bottom center;
+      animation: eggJump 1s infinite linear;
     }
 
     .egg-wrap.e1 .egg { background-image: url(eggs/charizard.png); }
@@ -68,7 +89,7 @@
   <div class="egg-wrap e1">
    <div class="egg"></div>
   </div>
-  <!-- <div class="egg-wrap e2">
+  <div class="egg-wrap e2">
    <div class="egg"></div>
   </div>
   <div class="egg-wrap e3">
@@ -79,6 +100,6 @@
   </div>
   <div class="egg-wrap e5">
    <div class="egg"></div>
-  </div> -->
+  </div>
  </body>
 </html>
