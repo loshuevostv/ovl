@@ -24,7 +24,7 @@ select option:hover {
 
 body {
     background: rgb(15,14,17);
-    font-family: SYSTEM-UI;
+    font-family: "Segoe UI", Roboto, sans-serif;
     font-size: 11px;
     color: white;
 }
