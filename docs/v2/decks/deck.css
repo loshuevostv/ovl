@@ -15,7 +15,7 @@ select:hover {
 }
 
 select option {
-    background: #000;
+    background: rgb(15,14,17);
 }
 
 select option:hover {
@@ -23,13 +23,10 @@ select option:hover {
 }
 
 body {
-    background: rgb(27, 10, 120);
-    font-size: 12px;
-    font-family: "Open Sans";
-    font-weight: 800;
+    background: rgb(15,14,17);
+    font-family: SYSTEM-UI;
+    font-size: 11px;
     color: white;
-    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
-    -webkit-text-size-adjust: 100%;
 }
 
 .deck-entry>span, .deck-entry>div, .deck-entry i {
