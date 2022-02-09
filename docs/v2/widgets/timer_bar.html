@@ -1,0 +1,77 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <style type="text/css">
+    @keyframes wiggle {
+      25% { transform: rotate(4deg) scale(1.1); }
+      50% { transform: rotate(0deg) scale(1); }
+      75% { transform: rotate(-4deg) scale(1.1); }
+    }
+    .wiggle {
+      animation: wiggle 1s infinite;
+    }
+
+    body { margin: 0; overflow: hidden; }
+
+    .loading-line {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 150px;
+      background: rgb(248,125,23);
+      box-shadow: 0px 6px 10px rgb(0 0 0 / 40%);
+      font-size: 70px;
+      font-family: "Open Sans";
+      font-weight: 800;
+      color: white;
+      text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+      -webkit-text-size-adjust: 100%;
+    }
+    
+    .line-title {
+      padding: 20px 20%;
+      box-sizing: border-box;
+    }
+
+    .line-title .line-title-left { float:left; }
+    .line-title .line-title-right { float:right; }
+  </style>
+
+  <script type="text/javascript">
+    var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+
+    var toMS = function (sec_num) {
+     var minutes = Math.floor(sec_num / 60);
+     var seconds = sec_num - (minutes * 60);
+
+     if (minutes < 10) {minutes = "0"+minutes;}
+     if (seconds < 10) {seconds = "0"+seconds;}
+     return minutes+':'+seconds;
+    }
+
+    if (typeof q["t"] == "undefined") q["t"] = 600;
+    var seconds = parseInt(q["t"], 10);
+
+    window.onload = function() {
+      document.getElementById("timer").innerHTML = toMS(seconds--);
+
+      var x = setInterval(function() {
+        document.getElementById("timer").innerHTML = toMS(seconds--);
+
+        if (seconds < 0) {
+          clearInterval(x);
+          return;
+        }
+      }, 1000);
+    };
+   </script>
+ </head>
+ <body class="loading-eggs">
+  <div class="loading-line">
+   <div class="line-title">
+     <div class="line-title-left">Starting soon!</div>
+     <div class="line-title-right wiggle" id="timer">00:00</div>
+   </div>
+  </div>
+ </body>
+</html>

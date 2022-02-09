@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="deck.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script type="text/javascript" src="obs-websocket.js"></script>
+    <script type="text/javascript" src="../webcam_presets.json"></script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            const obs = new OBSWebSocket();
+
+            obs.connect({
+                address: "localhost:4444"
+            });
+
+            var webcamSelector = function(sourceid, maincam) {
+                var select = document.createElement("select");
+
+                for (user in presets) {
+                    var opt = document.createElement("option");
+                    opt.value = user;
+                    opt.innerHTML = presets[user].screen_name;
+                    select.appendChild(opt);
+                }
+
+                select.disabled = true;
+                select.onchange = function() {
+                    if (this.value=="") return;
+
+                    obs.send('SetSourceSettings', {
+                        sourceName: sourceid,
+                        sourceSettings: {
+                            "url": "https://loshuevostv.github.io/ovl/webcam.html?t=" + this.value
+                        }
+                    });
+
+                    if (maincam) {
+                        obs.send('SetSourceSettings', {
+                            sourceName: sourceid +" Overlay",
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
+                            }
+                        });
+
+                        obs.send('SetSourceSettings', {
+                            sourceName: "Main Webcam Overlay (Focus)",
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/webcam.html?noninja&t=" + this.value
+                            }
+                        });
+                    }
+                };
+
+                obs.send('GetSourceSettings', {
+                    sourceName: sourceid
+                }).then(data => {
+                    select.disabled = false;
+                    select.value = data.sourceSettings.url.split("t=")[1].split("&")[0];
+                });
+
+                return select;
+            };
+
+            var timerController = function(sourceid) {
+                var wrapper = document.createElement("div");
+                wrapper.className = "timer-controller";
+
+                var inputMin = document.createElement("input");
+                inputMin.disabled = true;
+                inputMin.type = "number";
+                inputMin.value = "10";
+                inputMin.min = 0;
+                wrapper.appendChild(inputMin);
+
+                var inputSec = document.createElement("input");
+                inputSec.disabled = true;
+                inputSec.type = "number";
+                inputSec.value = "0";
+                inputSec.min = 0;
+                inputSec.max = 59;
+                wrapper.appendChild(inputSec);
+
+                var icon = document.createElement("i");
+                icon.className = "fas fa-redo";
+                wrapper.appendChild(icon);
+
+                obs.send('GetSourceSettings', {
+                    sourceName: sourceid
+                }).then(data => {
+                    var seconds = data.sourceSettings.url.split("t=")[1].split("&")[0];
+                    try { seconds = parseInt(seconds); }
+                    catch(x) { seconds = 600; }
+
+                    inputMin.value = Math.floor(seconds / 60) +"";
+                    inputMin.disabled = false;
+
+                    inputSec.value = (seconds % 60) +"";
+                    inputSec.disabled = false;
+
+                    icon.onclick = function() {
+                        var seconds = parseInt(inputMin.value) * 60 + parseInt(inputSec.value);
+
+                        obs.send('SetSourceSettings', {
+                            sourceName: sourceid,
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/timer_bar.html?t=" + (seconds)
+                            }
+                        }).then(() => obs.send('RefreshBrowserSource', { sourceName: sourceid }));
+                    };
+                });
+                return wrapper;
+            }
+
+            var sourceRefresher = function(sourceid) {
+                var icon = document.createElement("i");
+                icon.className = "fas fa-redo";
+
+                icon.onclick = function() {
+                    obs.send('RefreshBrowserSource', {
+                        sourceName: sourceid
+                    });
+                }
+
+                return icon;
+            };
+
+            var sourceToggler = function(sourceid) {
+                var icon = document.createElement("i");
+                icon.className = "fas fa-eye";
+
+                icon.onclick = function() {
+                    obs.send('GetSceneItemProperties', {
+                        item: sourceid
+                    }).then(data => {
+                        obs.send('SetSceneItemProperties', {
+                            item: sourceid,
+                            visible: !data.visible
+                        });
+
+                        if (data.visible) icon.classList.add("fa-eye-slash");
+                        else icon.classList.remove("fa-eye-slash");
+                    });
+                };
+
+                icon.classList.add("fa-eye-slash");
+                obs.send('GetSceneItemProperties', {
+                    item: sourceid
+                }).then(data => {
+                    if (data.visible) icon.classList.remove("fa-eye-slash");
+                });
+
+                return icon;
+            };
+
+            obs.on('ConnectionOpened', () => {
+                document.getElementById("timer").appendChild(timerController("Timer Bar"));
+
+                var camWrap = document.getElementById("webcam-1");
+                camWrap.appendChild(webcamSelector("Webcam #1", true));
+                camWrap.appendChild(sourceRefresher("Webcam #1"));
+
+                for (var i = 2; i <= 5; i++) {
+                    var camWrap = document.getElementById("webcam-"+i);
+
+                    camWrap.appendChild(webcamSelector("Webcam #"+i, false));
+                    camWrap.appendChild(sourceRefresher("Webcam #"+i));
+                    camWrap.appendChild(sourceToggler("Webcam #"+i));
+                }
+
+                var discVoices = document.getElementById("disc-voices");
+                discVoices.appendChild(sourceRefresher("Discord Voice Chat"));
+                discVoices.appendChild(sourceToggler("Discord Voice Chat"));
+            });
+
+            obs.on('SwitchScenes', () => { document.location.reload(); })
+            obs.on('SceneCollectionChanged', () => { document.location.reload(); });
+        };
+    </script>
+  </head>
+  <body>
+    <div class="deck">
+        <div class="deck-webcams">
+            <div class="deck-entry"><span>Timer</span><div id="timer"></div></div>
+            <div class="deck-entry"><span>Main</span><div id="webcam-1"></div></div>
+            <div class="deck-entry"><span>Cam #2</span><div id="webcam-2"></div></div>
+            <div class="deck-entry"><span>Cam #3</span><div id="webcam-3"></div></div>
+            <div class="deck-entry"><span>Cam #4</span><div id="webcam-4"></div></div>
+            <div class="deck-entry"><span>Cam #5</span><div id="webcam-5"></div></div>
+            <div class="deck-entry"><span>Discord</span><div id="disc-voices"></div></div>
+        </div>
+    </div>
+
+    <div id="webcam-switch-buttons"></div>
+  </body>
+</html>

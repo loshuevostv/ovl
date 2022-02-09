@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="general.css" />
+  <link rel="stylesheet" type="text/css" href="webcam.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <script type="text/javascript" src="webcam_presets.json"></script>
+  <script type="text/javascript">
+   window.onload = function() {
+     var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+
+     var users = q["t"].split(",");
+
+     if (users.length > 6) document.body.className += " plus6";
+     if (users.length > 4) document.body.className += " plus4";
+     else if (users.length > 2) document.body.className += " plus2";
+     for(key in users) {
+       var user = users[key];
+
+       var wrap = document.createElement("div");
+       wrap.className = "webcam-box-wrap";
+
+       var cambox = document.createElement("div");
+       cambox.className = "overlay-box webcam-capture-box";
+
+       var eggicon = document.createElement("div");
+       eggicon.className = "webcam-egg";
+       cambox.appendChild(eggicon);
+
+       var nametag = document.createElement("div");
+       nametag.className = "webcam-name-tag overlay-box";
+       cambox.appendChild(nametag);
+
+       var ifm = document.createElement("iframe");
+       ifm.src = "https://obs.ninja/?view=LHTVface_" + user;
+       cambox.appendChild(ifm);
+       cambox.style["background-color"] = "black";
+
+       var data = presets[user];
+       nametag.innerHTML = data.screen_name;
+       eggicon.style["background-image"] = "url(eggs/"+ data.egg +".png)";
+       nametag.style["border-color"] = data.border;
+       //cambox.style["border-color"] = data.border;
+
+       wrap.appendChild(cambox);
+       document.body.appendChild(wrap);
+     }
+   };
+  </script>
+ </head>
+ <body class="webcam-box just-chatting">
+ </body>
+</html>
