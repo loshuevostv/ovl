@@ -2039,7 +2039,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/webcam.html?t=gzetk",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/webcam.html?t=lollo",
                 "webpage_control_level": 0,
                 "width": 384
             },
@@ -2202,7 +2202,7 @@
                 "restart_when_active": false,
                 "shutdown": false,
                 "undo_sname": "Twitter Tag",
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/social_twitter.html",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/social_tag2.html",
                 "webpage_control_level": 0,
                 "width": 280
             },
@@ -2244,7 +2244,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/social_instagram.html",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/social_tag1.html",
                 "webpage_control_level": 0,
                 "width": 280
             },
