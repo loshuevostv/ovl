@@ -106,7 +106,7 @@
                         obs.send('SetSourceSettings', {
                             sourceName: sourceid,
                             sourceSettings: {
-                                "url": "https://loshuevostv.github.io/ovl/v2/timer_bar.html?t=" + (seconds)
+                                "url": "https://loshuevostv.github.io/ovl/v2/widgets/timer_bar.html?t=" + (seconds)
                             }
                         }).then(() => obs.send('RefreshBrowserSource', { sourceName: sourceid }));
                     };
