@@ -10,7 +10,7 @@ var presets = {
   "border": "rgb(197, 160, 146)"
  },
  "pietro": {
-  "screen_name": "Trainer",
+  "screen_name": "Pietro",
   "egg": "greninja",
   "border": "rgb(69, 115, 207)"
  },
@@ -20,7 +20,7 @@ var presets = {
   "border": "rgb(135, 201, 216)"
  },
  "marghe": {
-  "screen_name": "Meggy92",
+  "screen_name": "Marghe",
   "egg": "eldegoss",
   "border": "rgb(108, 112, 43)"
  },
@@ -45,7 +45,7 @@ var presets = {
   "border": "rgb(51, 79, 117)"
  },
  "raccomandato": {
-  "screen_name": "raccomandato",
+  "screen_name": "racco",
   "egg": "mamoswine",
   "border": "rgb(152, 103, 54)"
  },
@@ -53,5 +53,20 @@ var presets = {
   "screen_name": "VIRG",
   "egg": "gardevoir",
   "border": "rgb(209, 235, 143)"
+ },
+ "dugo": {
+  "screen_name": "Dugo",
+  "egg": "charizard",
+  "border": "rgb(248, 166, 15)"
+ },
+ "cotton": {
+  "screen_name": "Cotton",
+  "egg": "tsareena",
+  "border": "rgb(194, 212, 106)"
+ },
+ "fabio": {
+  "screen_name": "NoCaller",
+  "egg": "pikachu",
+  "border": "rgb(234, 222, 42)"
  }
 };
