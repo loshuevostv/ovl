@@ -2443,7 +2443,13 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "settings": {},
+            "settings": {
+                "exclude_process_tree": false,
+                "mode": 0,
+                "recapture_rate": 1,
+                "window": "",
+                "window_priority": 2
+            },
             "sync": 0,
             "versioned_id": "audio_capture",
             "volume": 1
@@ -4785,7 +4791,7 @@
                             "y": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         },
                         "rot": 0,
                         "scale": {
