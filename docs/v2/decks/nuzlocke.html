@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="deck.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script type="text/javascript" src="obs-websocket.js"></script>
+    <script type="text/javascript" src="../webcam_presets.json"></script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            const obs = new OBSWebSocket();
+
+            obs.connect({
+                address: "localhost:4444"
+            });
+
+            var deathCounter = function(sourceid) {
+                var wrapper = document.createElement("div");
+                wrapper.className = "timer-controller";
+
+                var inputDeaths = document.createElement("input");
+                inputDeaths.disabled = true;
+                inputDeaths.type = "number";
+                inputDeaths.value = "10";
+                inputDeaths.min = 0;
+                wrapper.appendChild(inputDeaths);
+
+                obs.send('GetSourceSettings', {
+                    sourceName: sourceid
+                }).then(data => {
+                    var deaths = data.sourceSettings.url.split("d=")[1].split("&")[0];
+                    try { deaths = parseInt(deaths); }
+                    catch(x) { deaths = 0; }
+
+                    inputDeaths.value = deaths +"";
+                    inputDeaths.disabled = false;
+
+                    inputDeaths.onchange = function() {
+                        var deaths = inputDeaths.value;
+
+                        obs.send('SetSourceSettings', {
+                            sourceName: sourceid,
+                            sourceSettings: {
+                                "url": "https://loshuevostv.github.io/ovl/v2/widgets/skull_counter.html?d=" + (deaths)
+                            }
+                        }).then(() => obs.send('RefreshBrowserSource', { sourceName: sourceid }));
+                    };
+                });
+                return wrapper;
+            }
+
+            obs.on('ConnectionOpened', () => {
+                for (var i = 1; i <= 3; i++) {
+                    var camWrap = document.getElementById("counter-"+i);
+
+                    camWrap.appendChild(deathCounter("Skull Counter "+i));
+                }
+            });
+
+            obs.on('SwitchScenes', () => { document.location.reload(); })
+            obs.on('SceneCollectionChanged', () => { document.location.reload(); });
+        };
+    </script>
+  </head>
+  <body>
+    <div class="deck">
+        <div class="deck-webcams">
+            <div class="deck-entry"><span>Lori</span><div id="counter-1"></div></div>
+            <div class="deck-entry"><span>gzetk</span><div id="counter-2"></div></div>
+            <div class="deck-entry"><span>Dani</span><div id="counter-3"></div></div>
+        </div>
+    </div>
+  </body>
+</html>

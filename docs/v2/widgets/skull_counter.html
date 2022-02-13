@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <style type="text/css">
+   .skull-icon {
+    background: url(../images/skull.png);
+    width: 55px;
+    height: 60px;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+   }
+
+   div#counter {
+    float: left;
+    font-size: 40px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+    -webkit-text-size-adjust: 100%;
+    padding: 3px 0px 3px 10px;
+   }
+  </style>
+
+  <script type="text/javascript">
+    var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+
+    window.onload = function() {
+      document.getElementById("counter").innerHTML = ""+ q["d"];
+    };
+   </script>
+ </head>
+ <body>
+  <div class="skull-counter">
+   <div class="skull-icon"></div>
+   <div id="counter">10</div>
+  </div>
+ </body>
+</html>

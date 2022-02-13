@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Starting Soon",
-    "current_scene": "Starting Soon",
+    "current_program_scene": "Nuzlocke",
+    "current_scene": "Nuzlocke",
     "current_transition": "Los Huevos Stinger",
     "groups": [
         {
@@ -1448,9 +1448,124 @@
         },
         {
             "name": "Nuzlocke"
+        },
+        {
+            "name": "$LOCAL_SOURCES"
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Skull Counter 3",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "height": 70,
+                "url": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html?d=5",
+                "width": 300
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Skull Counter 2",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                "fps": 30,
+                "fps_custom": false,
+                "height": 70,
+                "reroute_audio": false,
+                "restart_when_active": false,
+                "shutdown": false,
+                "url": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html?d=5",
+                "webpage_control_level": 1,
+                "width": 300
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Skull Counter 1",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                "fps": 30,
+                "fps_custom": false,
+                "height": 70,
+                "is_local_file": false,
+                "local_file": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html",
+                "reroute_audio": false,
+                "restart_when_active": false,
+                "shutdown": false,
+                "url": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html?d=5",
+                "webpage_control_level": 1,
+                "width": 200
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -1831,6 +1946,9 @@
                 "libobs.hide_scene_item.Capture [gzetk]": [],
                 "libobs.hide_scene_item.Chatbox (Nuzlocke)": [],
                 "libobs.hide_scene_item.Main Webcam (Nuzlocke)": [],
+                "libobs.hide_scene_item.Skull Counter 1": [],
+                "libobs.hide_scene_item.Skull Counter 2": [],
+                "libobs.hide_scene_item.Skull Counter 3": [],
                 "libobs.hide_scene_item.Social Tags (Nuzlocke)": [],
                 "libobs.hide_scene_item.Sub goal": [],
                 "libobs.hide_scene_item.Webcam [Dani]": [],
@@ -1842,6 +1960,9 @@
                 "libobs.show_scene_item.Capture [gzetk]": [],
                 "libobs.show_scene_item.Chatbox (Nuzlocke)": [],
                 "libobs.show_scene_item.Main Webcam (Nuzlocke)": [],
+                "libobs.show_scene_item.Skull Counter 1": [],
+                "libobs.show_scene_item.Skull Counter 2": [],
+                "libobs.show_scene_item.Skull Counter 3": [],
                 "libobs.show_scene_item.Social Tags (Nuzlocke)": [],
                 "libobs.show_scene_item.Sub goal": [],
                 "libobs.show_scene_item.Webcam [Dani]": [],
@@ -1860,7 +1981,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 26,
+                "id_counter": 31,
                 "items": [
                     {
                         "align": 5,
@@ -2501,6 +2622,111 @@
                             "duration": 0
                         },
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 29,
+                        "locked": false,
+                        "name": "Skull Counter 1",
+                        "pos": {
+                            "x": 290,
+                            "y": 541
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 30,
+                        "locked": false,
+                        "name": "Skull Counter 2",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 31,
+                        "locked": false,
+                        "name": "Skull Counter 3",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
                     }
                 ]
             },
@@ -3061,7 +3287,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 19,
+                "id_counter": 20,
                 "items": [
                     {
                         "align": 5,
@@ -5643,7 +5869,7 @@
                             "y": 849.64288330078125
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0,
                         "scale": {
@@ -5960,7 +6186,7 @@
                             "y": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0,
                         "scale": {
@@ -8828,6 +9054,35 @@
                         "visible": true
                     }
                 ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "$LOCAL_SOURCES",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 0,
+                "items": []
             },
             "sync": 0,
             "versioned_id": "scene",
