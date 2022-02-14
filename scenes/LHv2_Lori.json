@@ -1479,7 +1479,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "height": 70,
-                "url": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html?d=5",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=2",
                 "width": 300
             },
             "sync": 0,
@@ -1517,7 +1517,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html?d=5",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=0",
                 "webpage_control_level": 1,
                 "width": 300
             },
@@ -1558,7 +1558,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "${lh.git.path.docs}\/v2\/widgets\/skull_counter.html?d=5",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=50",
                 "webpage_control_level": 1,
                 "width": 200
             },
@@ -2678,8 +2678,8 @@
                         "locked": false,
                         "name": "Skull Counter 2",
                         "pos": {
-                            "x": 0,
-                            "y": 0
+                            "x": 1490,
+                            "y": 541
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -2713,8 +2713,8 @@
                         "locked": false,
                         "name": "Skull Counter 3",
                         "pos": {
-                            "x": 0,
-                            "y": 0
+                            "x": 1363.453369140625,
+                            "y": 808
                         },
                         "private_settings": {},
                         "rot": 0,
