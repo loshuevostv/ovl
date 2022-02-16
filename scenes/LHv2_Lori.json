@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Full (PC)",
-    "current_scene": "Full (PC)",
+    "current_program_scene": "Focus (Fortnite)",
+    "current_scene": "Starting Soon",
     "current_transition": "Los Huevos Stinger",
     "groups": [
         {
@@ -116,7 +116,9 @@
             "flags": 0,
             "hotkeys": {
                 "libobs.hide_scene_item.Nuzlocke Capture Overlay": [],
-                "libobs.show_scene_item.Nuzlocke Capture Overlay": []
+                "libobs.hide_scene_item.RR_Dani": [],
+                "libobs.show_scene_item.Nuzlocke Capture Overlay": [],
+                "libobs.show_scene_item.RR_Dani": []
             },
             "id": "group",
             "mixers": 0,
@@ -163,6 +165,41 @@
                         "scale": {
                             "x": 0.78535979986190796,
                             "y": 0.78558206558227539
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 40,
+                        "locked": true,
+                        "name": "RR_Dani",
+                        "pos": {
+                            "x": 3.92681884765625,
+                            "y": 6.284637451171875
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 0.45189809799194336,
+                            "y": 0.45348730683326721
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -225,7 +262,7 @@
                         "locked": true,
                         "name": "Nuzlocke Capture [Lori]",
                         "pos": {
-                            "x": 3.1465377807617188,
+                            "x": 3.1465380191802979,
                             "y": 4.7134933471679688
                         },
                         "private_settings": {},
@@ -1142,7 +1179,7 @@
                         "locked": true,
                         "name": "Main Webcam Source",
                         "pos": {
-                            "x": 44.100399017333984,
+                            "x": 44.10040283203125,
                             "y": 0
                         },
                         "private_settings": {},
@@ -1586,6 +1623,185 @@
             "sync": 0,
             "versioned_id": "group",
             "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.1. Music": [],
+                "libobs.hide_scene_item.2. Mic": [],
+                "libobs.hide_scene_item.3. Discord": [],
+                "libobs.hide_scene_item.4.Fortnite": [],
+                "libobs.show_scene_item.1. Music": [],
+                "libobs.show_scene_item.2. Mic": [],
+                "libobs.show_scene_item.3. Discord": [],
+                "libobs.show_scene_item.4.Fortnite": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Audio Sources (Sparatutto) ",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 0,
+                "cy": 0,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 11,
+                        "locked": false,
+                        "name": "4.Fortnite",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 1,
+                        "locked": true,
+                        "name": "3. Discord",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": true,
+                        "name": "2. Mic",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 3,
+                        "locked": true,
+                        "name": "1. Music",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1
         }
     ],
     "modules": {},
@@ -1638,6 +1854,62 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Ritaglia\/aggiungi una cornice",
+                    "prev_ver": 453050371,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 33,
+                        "left": 309,
+                        "right": 237,
+                        "top": 85
+                    },
+                    "sync": 0,
+                    "versioned_id": "crop_filter",
+                    "volume": 1
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "RR_Dani",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "method": 0,
+                "window": "🥚 Los Huevos on Air - Discord:Chrome_WidgetWin_1:Discord.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -1646,7 +1918,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 3",
@@ -1665,7 +1937,7 @@
                 "restart_when_active": false,
                 "shutdown": false,
                 "undo_sname": "Skull Counter 3",
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=0",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=165",
                 "webpage_control_level": 1,
                 "width": 300
             },
@@ -1686,7 +1958,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 2",
@@ -1704,7 +1976,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=0",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=610",
                 "webpage_control_level": 1,
                 "width": 300
             },
@@ -1725,7 +1997,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 1",
@@ -1745,7 +2017,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=0",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=515",
                 "webpage_control_level": 1,
                 "width": 200
             },
@@ -1766,7 +2038,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Chatbox (Focus)",
@@ -1805,7 +2077,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Social Tag 2 (Focus)",
@@ -1838,7 +2110,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Social Tag 1 (Focus)",
@@ -1877,7 +2149,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Nuzlocke Capture Overlay",
@@ -1912,7 +2184,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Chatbox (Nuzlocke)",
@@ -1951,7 +2223,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [Dani]",
@@ -1990,7 +2262,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [gzetk]",
@@ -2058,7 +2330,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Nuzlocke Capture [gzetk]",
@@ -2136,7 +2408,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 39,
+                "id_counter": 43,
                 "items": [
                     {
                         "align": 5,
@@ -2442,7 +2714,7 @@
                         "locked": true,
                         "name": "Nuzlocke Capture Overlay",
                         "pos": {
-                            "x": 560,
+                            "x": 559.99993896484375,
                             "y": 539
                         },
                         "private_settings": {},
@@ -2450,6 +2722,41 @@
                         "scale": {
                             "x": 1,
                             "y": 0.99999982118606567
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 40,
+                        "locked": true,
+                        "name": "RR_Dani",
+                        "pos": {
+                            "x": 564.99993896484375,
+                            "y": 547
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 0.57540261745452881,
+                            "y": 0.57726269960403442
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -2477,7 +2784,7 @@
                         "locked": true,
                         "name": "Capture [Dani]",
                         "pos": {
-                            "x": 560,
+                            "x": 559.99993896484375,
                             "y": 539
                         },
                         "private_settings": {
@@ -3079,7 +3386,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Discord Voice Chat (Focus)",
@@ -3410,7 +3717,7 @@
                         "locked": true,
                         "name": "Main Webcam Source",
                         "pos": {
-                            "x": 51.100399017333984,
+                            "x": 51.10040283203125,
                             "y": 844
                         },
                         "private_settings": {},
@@ -4170,7 +4477,7 @@
                         "locked": true,
                         "name": "Main Webcam Source",
                         "pos": {
-                            "x": 44.100399017333984,
+                            "x": 44.10040283203125,
                             "y": 0
                         },
                         "private_settings": {},
@@ -4346,7 +4653,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Loading Eggs",
@@ -5473,7 +5780,7 @@
                         "locked": true,
                         "name": "Main Webcam Source",
                         "pos": {
-                            "x": 44.100399017333984,
+                            "x": 44.10040283203125,
                             "y": 0
                         },
                         "private_settings": {},
@@ -6070,7 +6377,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 29,
+                "id_counter": 28,
                 "items": [
                     {
                         "align": 5,
@@ -6710,7 +7017,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "active": false,
+                "active": true,
                 "audio_device_id": "Microfono (Razer Kraken USB):",
                 "audio_output_mode": 0,
                 "autorotation": true,
@@ -7145,7 +7452,7 @@
                 "reroute_audio": false,
                 "restart_when_active": true,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/timer_bar.html?t=240",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/timer_bar.html?t=600",
                 "webpage_control_level": 0,
                 "width": 1920
             },
@@ -7522,7 +7829,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 3,
             "monitoring_type": 2,
             "muted": false,
             "name": "AlertBox",
@@ -8357,6 +8664,58 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "gain_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Guadagno",
+                    "prev_ver": 453050371,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "db": 19.899999999999999
+                    },
+                    "sync": 0,
+                    "versioned_id": "gain_filter",
+                    "volume": 1
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "limiter_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Limitatore",
+                    "prev_ver": 453050371,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "threshold": -17.399999999999999
+                    },
+                    "sync": 0,
+                    "versioned_id": "limiter_filter",
+                    "volume": 1
+                }
+            ],
             "flags": 0,
             "hotkeys": {
                 "hotkey_start": [],
@@ -8367,7 +8726,7 @@
                 "libobs.unmute": []
             },
             "id": "audio_capture",
-            "mixers": 0,
+            "mixers": 193,
             "monitoring_type": 0,
             "muted": false,
             "name": "1. Music",
@@ -8381,7 +8740,7 @@
                 "exclude_process_tree": false,
                 "mode": 0,
                 "recapture_rate": 1,
-                "window": "",
+                "window": "Tananai - SESSO OCCASIONALE:Chrome_WidgetWin_0:Spotify.exe",
                 "window_priority": 2
             },
             "sync": 0,
@@ -8430,7 +8789,7 @@
                 "libobs.unmute": []
             },
             "id": "audio_capture",
-            "mixers": 0,
+            "mixers": 195,
             "monitoring_type": 0,
             "muted": false,
             "name": "3. Discord",
@@ -8566,6 +8925,8 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.AlertBox": [],
+                "libobs.hide_scene_item.Audio Sources (Sparatutto) ": [],
+                "libobs.hide_scene_item.Capture": [],
                 "libobs.hide_scene_item.Chatbox (Focus)": [],
                 "libobs.hide_scene_item.Discord Voice Chat (Focus)": [],
                 "libobs.hide_scene_item.Main Webcam": [],
@@ -8573,6 +8934,8 @@
                 "libobs.hide_scene_item.Sub goal": [],
                 "libobs.hide_scene_item.Webcam #2": [],
                 "libobs.show_scene_item.AlertBox": [],
+                "libobs.show_scene_item.Audio Sources (Sparatutto) ": [],
+                "libobs.show_scene_item.Capture": [],
                 "libobs.show_scene_item.Chatbox (Focus)": [],
                 "libobs.show_scene_item.Discord Voice Chat (Focus)": [],
                 "libobs.show_scene_item.Main Webcam": [],
@@ -8593,8 +8956,220 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 9,
+                "id_counter": 12,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 11,
+                        "locked": false,
+                        "name": "4.Fortnite",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 1,
+                        "locked": true,
+                        "name": "3. Discord",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": true,
+                        "name": "2. Mic",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 3,
+                        "locked": true,
+                        "name": "1. Music",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 10,
+                        "locked": false,
+                        "name": "Audio Sources (Sparatutto) ",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 12,
+                        "locked": true,
+                        "name": "Capture",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -9330,7 +9905,7 @@
                         "locked": true,
                         "name": "Main Webcam Source",
                         "pos": {
-                            "x": 51.100399017333984,
+                            "x": 51.10040283203125,
                             "y": 844
                         },
                         "private_settings": {},
@@ -9543,7 +10118,7 @@
             "settings": {
                 "compatibility": true,
                 "method": 0,
-                "window": "VisualBoyAdvance- 99%:Afx#3A400000#3A0#3A0#3A900011#3A1503f7:VisualBoyAdvance.exe"
+                "window": "VisualBoyAdvance-100%:Afx#3A400000#3A0#3A0#3A900011#3Affe07f5:VisualBoyAdvance.exe"
             },
             "sync": 0,
             "versioned_id": "window_capture",
@@ -9562,7 +10137,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [Lori]",
@@ -9579,6 +10154,91 @@
             },
             "sync": 0,
             "versioned_id": "browser_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "limiter_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Limitatore",
+                    "prev_ver": 453050371,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "threshold": -11.800000000000001
+                    },
+                    "sync": 0,
+                    "versioned_id": "limiter_filter",
+                    "volume": 1
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "audio_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "4.Fortnite",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "Fortnite  :UnrealWindow:FortniteClient-Win64-Shipping.exe"
+            },
+            "sync": 0,
+            "versioned_id": "audio_capture",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Capture",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "method": 2,
+                "window": "Fortnite  :UnrealWindow:FortniteClient-Win64-Shipping.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
             "volume": 1
         }
     ],
