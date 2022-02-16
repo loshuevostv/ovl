@@ -68,15 +68,23 @@
     animation-fill-mode: backwards, forwards;
    }
   </style>
+  <script type="text/javascript">
+   window.onload = function() {
+    setInterval(function() {
+     document.body.innerHTML = `
+      <div class="announcement-box social-box instagram">
+       <div class="social-egg"></div>
+       <div class="social-icon"></div>
+       <div class="social-text overlay-box">
+        <span class="text-1">!instagram</span>
+        <span class="text-2">loshuevos.tv</span>
+       </div>
+      </div>`;
+    }, 10000);
+
+   };
+  </script>
  </head>
  <body>
-  <div class="announcement-box social-box instagram">
-    <div class="social-egg"></div>
-    <div class="social-icon"></div>
-    <div class="social-text overlay-box">
-     <span class="text-1">!instagram</span>
-     <span class="text-2">loshuevos.tv</span>
-    </div>
-  </div>
  </body>
 </html>
