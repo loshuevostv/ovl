@@ -67,6 +67,7 @@
 
 .social-box.twitter .social-egg { background-image: url(../images/twitter_egg.png); }
 .social-box.discord .social-egg { background-image: url(../images/discord_egg.png); }
+.social-box.tournament .social-egg { background-image: url(../images/tournament_egg.png); }
 .social-box.instagram .social-egg {
   background-image: url(../images/instagram_egg.png);
   animation-delay: 2s;
@@ -92,4 +93,13 @@
 }
 .social-box.discord .social-icon {
   background-image: url(../images/discord_icon.svg);
+}
+.social-box.tournament .social-text {
+  background-color: rgb(36,51,103);
+  border-color: rgb(28,143,165);
+}
+.social-box.tournament .social-icon {
+  background-image: url(../images/tournament_icon.png);
+  background-size: 100%;
+  background-color: rgb(26, 40, 88);
 }

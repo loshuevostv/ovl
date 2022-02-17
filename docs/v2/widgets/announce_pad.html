@@ -69,18 +69,32 @@
    }
   </style>
   <script type="text/javascript">
-   window.onload = function() {
-    setInterval(function() {
-     document.body.innerHTML = `
-      <div class="announcement-box social-box instagram">
+   var timespan = 5*60000;
+   var announcements = [
+     `<div class="announcement-box social-box instagram">
        <div class="social-egg"></div>
        <div class="social-icon"></div>
        <div class="social-text overlay-box">
         <span class="text-1">!instagram</span>
         <span class="text-2">loshuevos.tv</span>
        </div>
-      </div>`;
-    }, 10000);
+      </div>`,
+     `<div class="announcement-box social-box tournament">
+       <div class="social-egg"></div>
+       <div class="social-icon"></div>
+       <div class="social-text overlay-box">
+        <span class="text-1">!torneo</span>
+        <span class="text-2">27/02/2022</span>
+       </div>
+      </div>`
+   ];
+   var cur_mex = 0;
+
+   window.onload = function() {
+    setInterval(function() {
+     document.body.innerHTML = announcements[cur_mex++];
+     cur_mex %= announcements.length;
+    }, timespan);
 
    };
   </script>
