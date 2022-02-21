@@ -1,0 +1,198 @@
+var unite = {
+  "categories": [
+    "Attackers",
+    "Defenders",
+    "Supporters",
+    "All-Rounders",
+    "Speedsters"
+  ],
+
+  "picks": [
+    {
+      "icon": "<:rostervenusaur:944587114874564648>",
+      "name": "venusaur",
+      "screen_name": "Venusaur",
+      "category": 0
+    },
+    {
+      "icon": "<:rostercharizard:944587108419530773>",
+      "name": "charizard",
+      "screen_name": "Charizard",
+      "category": 3
+    },
+    {
+      "icon": "<:rosterblastoise:944587099405963264>",
+      "name": "blastoise",
+      "screen_name": "Blastoise",
+      "category": 1
+    },
+    {
+      "icon": "<:rosterpikachu:944587104619470898>",
+      "name": "pikachu",
+      "screen_name": "Pikachu",
+      "category": 0
+    },
+    {
+      "icon": "<:rosteralolanninetales:944587098835533906>",
+      "name": "ninetales",
+      "screen_name": "Ninetales",
+      "category": 0
+    },
+    {
+      "icon": "<:rosterwigglytuff:944587113129734175>",
+      "name": "wigglytuff",
+      "screen_name": "Wigglytuff",
+      "category": 2
+    },
+    {
+      "icon": "<:rostermachamp:944587114488664084>",
+      "name": "machamp",
+      "screen_name": "Machamp",
+      "category": 3
+    },
+    {
+      "icon": "<:rosterslowbro:944587112274083860>",
+      "name": "slowbro",
+      "screen_name": "Slowbro",
+      "category": 1
+    },
+    {
+      "icon": "<:rostergengar:944587110273392660>",
+      "name": "gengar",
+      "screen_name": "Gengar",
+      "category": 4
+    },
+    {
+      "icon": "<:rosterblissey:944587059924975616> ",
+      "name": "blissey",
+      "screen_name": "Blissey",
+      "category": 2
+    },
+    {
+      "icon": "<:rostermrmime:944587114262167632>",
+      "name": "mr-mime",
+      "screen_name": "Mr. Mime",
+      "category": 2
+    },
+    {
+      "icon": "<:rostersnorlax:944587105655463986>",
+      "name": "snorlax",
+      "screen_name": "Snorlax",
+      "category": 1
+    },
+    {
+      "icon": "<:rosterdragonite:944587076454735873>",
+      "name": "dragonite",
+      "screen_name": "Dragonite",
+      "category": 3
+    },
+    {
+      "icon": "<:rostermamoswine:944587080649015347>",
+      "name": "mamoswine",
+      "screen_name": "Mamoswine",
+      "category": 1
+    },
+    {
+      "icon": "<:rostergardevoir:944587077486526485>",
+      "name": "gardevoir",
+      "screen_name": "Gardevoir",
+      "category": 0
+    },
+    {
+      "icon": "<:rosterabsol:944587058566004777> ",
+      "name": "absol",
+      "screen_name": "Absol",
+      "category": 4
+    },
+    {
+      "icon": "<:rostergarchomp:944587110273384510>",
+      "name": "garchomp",
+      "screen_name": "Garchomp",
+      "category": 3
+    },
+    {
+      "icon": "<:rosterlucario:944587113708535828>",
+      "name": "lucario",
+      "screen_name": "Lucario",
+      "category": 3
+    },
+    {
+      "icon": "<:rostercrustle:944587109757517834> ",
+      "name": "crustle",
+      "screen_name": "Crustle",
+      "category": 1
+    },
+    {
+      "icon": "<:rostergreninja:944587113649803294>",
+      "name": "greninja",
+      "screen_name": "Greninja",
+      "category": 0
+    },
+    {
+      "icon": "<:rostertalonflame:944587114429972491>",
+      "name": "talonflame",
+      "screen_name": "Talonflame",
+      "category": 4
+    },
+    {
+      "icon": "<:rosteraegislash:944587058171772958>",
+      "name": "aegislash",
+      "screen_name": "Aegislash",
+      "category": 3
+    },
+    {
+      "icon": "<:rostersylveon:944587083207540787>",
+      "name": "sylveon",
+      "screen_name": "Sylveon",
+      "category": 0
+    },
+    {
+      "icon": "<:rostertrevenant:944587084784603217>",
+      "name": "trevenant",
+      "screen_name": "Trevenant",
+      "category": 1
+    },
+    {
+      "icon": "<:rosterdecidueye:944587076542816267>",
+      "name": "decidueye",
+      "screen_name": "Decidueye",
+      "category": 0
+    },
+    {
+      "icon": "<:rostertsareena:944587085074034748>",
+      "name": "tsareena",
+      "screen_name": "Tsareena",
+      "category": 3
+    },
+    {
+      "icon": "<:rosterzeraora:944587086441369661>",
+      "name": "zeraora",
+      "screen_name": "Zeraora",
+      "category": 4
+    },
+    {
+      "icon": "<:rostercinderace:944587108402724925> ",
+      "name": "cinderace",
+      "screen_name": "Cinderace",
+      "category": 0
+    },
+    {
+      "icon": "<:rostergreedent:944587078635774012>",
+      "name": "greedent",
+      "screen_name": "Greedent",
+      "category": 1
+    },
+    {
+      "icon": "<:rostereldegoss:944587102664945685>",
+      "name": "eldegoss",
+      "screen_name": "Eldegoss",
+      "category": 2
+    },
+    {
+      "icon": "<:rostercramorant:944587109396807700> ",
+      "name": "cramorant",
+      "screen_name": "Cramorant",
+      "category": 0
+    }
+  ]
+}
