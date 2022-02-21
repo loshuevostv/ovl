@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Focus (Unite)",
-    "current_scene": "Focus (Unite)",
+    "current_program_scene": "Be Right Back",
+    "current_scene": "Be Right Back",
     "current_transition": "Los Huevos Stinger",
     "groups": [
         {
@@ -13,190 +13,9 @@
                 "libobs.hide_scene_item.1. Music": [],
                 "libobs.hide_scene_item.2. Mic": [],
                 "libobs.hide_scene_item.3. Discord": [],
-                "libobs.hide_scene_item.4. Console": [],
                 "libobs.show_scene_item.1. Music": [],
                 "libobs.show_scene_item.2. Mic": [],
-                "libobs.show_scene_item.3. Discord": [],
-                "libobs.show_scene_item.4. Console": []
-            },
-            "id": "group",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Audio Sources (Focus Console)",
-            "prev_ver": 453050371,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": true,
-                "cx": 0,
-                "cy": 0,
-                "id_counter": 4,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 1,
-                        "locked": true,
-                        "name": "4. Console",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 2,
-                        "locked": true,
-                        "name": "3. Discord",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 3,
-                        "locked": true,
-                        "name": "2. Mic",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 4,
-                        "locked": true,
-                        "name": "1. Music",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "group",
-            "volume": 1
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.hide_scene_item.1. Music": [],
-                "libobs.hide_scene_item.2. Mic": [],
-                "libobs.hide_scene_item.3. Discord": [],
-                "libobs.hide_scene_item.4. Console": [],
-                "libobs.show_scene_item.1. Music": [],
-                "libobs.show_scene_item.2. Mic": [],
-                "libobs.show_scene_item.3. Discord": [],
-                "libobs.show_scene_item.4. Console": []
+                "libobs.show_scene_item.3. Discord": []
             },
             "id": "group",
             "mixers": 0,
@@ -215,41 +34,6 @@
                 "cy": 0,
                 "id_counter": 0,
                 "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 29,
-                        "locked": true,
-                        "name": "4. Console",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -565,7 +349,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1104,6 +888,111 @@
             "sync": 0,
             "versioned_id": "group",
             "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.Social Tag 1 (Focus)": [],
+                "libobs.hide_scene_item.Social Tag 2 (Focus)": [],
+                "libobs.show_scene_item.Social Tag 1 (Focus)": [],
+                "libobs.show_scene_item.Social Tag 2 (Focus)": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Social Tags (Focus)",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 604,
+                "cy": 102,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 11,
+                        "locked": true,
+                        "name": "Social Tag 2 (Focus)",
+                        "pos": {
+                            "x": 304,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 10,
+                        "locked": true,
+                        "name": "Social Tag 1 (Focus)",
+                        "pos": {
+                            "x": 0,
+                            "y": 2
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1
         }
     ],
     "modules": {},
@@ -1152,7 +1041,7 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "4. Console",
+            "name": "capture audio",
             "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
@@ -1238,7 +1127,7 @@
                 "libobs.unmute": []
             },
             "id": "audio_capture",
-            "mixers": 0,
+            "mixers": 195,
             "monitoring_type": 0,
             "muted": false,
             "name": "3. Discord",
@@ -1274,7 +1163,7 @@
                 "libobs.unmute": []
             },
             "id": "audio_capture",
-            "mixers": 0,
+            "mixers": 193,
             "monitoring_type": 0,
             "muted": false,
             "name": "1. Music",
@@ -2111,7 +2000,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 3,
             "monitoring_type": 2,
             "muted": false,
             "name": "AlertBox",
@@ -2212,7 +2101,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=gzetk",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=dugo",
                 "webpage_control_level": 0,
                 "width": 384
             },
@@ -2252,7 +2141,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=ilaria",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=cotton",
                 "webpage_control_level": 0,
                 "width": 384
             },
@@ -2292,7 +2181,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=virg",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=fabio",
                 "webpage_control_level": 0,
                 "width": 384
             },
@@ -3126,6 +3015,7 @@
                 "libobs.hide_scene_item.Social Tags": [],
                 "libobs.hide_scene_item.Spectralizer": [],
                 "libobs.hide_scene_item.Timer Bar": [],
+                "libobs.hide_scene_item.capture audio": [],
                 "libobs.show_scene_item.AlertBox": [],
                 "libobs.show_scene_item.Audio Sources (Loading)": [],
                 "libobs.show_scene_item.Background": [],
@@ -3133,7 +3023,8 @@
                 "libobs.show_scene_item.Loading Eggs": [],
                 "libobs.show_scene_item.Social Tags": [],
                 "libobs.show_scene_item.Spectralizer": [],
-                "libobs.show_scene_item.Timer Bar": []
+                "libobs.show_scene_item.Timer Bar": [],
+                "libobs.show_scene_item.capture audio": []
             },
             "id": "scene",
             "mixers": 0,
@@ -3148,7 +3039,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 30,
+                "id_counter": 29,
                 "items": [
                     {
                         "align": 5,
@@ -3483,41 +3374,6 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 29,
-                        "locked": true,
-                        "name": "4. Console",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
                         "id": 27,
                         "locked": true,
                         "name": "3. Discord",
@@ -3631,8 +3487,43 @@
                             "y": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         },
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 29,
+                        "locked": true,
+                        "name": "capture audio",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
                         "rot": 0,
                         "scale": {
                             "x": 1,
@@ -3659,7 +3550,6 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.AlertBox": [],
-                "libobs.hide_scene_item.Audio Sources (Loading)": [],
                 "libobs.hide_scene_item.BRB Bar": [],
                 "libobs.hide_scene_item.Background": [],
                 "libobs.hide_scene_item.ChatBox in Loading": [],
@@ -3667,7 +3557,6 @@
                 "libobs.hide_scene_item.Social Tags": [],
                 "libobs.hide_scene_item.Spectralizer": [],
                 "libobs.show_scene_item.AlertBox": [],
-                "libobs.show_scene_item.Audio Sources (Loading)": [],
                 "libobs.show_scene_item.BRB Bar": [],
                 "libobs.show_scene_item.Background": [],
                 "libobs.show_scene_item.ChatBox in Loading": [],
@@ -3688,7 +3577,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 21,
+                "id_counter": 20,
                 "items": [
                     {
                         "align": 5,
@@ -4000,183 +3889,6 @@
                         "scale": {
                             "x": 0.75393432378768921,
                             "y": 0.75393432378768921
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 29,
-                        "locked": true,
-                        "name": "4. Console",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 27,
-                        "locked": true,
-                        "name": "3. Discord",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 28,
-                        "locked": true,
-                        "name": "2. Mic",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 25,
-                        "locked": true,
-                        "name": "1. Music",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 21,
-                        "locked": false,
-                        "name": "Audio Sources (Loading)",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        },
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -4768,7 +4480,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -5534,7 +5246,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Loading Eggs",
@@ -5566,24 +5278,28 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.2. Mic": [],
+                "libobs.hide_scene_item.3. Discord": [],
                 "libobs.hide_scene_item.AlertBox": [],
-                "libobs.hide_scene_item.Announcement Pad": [],
-                "libobs.hide_scene_item.Audio Sources (Focus Console)": [],
                 "libobs.hide_scene_item.Capture Source (Console)": [],
                 "libobs.hide_scene_item.Chatbox (Focus)": [],
                 "libobs.hide_scene_item.Discord Voice Chat (Focus)": [],
                 "libobs.hide_scene_item.Main Webcam": [],
+                "libobs.hide_scene_item.Social Tags (Focus)": [],
                 "libobs.hide_scene_item.Sub goal": [],
                 "libobs.hide_scene_item.Webcam #2": [],
+                "libobs.hide_scene_item.capture audio": [],
+                "libobs.show_scene_item.2. Mic": [],
+                "libobs.show_scene_item.3. Discord": [],
                 "libobs.show_scene_item.AlertBox": [],
-                "libobs.show_scene_item.Announcement Pad": [],
-                "libobs.show_scene_item.Audio Sources (Focus Console)": [],
                 "libobs.show_scene_item.Capture Source (Console)": [],
                 "libobs.show_scene_item.Chatbox (Focus)": [],
                 "libobs.show_scene_item.Discord Voice Chat (Focus)": [],
                 "libobs.show_scene_item.Main Webcam": [],
+                "libobs.show_scene_item.Social Tags (Focus)": [],
                 "libobs.show_scene_item.Sub goal": [],
-                "libobs.show_scene_item.Webcam #2": []
+                "libobs.show_scene_item.Webcam #2": [],
+                "libobs.show_scene_item.capture audio": []
             },
             "id": "scene",
             "mixers": 0,
@@ -5598,7 +5314,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 19,
+                "id_counter": 16,
                 "items": [
                     {
                         "align": 5,
@@ -5617,7 +5333,7 @@
                             "duration": 0
                         },
                         "id": 13,
-                        "locked": true,
+                        "locked": false,
                         "name": "Capture Source (Console)",
                         "pos": {
                             "x": 0,
@@ -5682,6 +5398,113 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 11,
+                        "locked": true,
+                        "name": "Social Tag 2 (Focus)",
+                        "pos": {
+                            "x": 262,
+                            "y": -20
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 10,
+                        "locked": true,
+                        "name": "Social Tag 1 (Focus)",
+                        "pos": {
+                            "x": -42,
+                            "y": -18
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 8,
+                        "locked": true,
+                        "name": "Social Tags (Focus)",
+                        "pos": {
+                            "x": -42,
+                            "y": -20
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "group_item_backup": false,
                         "hide_transition": {
                             "duration": 0
@@ -5691,7 +5514,7 @@
                         "name": "Discord Voice Chat (Focus)",
                         "pos": {
                             "x": 0,
-                            "y": 444
+                            "y": 388
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -5808,7 +5631,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -5933,41 +5756,6 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 19,
-                        "locked": true,
-                        "name": "Announcement Pad",
-                        "pos": {
-                            "x": 21,
-                            "y": 372
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1.1200000047683716,
-                            "y": 1.1200000047683716
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
                         "id": 1,
                         "locked": true,
                         "name": "AlertBox",
@@ -5999,118 +5787,13 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": true,
+                        "group_item_backup": false,
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 1,
-                        "locked": true,
-                        "name": "4. Console",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 2,
-                        "locked": true,
-                        "name": "3. Discord",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 3,
-                        "locked": true,
-                        "name": "2. Mic",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 4,
-                        "locked": true,
-                        "name": "1. Music",
+                        "id": 14,
+                        "locked": false,
+                        "name": "capture audio",
                         "pos": {
                             "x": 0,
                             "y": 0
@@ -6143,16 +5826,49 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 17,
-                        "locked": true,
-                        "name": "Audio Sources (Focus Console)",
+                        "id": 15,
+                        "locked": false,
+                        "name": "2. Mic",
                         "pos": {
                             "x": 0,
                             "y": 0
                         },
-                        "private_settings": {
-                            "collapsed": true
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
                         },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 16,
+                        "locked": false,
+                        "name": "3. Discord",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
                         "rot": 0,
                         "scale": {
                             "x": 1,
@@ -6183,7 +5899,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Discord Voice Chat (Focus)",
@@ -6222,7 +5938,79 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 0,
+            "mixers": 192,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Social Tag 1 (Focus)",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": ".social-text.overlay-box {\n    padding: 5px;\n    width: 180px;\n    height: 43px;\n}\n\n.social-box .social-icon {\n    left: 205px;\n}\n\n.social-box .social-egg {\n    width: 50px;\n    height: 50px;\n    left: 20px;\n    top: 7px;\n}",
+                "fps": 30,
+                "fps_custom": false,
+                "height": 100,
+                "reroute_audio": false,
+                "restart_when_active": false,
+                "shutdown": false,
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/social_tag1.html",
+                "webpage_control_level": 0,
+                "width": 300
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 192,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Social Tag 2 (Focus)",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": ".social-text.overlay-box {\n    padding: 5px;\n    width: 180px;\n    height: 43px;\n}\n\n.social-box .social-icon {\n    left: 205px;\n}\n\n.social-box .social-egg {\n    width: 50px;\n    height: 50px;\n    left: 20px;\n    top: 7px;\n}",
+                "height": 100,
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/social_tag2.html",
+                "width": 300
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Chatbox (Focus)",
@@ -6243,45 +6031,6 @@
                 "url": "https:\/\/streamelements.com\/overlay\/6203f935c265b4fc26ac0606\/rubhXL8I194rSRr4YVjWQxU6j4yDKLSdbhJ7A86zw1-YAftu",
                 "webpage_control_level": 0,
                 "width": 430
-            },
-            "sync": 0,
-            "versioned_id": "browser_source",
-            "volume": 1
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Announcement Pad",
-            "prev_ver": 453050371,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "",
-                "fps": 30,
-                "fps_custom": false,
-                "height": 100,
-                "reroute_audio": false,
-                "restart_when_active": false,
-                "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/announce_pad.html",
-                "webpage_control_level": 0,
-                "width": 300
             },
             "sync": 0,
             "versioned_id": "browser_source",
