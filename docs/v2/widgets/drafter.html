@@ -28,6 +28,13 @@ body.drafter {
   -webkit-text-size-adjust: 100%;
 }
 
+.draft-text {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+
 .timer {
     margin: auto;
     position: relative;
@@ -171,6 +178,26 @@ ul.draft-picks {
     box-shadow: inset 5px -5px 10px rgb(1 1 1 / 30%), -5px 5px 8px rgb(0 0 0 / 40%);
     border-radius: 50px;
 }
+
+.team-bans.draft-picks {
+    position: absolute;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 135px;
+}
+
+.team-bans.draft-picks.team2 { right: 50px; }
+.team-bans.draft-picks.team1 { left: 50px; }
+
+.team-bans.draft-picks.team2 li { float: right; }
+.team-bans.draft-picks.team1 li { float: left; }
+
+.team-bans.draft-picks li {
+    width: 100px;
+    height: 115px;
+}
   </style>
   <script type="text/javascript" src="unite.json"></script>
   <script type="text/javascript">
@@ -192,7 +219,8 @@ ul.draft-picks {
 
    window.onload = function() {
     for (var pick of unite.picks) {
-     document.getElementById("draft-all-picks").appendChild(pickPanel(pick));
+     var pp = pickPanel(pick);
+     document.getElementById("draft-all-picks").appendChild(pp);
     }
 
     var wiggly = getPickByName("wigglytuff");
@@ -200,12 +228,20 @@ ul.draft-picks {
      document.getElementById("draft-picks-team1").appendChild(pickPanel(wiggly));
      document.getElementById("draft-picks-team2").appendChild(pickPanel(wiggly));
     }
+
+    for (var i = 0; i < 2; i++) {
+     document.getElementById("draft-bans-team1").appendChild(pickPanel(wiggly));
+     document.getElementById("draft-bans-team2").appendChild(pickPanel(wiggly));
+    }
    };
   </script>
  </head>
  <body class="drafter">
   <div class="drafter-header">
+   <ul id="draft-bans-team1" class="team-bans draft-picks team1"></ul>
+   <ul id="draft-bans-team2" class="team-bans draft-picks team2"></ul>
    <div class="timer">30</div>
+   <div id="draft-text" class="draft-text">In attesa della draft...</div>
    <div class="team-name team1">Team 1</div>
    <div class="team-name team2">Team 2</div>
   </div>

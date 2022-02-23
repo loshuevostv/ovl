@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Focus (Yugi)",
-    "current_scene": "Full (PC)",
+    "current_program_scene": "Focus (Fortnite)",
+    "current_scene": "Focus (Fortnite)",
     "current_transition": "Los Huevos Stinger",
     "groups": [
         {
@@ -1902,7 +1902,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 195,
             "monitoring_type": 0,
             "muted": false,
             "name": "SoundAlerts",
@@ -1916,13 +1916,13 @@
                 "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
                 "fps": 30,
                 "fps_custom": false,
-                "height": 600,
-                "reroute_audio": false,
+                "height": 1,
+                "reroute_audio": true,
                 "restart_when_active": false,
                 "shutdown": false,
                 "url": "https:\/\/source.soundalerts.com\/alert\/51619f0c-7ab1-3797-9c75-5d5ffb225be4",
-                "webpage_control_level": 1,
-                "width": 800
+                "webpage_control_level": 0,
+                "width": 1
             },
             "sync": 0,
             "versioned_id": "browser_source",
@@ -1941,7 +1941,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 195,
             "monitoring_type": 0,
             "muted": false,
             "name": "Drafter",
@@ -2194,7 +2194,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Announcement Pad",
@@ -2317,7 +2317,7 @@
                 "libobs.unmute": []
             },
             "id": "audio_capture",
-            "mixers": 255,
+            "mixers": 195,
             "monitoring_type": 0,
             "muted": false,
             "name": "4. Fortnite",
@@ -2347,7 +2347,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [Lori]",
@@ -3012,23 +3012,23 @@
                             "duration": 0
                         },
                         "id": 12,
-                        "locked": false,
+                        "locked": true,
                         "name": "SoundAlerts",
                         "pos": {
-                            "x": 1565,
+                            "x": 1920,
                             "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.44374999403953552,
-                            "y": 0.44333332777023315
+                            "x": 0,
+                            "y": 0
                         },
                         "scale_filter": "disable",
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -3078,7 +3078,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 14,
+                "id_counter": 15,
                 "items": [
                     {
                         "align": 5,
@@ -3660,24 +3660,24 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 14,
-                        "locked": false,
+                        "id": 15,
+                        "locked": true,
                         "name": "SoundAlerts",
                         "pos": {
-                            "x": 1565,
+                            "x": 1920,
                             "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.44374999403953552,
-                            "y": 0.44333332777023315
+                            "x": -3,
+                            "y": 3
                         },
                         "scale_filter": "disable",
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -3990,7 +3990,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 15,
+                "id_counter": 16,
                 "items": [
                     {
                         "align": 5,
@@ -4607,24 +4607,24 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 15,
-                        "locked": false,
+                        "id": 16,
+                        "locked": true,
                         "name": "SoundAlerts",
                         "pos": {
-                            "x": 1565,
+                            "x": 1920,
                             "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.44374999403953552,
-                            "y": 0.44333332777023315
+                            "x": -3,
+                            "y": 3
                         },
                         "scale_filter": "disable",
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -5724,7 +5724,7 @@
             "name": "Main Webcam Source",
             "prev_ver": 453050371,
             "private_settings": {
-                "mixer_hidden": false
+                "mixer_hidden": true
             },
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -6819,6 +6819,7 @@
                 "libobs.hide_scene_item.Discord Voice Chat": [],
                 "libobs.hide_scene_item.Main Webcam": [],
                 "libobs.hide_scene_item.Social Tags": [],
+                "libobs.hide_scene_item.SoundAlerts": [],
                 "libobs.hide_scene_item.Sub goal": [],
                 "libobs.hide_scene_item.Webcam #2": [],
                 "libobs.hide_scene_item.Webcam #3": [],
@@ -6831,6 +6832,7 @@
                 "libobs.show_scene_item.Discord Voice Chat": [],
                 "libobs.show_scene_item.Main Webcam": [],
                 "libobs.show_scene_item.Social Tags": [],
+                "libobs.show_scene_item.SoundAlerts": [],
                 "libobs.show_scene_item.Sub goal": [],
                 "libobs.show_scene_item.Webcam #2": [],
                 "libobs.show_scene_item.Webcam #3": [],
@@ -6850,7 +6852,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 56,
+                "id_counter": 57,
                 "items": [
                     {
                         "align": 5,
@@ -7560,6 +7562,41 @@
                             "duration": 0
                         },
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 57,
+                        "locked": true,
+                        "name": "SoundAlerts",
+                        "pos": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": -3,
+                            "y": 3
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
                     }
                 ]
             },
@@ -7607,7 +7644,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 20,
+                "id_counter": 21,
                 "items": [
                     {
                         "align": 5,
@@ -8015,7 +8052,7 @@
                             "duration": 0
                         },
                         "id": 19,
-                        "locked": false,
+                        "locked": true,
                         "name": "AlertBox",
                         "pos": {
                             "x": 1391.380126953125,
@@ -8049,24 +8086,24 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 20,
-                        "locked": false,
+                        "id": 21,
+                        "locked": true,
                         "name": "SoundAlerts",
                         "pos": {
-                            "x": 1565,
+                            "x": 1920,
                             "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.44374999403953552,
-                            "y": 0.44333332777023315
+                            "x": -3,
+                            "y": 3
                         },
                         "scale_filter": "disable",
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -8194,6 +8231,7 @@
                 "libobs.hide_scene_item.Discord Voice Chat": [],
                 "libobs.hide_scene_item.Main Webcam": [],
                 "libobs.hide_scene_item.Social Tags": [],
+                "libobs.hide_scene_item.SoundAlerts": [],
                 "libobs.hide_scene_item.Sub goal": [],
                 "libobs.hide_scene_item.Webcam #2": [],
                 "libobs.hide_scene_item.Webcam #3": [],
@@ -8206,6 +8244,7 @@
                 "libobs.show_scene_item.Discord Voice Chat": [],
                 "libobs.show_scene_item.Main Webcam": [],
                 "libobs.show_scene_item.Social Tags": [],
+                "libobs.show_scene_item.SoundAlerts": [],
                 "libobs.show_scene_item.Sub goal": [],
                 "libobs.show_scene_item.Webcam #2": [],
                 "libobs.show_scene_item.Webcam #3": [],
@@ -8225,7 +8264,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 20,
+                "id_counter": 21,
                 "items": [
                     {
                         "align": 5,
@@ -8932,6 +8971,41 @@
                             "duration": 0
                         },
                         "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 21,
+                        "locked": true,
+                        "name": "SoundAlerts",
+                        "pos": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": -3,
+                            "y": 3
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
                     }
                 ]
             },
@@ -9252,7 +9326,7 @@
                             "y": 844
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         },
                         "rot": 0,
                         "scale": {
@@ -9529,23 +9603,23 @@
                             "duration": 0
                         },
                         "id": 16,
-                        "locked": false,
+                        "locked": true,
                         "name": "SoundAlerts",
                         "pos": {
-                            "x": 1565,
+                            "x": 1920,
                             "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.44374999403953552,
-                            "y": 0.44333332777023315
+                            "x": 0,
+                            "y": 0
                         },
                         "scale_filter": "disable",
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -9648,7 +9722,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 45,
+                "id_counter": 46,
                 "items": [
                     {
                         "align": 5,
@@ -10658,24 +10732,24 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 45,
-                        "locked": false,
+                        "id": 46,
+                        "locked": true,
                         "name": "SoundAlerts",
                         "pos": {
-                            "x": 1565,
+                            "x": 1920,
                             "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.44374999403953552,
-                            "y": 0.44333332777023315
+                            "x": -3,
+                            "y": 3
                         },
                         "scale_filter": "disable",
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -10955,7 +11029,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 1",
@@ -10996,7 +11070,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 2",
@@ -11035,7 +11109,7 @@
                 "libobs.unmute": []
             },
             "id": "browser_source",
-            "mixers": 255,
+            "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 3",
