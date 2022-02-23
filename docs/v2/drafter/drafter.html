@@ -1,0 +1,34 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" type="text/css" href="drafter.css" />
+  <script type="text/javascript" src="unite.json"></script>
+  <script type="text/javascript">
+    var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+    var url = "https://botv2.loshuevostv.repl.co/draft/"+ q["c"];
+  </script>
+  <script type="text/javascript" src="drafter.js"></script>
+ </head>
+ <body class="drafter">
+  <div class="drafter-header">
+   <ul id="draft-bans-team1" class="team-bans draft-picks team1"></ul>
+   <ul id="draft-bans-team2" class="team-bans draft-picks team2"></ul>
+   <div id="timer" class="timer closed">30</div>
+   <div id="draft-text" class="draft-text">In attesa della draft...</div>
+   <div id="draft-announce" class="draft-announce">Team 1 ha scelto <i><img src="../images/drafter/roster-blissey.png" /></i> Blissey!</div>
+   <div id="team1-name" class="team-name team1 hidden"></div>
+   <div id="team2-name" class="team-name team2 hidden"></div>
+  </div>
+  <div class="team-panel team1">
+   <ul id="draft-picks-team1" class="draft-picks"></ul>
+  </div>
+  <div class="pick-pool">
+   <div class="draft-wrapper">
+    <ul id="draft-all-picks" class="draft-picks"></ul>
+   </div>
+  </div>
+  <div class="team-panel team2">
+   <ul id="draft-picks-team2" class="draft-picks"></ul>
+  </div>
+ </body>
+</html>

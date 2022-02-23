@@ -1,16 +1,12 @@
-<html>
- <head>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-  <style type="text/css">
-    @keyframes lastSelected {
-      0% { filter: brightness(1.3); }
-      49% { filter: brightness(1.3); }
-      50% { filter: brightness(1); }
-      99% { filter: brightness(1); }
-      100% { filter: brightness(1.3); }
-    }
+@keyframes lastSelected {
+    0% { filter: brightness(1.3); }
+    49% { filter: brightness(1.3); }
+    50% { filter: brightness(1); }
+    99% { filter: brightness(1); }
+    100% { filter: brightness(1.3); }
+}
 
-    body { margin: 0; overflow: hidden; }
+body { margin: 0; overflow: hidden; }
 
 body.drafter {
     background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0) 38%), url(../images/unite-bg.jpg);
@@ -20,16 +16,36 @@ body.drafter {
 .drafter-header {
     position: relative;
     height: 350px;
-  font-size: 60px;
-  font-family: "Open Sans";
-  font-weight: 800;
-  color: white;
-  text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
-  -webkit-text-size-adjust: 100%;
+    font-size: 40px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+    -webkit-text-size-adjust: 100%;
+}
+
+.draft-announce {
+    position: absolute;
+    top: 180px;
+    z-index: 1000;
+    transition: padding 0.1s ease-out, filter 0.1s linear;
+    text-align: center;
+    width: 100%;
+    border-top: solid 5px #7f59c1;
+    border-bottom: solid 5px rgb(248,125,23);
+    box-shadow: inset 5px -5px 10px rgb(1 1 1 / 30%), -5px 5px 8px rgb(0 0 0 / 40%);
+    background: rgba(0,0,0,0.7);
+    filter: opacity(0);
+}
+
+.draft-announce.open {
+    padding: 15px 0 10px;
+    filter: opacity(1);
 }
 
 .draft-text {
     position: relative;
+    top: -30px;
     text-align: center;
     margin: auto;
     font-size: 50px;
@@ -38,6 +54,7 @@ body.drafter {
 .timer {
     margin: auto;
     position: relative;
+    font-size: 60px;
     top: 230px;
     width: 100px;
     height: 80px;
@@ -46,9 +63,12 @@ body.drafter {
     background: rgb(0 173 93);
     box-shadow: inset 5px -5px 10px rgb(1 1 1 / 30%), -5px 5px 8px rgb(0 0 0 / 40%);
     border-radius: 50px;
+    transition: transform 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
-.draft-picks li {
+.timer.closed { transform: scale(0); }
+
+.draft-picks li, .draft-announce i {
     list-style: none;
     display: inline-block;
     position: relative;
@@ -60,21 +80,36 @@ body.drafter {
     box-shadow: 1px 1px 5px rgb(0 0 0 / 70%);
     background-image: url(../images/square-pattern-30.svg),linear-gradient(160deg, rgba(0,0,0,0.5), rgba(0,0,0,0) 43%);
     background-size: 54%, 100%;
-    background-color: #ce5fd3;
-    transition: -webkit-filter 0.5s linear;
+    background-color: white;
 }
 
-.draft-picks li.pick-category-0 { background-color: #f16c38; }
-.draft-picks li.pick-category-1 { background-color: #aced5b; }
-.draft-picks li.pick-category-2 { background-color: #fecc51; }
-.draft-picks li.pick-category-3 { background-color: #ce5fd3; }
-.draft-picks li.pick-category-4 { background-color: #29a5e3; }
+.draft-announce i {
+    width: 80px;
+    height: 92px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+
+.draft-picks li.pick-category-0, .draft-announce i.pick-category-0 { background-color: #f16c38; }
+.draft-picks li.pick-category-1, .draft-announce i.pick-category-1 { background-color: #aced5b; }
+.draft-picks li.pick-category-2, .draft-announce i.pick-category-2 { background-color: #fecc51; }
+.draft-picks li.pick-category-3, .draft-announce i.pick-category-3 { background-color: #ce5fd3; }
+.draft-picks li.pick-category-4, .draft-announce i.pick-category-4 { background-color: #29a5e3; }
+
+.pick-pool .draft-picks li { transition: transform 0.3s cubic-bezier(0.6, -0.28, 0.74, 0.05), -webkit-filter 0.5s linear; }
+.team-panel .draft-picks li, .team-bans.draft-picks li {
+  transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28), -webkit-filter 0.5s linear;
+}
 
 .draft-picks li.banned {
     -webkit-filter: grayscale(100%);
 }
 
-.draft-picks li img {
+.draft-picks li.hidden {
+    transform: scale(0);
+}
+
+.draft-picks li img, .draft-announce i img {
     position: absolute;
     left: 0;
     z-index: 15;
@@ -97,9 +132,13 @@ ul.draft-picks {
    text-align: center;
 }
 
+.team-name.hidden { filter: opacity(0); }
+
 .team-name {
   position: absolute;
   top: 220px;
+  filter: opacity(1);
+  transition: filter 0.5s linear;
 }
 
 .team-name.team1 { left: 100px; }
@@ -198,63 +237,3 @@ ul.draft-picks {
     width: 100px;
     height: 115px;
 }
-  </style>
-  <script type="text/javascript" src="unite.json"></script>
-  <script type="text/javascript">
-   function pickPanel(pick) {
-    var li = document.createElement("li");
-    var dv = document.createElement("div");
-    var img = document.createElement("img");
-    li.classList.add("pick-category-"+ pick.category);
-    img.src = "../images/drafter/roster-"+ pick.name +".png";
-    dv.appendChild(img);
-    li.appendChild(dv);
-    return li;
-   }
-
-   function getPickByName(pickName) {
-    for (var pick of unite.picks) if (pick.name == pickName) return pick;
-    return null;
-   }
-
-   window.onload = function() {
-    for (var pick of unite.picks) {
-     var pp = pickPanel(pick);
-     document.getElementById("draft-all-picks").appendChild(pp);
-    }
-
-    var wiggly = getPickByName("wigglytuff");
-    for (var i = 0; i < 5; i++) {
-     document.getElementById("draft-picks-team1").appendChild(pickPanel(wiggly));
-     document.getElementById("draft-picks-team2").appendChild(pickPanel(wiggly));
-    }
-
-    for (var i = 0; i < 2; i++) {
-     document.getElementById("draft-bans-team1").appendChild(pickPanel(wiggly));
-     document.getElementById("draft-bans-team2").appendChild(pickPanel(wiggly));
-    }
-   };
-  </script>
- </head>
- <body class="drafter">
-  <div class="drafter-header">
-   <ul id="draft-bans-team1" class="team-bans draft-picks team1"></ul>
-   <ul id="draft-bans-team2" class="team-bans draft-picks team2"></ul>
-   <div class="timer">30</div>
-   <div id="draft-text" class="draft-text">In attesa della draft...</div>
-   <div class="team-name team1">Team 1</div>
-   <div class="team-name team2">Team 2</div>
-  </div>
-  <div class="team-panel team1">
-   <ul id="draft-picks-team1" class="draft-picks"></ul>
-  </div>
-  <div class="pick-pool">
-   <div class="draft-wrapper">
-    <ul id="draft-all-picks" class="draft-picks"></ul>
-   </div>
-  </div>
-  <div class="team-panel team2">
-   <ul id="draft-picks-team2" class="draft-picks"></ul>
-  </div>
- </body>
-</html>
