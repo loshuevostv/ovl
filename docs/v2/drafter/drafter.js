@@ -1,11 +1,13 @@
 window.onload = function() {
 
+fetch(new Request(unite_data_url)).then(res => res.json().then(unite => {
+
 function pickPanel(pick) {
   var li = document.createElement("li");
   var dv = document.createElement("div");
   var img = document.createElement("img");
   li.classList.add("pick-category-"+ pick.category);
-  img.src = "../images/drafter/roster-"+ pick.name +".png";
+  img.src = "https://unite.pokemon.com/images/pokemon/"+ pick.name +"/roster/roster-"+ pick.name +".png";
   dv.appendChild(img);
   li.appendChild(dv);
   return li;
@@ -124,4 +126,6 @@ for (var pick of unite.picks) {
 }
 
 setInterval(() => { retrieveJSONData(updateDraftState) }, 1000);
+
+}));
 };
