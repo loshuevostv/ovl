@@ -64,9 +64,10 @@ var presets = {
   "egg": "tsareena",
   "border": "rgb(194, 212, 106)"
  },
- "fabio": {
-  "screen_name": "NoCaller",
-  "egg": "pikachu",
-  "border": "rgb(234, 222, 42)"
+ "bubo": {
+  "screen_name": "Bubo",
+  "egg": "buboduck",
+  "border": "rgb(241,197,103)",
+  "remove_animation": true
  }
 };

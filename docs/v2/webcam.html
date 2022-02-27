@@ -20,6 +20,8 @@
       var data = presets[q["t"]];
       document.getElementById("nametag").innerHTML = data.screen_name;
       document.getElementById("eggicon").style["background-image"] = "url(eggs/"+ data.egg +".png)";
+      if (!data.remove_animation) document.getElementById("eggicon").classList.add("animated");
+
       document.getElementById("nametag").style["border-color"] = data.border;
       //document.getElementById("cambox").style["border-color"] = data.border;
      }

@@ -65,9 +65,10 @@
   width: 70px;
   height: 70px;
   bottom: 0px;
-  animation: hatchingEgg 100s infinite; 
   z-index: 1500;
 }
+
+.webcam-egg.animated { animation: hatchingEgg 100s infinite; }
 
 .webcam-box.just-chatting {
     padding-top: 20px;
