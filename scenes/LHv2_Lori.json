@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Focus (Unite)",
-    "current_scene": "Focus (Unite)",
+    "current_program_scene": "Focus (Fortnite)",
+    "current_scene": "Focus (Fortnite)",
     "current_transition": "Los Huevos Stinger",
     "groups": [
         {
@@ -1959,31 +1959,6 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Immagine 2",
-            "prev_ver": 453115905,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "C:\/Users\/Casarotti\/Desktop\/Test.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.AlertBox": [],
@@ -1992,7 +1967,6 @@
                 "libobs.hide_scene_item.Capture (Fortnite)": [],
                 "libobs.hide_scene_item.Chatbox (Focus)": [],
                 "libobs.hide_scene_item.Discord Voice Chat (Focus)": [],
-                "libobs.hide_scene_item.Immagine 2": [],
                 "libobs.hide_scene_item.Main Webcam": [],
                 "libobs.hide_scene_item.SoundAlerts": [],
                 "libobs.hide_scene_item.Sub goal": [],
@@ -2004,7 +1978,6 @@
                 "libobs.show_scene_item.Capture (Fortnite)": [],
                 "libobs.show_scene_item.Chatbox (Focus)": [],
                 "libobs.show_scene_item.Discord Voice Chat (Focus)": [],
-                "libobs.show_scene_item.Immagine 2": [],
                 "libobs.show_scene_item.Main Webcam": [],
                 "libobs.show_scene_item.SoundAlerts": [],
                 "libobs.show_scene_item.Sub goal": [],
@@ -2026,42 +1999,6 @@
                 "custom_size": false,
                 "id_counter": 12,
                 "items": [
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 12,
-                        "locked": false,
-                        "name": "Immagine 2",
-                        "pos": {
-                            "x": 0,
-                            "y": 3
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
                     {
                         "align": 5,
                         "blend_type": "normal",
@@ -2718,31 +2655,6 @@
             },
             "sync": 0,
             "versioned_id": "scene",
-            "volume": 1
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Immagine",
-            "prev_ver": 453115905,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "C:\/Users\/Casarotti\/Desktop\/Test.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
             "volume": 1
         },
         {
@@ -3474,7 +3386,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "url": "https:\/\/marathontimer.herokuapp.com\/timer\/a87dOhATg246uzAx"
+                "url": "https:\/\/marathontimer.herokuapp.com\/timer\/uDFzzPDW0848ESpR\n\n"
             },
             "sync": 0,
             "versioned_id": "browser_source",
@@ -11272,7 +11184,6 @@
                 "libobs.hide_scene_item.Capture (Fortnite)": [],
                 "libobs.hide_scene_item.Chatbox (Focus)": [],
                 "libobs.hide_scene_item.Discord Voice Chat (Focus)": [],
-                "libobs.hide_scene_item.Immagine": [],
                 "libobs.hide_scene_item.Main Webcam": [],
                 "libobs.hide_scene_item.SoundAlerts": [],
                 "libobs.hide_scene_item.Sub goal": [],
@@ -11284,7 +11195,6 @@
                 "libobs.show_scene_item.Capture (Fortnite)": [],
                 "libobs.show_scene_item.Chatbox (Focus)": [],
                 "libobs.show_scene_item.Discord Voice Chat (Focus)": [],
-                "libobs.show_scene_item.Immagine": [],
                 "libobs.show_scene_item.Main Webcam": [],
                 "libobs.show_scene_item.SoundAlerts": [],
                 "libobs.show_scene_item.Sub goal": [],
@@ -11306,42 +11216,6 @@
                 "custom_size": false,
                 "id_counter": 17,
                 "items": [
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 17,
-                        "locked": false,
-                        "name": "Immagine",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
                     {
                         "align": 5,
                         "blend_type": "normal",
