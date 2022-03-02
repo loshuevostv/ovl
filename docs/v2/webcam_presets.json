@@ -64,6 +64,11 @@ var presets = {
   "egg": "tsareena",
   "border": "rgb(194, 212, 106)"
  },
+ "deni": {
+  "screen_name": "Deni",
+  "egg": "pikachu",
+  "border": "rgb(234,222,42)"
+ },
  "bubo": {
   "screen_name": "Bubo",
   "egg": "buboduck",
