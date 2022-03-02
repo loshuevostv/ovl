@@ -8,8 +8,8 @@ body { margin:0; overflow:hidden; }
     position: relative;
     width: 1024px;
     height: 1024px;
-    background-image: radial-gradient(rgba(0,0,0,0) 38%, rgba(0,0,0,0.3));
-    background-size: 100%;
+    background-image: url(../v2/images/square-pattern-30.svg);
+    background-size: 256px;
 }
 
 .halftone>svg {
@@ -64,12 +64,12 @@ body { margin:0; overflow:hidden; }
     }
 
     window.onload = function() {
-      document.getElementById("egg").style["background-image"] = "url(https://loshuevostv.github.io/ovl/v2/eggs/"+ t +".png)";
+      //document.getElementById("egg").style["background-image"] = "url(https://loshuevostv.github.io/ovl/v2/eggs/"+ t +".png)";
       document.getElementById("egg-capture").classList.add("role-"+ r);
 
       setTimeout(function() {
         html2canvas(document.getElementById("egg-capture"), { letterRendering: 1, width: 1024, height: 1024, scale: 1 }).then(function(canvas) {
-          saveAs(canvas.toDataURL("image/webp"), 'egg.webp');
+          saveAs(canvas.toDataURL("image/png"), 'egg.png');
         });
       }, 1000);
     };
