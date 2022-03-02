@@ -26,6 +26,7 @@ body { margin:0; overflow:hidden; }
     z-index: 50;
 }
 
+.egg-capture { --background-color: white; }
 .egg-capture.role-0, .egg-capture.role-0 .halftone>svg { --background-color: #f16c38; }
 .egg-capture.role-1, .egg-capture.role-1 .halftone>svg { --background-color: #aced5b; }
 .egg-capture.role-2, .egg-capture.role-2 .halftone>svg { --background-color: #fecc51; }
@@ -64,7 +65,7 @@ body { margin:0; overflow:hidden; }
     }
 
     window.onload = function() {
-      //document.getElementById("egg").style["background-image"] = "url(https://loshuevostv.github.io/ovl/v2/eggs/"+ t +".png)";
+      document.getElementById("egg").style["background-image"] = "url(https://loshuevostv.github.io/ovl/v2/eggs/"+ t +".png)";
       document.getElementById("egg-capture").classList.add("role-"+ r);
 
       setTimeout(function() {
