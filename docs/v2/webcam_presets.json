@@ -11,8 +11,8 @@ var presets = {
  },
  "pietro": {
   "screen_name": "Pietro",
-  "egg": "greninja",
-  "border": "rgb(69, 115, 207)"
+  "egg": "decidueye",
+  "border": "rgb(117, 171, 128)"
  },
  "dani": {
   "screen_name": "Danlion",
