@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="deck.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script type="text/javascript" src="obs-websocket.js"></script>
+    <script type="text/javascript" src="../webcam_presets.json"></script>
+
+    <script type="text/javascript">
+        var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
+
+        var url = "https://botv2.loshuevostv.repl.co/obsc/SkullCounter"+ q["t"];
+        window.onload = function() {
+            var deathCounter = function(sourceid, initialValue) {
+                var wrapper = document.createElement("div");
+                wrapper.className = "timer-controller";
+
+                var inputDeaths = document.createElement("input");
+                inputDeaths.type = "number";
+                inputDeaths.value = initialValue;
+                inputDeaths.min = 0;
+                inputDeaths.onchange = () => {
+                  fetch(new Request(url+"?value="+ inputDeaths.value)).then(() => {  });
+                };
+                wrapper.appendChild(inputDeaths);
+
+                var fastButtonWrapper = document.createElement("div");
+                fastButtonWrapper.classList.add("fast-buttons");
+                for (var ad of [5, 10, 50]) {
+                  var bt = document.createElement("button");
+                  bt.innerText = "+"+ ad;
+                  bt.onclick = (function(ad) {
+                    return () => { inputDeaths.value = ""+(parseInt(inputDeaths.value)+parseInt(ad)); inputDeaths.onchange(); };
+                  })(ad);
+                  fastButtonWrapper.appendChild(bt);
+                }
+                wrapper.appendChild(fastButtonWrapper);
+
+                return wrapper;
+            }
+
+            fetch(new Request(url)).then(res => res.json().then(data => {
+              
+              var camWrap = document.getElementById("counter");
+              camWrap.appendChild(deathCounter("Skull Counter "+q["t"], data.value));
+            }));
+ 
+        };
+    </script>
+  </head>
+  <body>
+    <div class="deck">
+        <div class="deck-webcams">
+            <div class="deck-entry counter"><div id="counter"></div></div>
+        </div>
+    </div>
+  </body>
+</html>

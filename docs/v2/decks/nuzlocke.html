@@ -27,6 +27,44 @@
                 inputDeaths.min = 0;
                 wrapper.appendChild(inputDeaths);
 
+                var fastButtonWrapper = document.createElement("div");
+                fastButtonWrapper.classList.add("fast-buttons");
+                for (var ad of [5, 10, 50]) {
+                  var bt = document.createElement("button");
+                  bt.innerText = "+"+ ad;
+                  bt.onclick = (function(ad) {
+                    return () => { inputDeaths.value = ""+(parseInt(inputDeaths.value)+parseInt(ad)); inputDeaths.onchange(); };
+                  })(ad);
+                  fastButtonWrapper.appendChild(bt);
+                }
+                wrapper.appendChild(fastButtonWrapper);
+
+                var listenerWrapper = document.createElement("div");
+                var listenerButton = document.createElement("button");
+                listenerButton.innerText = "Start Listening";
+                listenerButton.onclick = () => {
+                 listenerButton.disabled = true;
+                 inputDeaths.disabled = true;
+                 for (var ch of fastButtonWrapper.children) ch.disabled = true;
+
+                 
+                 var url = "https://botv2.loshuevostv.repl.co/obsc/"+ sourceid.replace(" ", "").replace(" ", "");
+                 fetch(new Request(url +"?value="+ inputDeaths.value))
+                   .then(() => {
+                     console.log("Started listening for url: "+ url);
+                     setInterval(() => {
+		       fetch(new Request(url)).then(res => res.json()).then(data => {
+                         if(inputDeaths.value != data.value) {
+                           inputDeaths.value = data.value;
+                           inputDeaths.onchange();
+                         }
+                       });
+                     }, 1000);
+                   });
+                };
+                listenerWrapper.appendChild(listenerButton);
+                wrapper.appendChild(listenerWrapper);
+
                 obs.send('GetSourceSettings', {
                     sourceName: sourceid
                 }).then(data => {
@@ -67,9 +105,9 @@
   <body>
     <div class="deck">
         <div class="deck-webcams">
-            <div class="deck-entry"><span>Lori</span><div id="counter-1"></div></div>
-            <div class="deck-entry"><span>gzetk</span><div id="counter-2"></div></div>
-            <div class="deck-entry"><span>Dani</span><div id="counter-3"></div></div>
+            <div class="deck-entry counter"><span>Lori</span><div id="counter-1"></div></div>
+            <div class="deck-entry counter"><span>gzetk</span><div id="counter-2"></div></div>
+            <div class="deck-entry counter"><span>Dani</span><div id="counter-3"></div></div>
         </div>
     </div>
   </body>
