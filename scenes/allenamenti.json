@@ -1,0 +1,501 @@
+{
+    "current_program_scene": "Scena 2",
+    "current_scene": "Scena 2",
+    "current_transition": "Dissolvenza",
+    "groups": [],
+    "modules": {},
+    "name": "allenamenti",
+    "preview_locked": false,
+    "quick_transitions": [
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 1,
+            "name": "Taglio"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 2,
+            "name": "Dissolvenza"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": true,
+            "hotkeys": [],
+            "id": 3,
+            "name": "Dissolvenza"
+        }
+    ],
+    "saved_projectors": [],
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0,
+    "scaling_off_y": 0,
+    "scene_order": [
+        {
+            "name": "Scena"
+        },
+        {
+            "name": "Scena 2"
+        }
+    ],
+    "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Application Audio Output Capture": [],
+                "libobs.hide_scene_item.Cattura l'audio in entrata": [],
+                "libobs.hide_scene_item.Cattura la finestra": [],
+                "libobs.hide_scene_item.Dispositivo di cattura video": [],
+                "libobs.show_scene_item.Application Audio Output Capture": [],
+                "libobs.show_scene_item.Cattura l'audio in entrata": [],
+                "libobs.show_scene_item.Cattura la finestra": [],
+                "libobs.show_scene_item.Dispositivo di cattura video": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scena",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 1,
+                        "locked": false,
+                        "name": "Dispositivo di cattura video",
+                        "pos": {
+                            "x": 420,
+                            "y": 515
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 0.56614583730697632,
+                            "y": 0.56574076414108276
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": false,
+                        "name": "Application Audio Output Capture",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 3,
+                        "locked": false,
+                        "name": "Cattura l'audio in entrata",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 4,
+                        "locked": false,
+                        "name": "Cattura la finestra",
+                        "pos": {
+                            "x": 492,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 0.47604167461395264,
+                            "y": 0.47636699676513672
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Dispositivo di cattura video",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active": true,
+                "last_video_device_id": "usb video:\\\\?\\usb#22vid_534d&pid_2109&mi_00#226&2fa46481&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "video_device_id": "usb video:\\\\?\\usb#22vid_534d&pid_2109&mi_00#226&2fa46481&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+            },
+            "sync": 0,
+            "versioned_id": "dshow_input",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "hotkey_start": [],
+                "hotkey_stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "audio_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Application Audio Output Capture",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "active_session_list": "obs64.exe",
+                "executable_list": [
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "Discord.exe"
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "audio_capture",
+            "volume": 0.57087457180023193
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Cattura l'audio in entrata",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "{0.0.1.00000000}.{9f4594c7-06fa-4a37-aa2e-5106a6a65ed5}"
+            },
+            "sync": 0,
+            "versioned_id": "wasapi_input_capture",
+            "volume": 0.73697388172149658
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Cattura la finestra",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "window": "🍻 • El Saloon de gzetk:Chrome_WidgetWin_1:Discord.exe"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Application Audio Output Capture": [],
+                "libobs.hide_scene_item.Cattura l'audio in entrata": [],
+                "libobs.hide_scene_item.Dispositivo di cattura video": [],
+                "libobs.show_scene_item.Application Audio Output Capture": [],
+                "libobs.show_scene_item.Cattura l'audio in entrata": [],
+                "libobs.show_scene_item.Dispositivo di cattura video": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scena 2",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 6,
+                "items": [
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": false,
+                        "name": "Application Audio Output Capture",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 3,
+                        "locked": false,
+                        "name": "Cattura l'audio in entrata",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 6,
+                        "locked": false,
+                        "name": "Dispositivo di cattura video",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1
+        }
+    ],
+    "transition_duration": 300,
+    "transitions": []
+}
