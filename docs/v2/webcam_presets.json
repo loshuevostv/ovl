@@ -6,8 +6,8 @@ var presets = {
  },
  "gzetk": {
   "screen_name": "gzetk",
-  "egg": "greedent",
-  "border": "rgb(197, 160, 146)"
+  "egg": "crustle",
+  "border": "rgb(142, 61, 34)"
  },
  "pietro": {
   "screen_name": "Pietro",

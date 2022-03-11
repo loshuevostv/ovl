@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Focus (Unite)",
-    "current_scene": "Focus (Unite)",
+    "current_program_scene": "Nuzlocke",
+    "current_scene": "Nuzlocke",
     "current_transition": "Los Huevos Stinger",
     "groups": [
         {
@@ -18,7 +18,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Marathon",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -32,7 +32,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -89,7 +88,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Social Tags (Nuzlocke)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -103,7 +102,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -139,7 +137,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -196,7 +193,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture [Dani]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -210,7 +207,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -246,7 +242,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -303,7 +298,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture [Lori]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -317,7 +312,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -353,7 +347,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -408,7 +401,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Main Webcam (Nuzlocke)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -422,7 +415,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -479,7 +471,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture [gzetk]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -493,7 +485,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -529,7 +520,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -588,7 +578,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture (SC PC)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -602,7 +592,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -638,7 +627,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -674,7 +662,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -731,7 +718,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Social Tags (JC Focus)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -745,7 +732,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -781,7 +767,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -838,7 +823,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture (JC Focus)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -852,7 +837,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -888,7 +872,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -947,7 +930,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Main Webcam",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -961,7 +944,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -997,7 +979,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -1033,7 +1014,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1090,7 +1070,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Social Tags",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1104,7 +1084,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1140,7 +1119,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1197,7 +1175,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Audio Sources (Loading)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1211,7 +1189,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1247,7 +1224,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1306,7 +1282,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Audio Sources (Nuzlocke)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1320,7 +1296,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1356,7 +1331,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1392,7 +1366,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1455,7 +1428,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Audio Sources (PC)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1469,7 +1442,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1505,7 +1477,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1541,7 +1512,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1577,7 +1547,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1613,7 +1582,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1674,7 +1642,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Audio Sources (Console)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1688,7 +1656,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1724,7 +1691,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1760,7 +1726,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1796,7 +1761,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -1903,7 +1867,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Limitatore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -1931,7 +1895,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "4. Gioco PC",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1978,7 +1942,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Focus (Fortnite)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1990,7 +1954,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2026,7 +1989,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2062,7 +2024,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2098,7 +2059,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2134,7 +2094,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2170,7 +2129,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -2206,7 +2164,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2242,7 +2199,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2280,7 +2236,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -2316,7 +2271,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2352,7 +2306,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2388,7 +2341,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2424,7 +2376,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2460,7 +2411,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2496,7 +2446,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2532,7 +2481,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2568,7 +2516,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2606,7 +2553,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2642,7 +2588,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2718,7 +2663,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Focus (Valorant)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -2730,7 +2675,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2766,7 +2710,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2802,7 +2745,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2838,7 +2780,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2874,7 +2815,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2910,7 +2850,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -2946,7 +2885,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -2982,7 +2920,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3020,7 +2957,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -3056,7 +2992,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3092,7 +3027,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3128,7 +3062,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3164,7 +3097,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3200,7 +3132,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3236,7 +3167,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3272,7 +3202,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3308,7 +3237,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3346,7 +3274,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3382,7 +3309,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -3431,7 +3357,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3442,7 +3367,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Marathon Timer",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3482,7 +3407,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Ritaglia\/aggiungi una cornice",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -3506,7 +3431,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "RR_Dani",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3527,7 +3452,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3538,7 +3462,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 3",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3553,7 +3477,7 @@
                 "restart_when_active": false,
                 "shutdown": false,
                 "undo_sname": "Skull Counter 3",
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=535",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=715",
                 "webpage_control_level": 1,
                 "width": 300
             },
@@ -3568,7 +3492,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3579,7 +3502,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 2",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3593,7 +3516,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=1150",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=1765",
                 "webpage_control_level": 1,
                 "width": 300
             },
@@ -3608,7 +3531,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3619,7 +3541,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Skull Counter 1",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3635,7 +3557,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=1680",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/skull_counter.html?d=3115",
                 "webpage_control_level": 1,
                 "width": 200
             },
@@ -3650,7 +3572,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3661,7 +3582,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Chatbox (Focus)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3690,7 +3611,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3701,7 +3621,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Nuzlocke Capture Overlay",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3726,7 +3646,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3737,7 +3656,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Chatbox (Nuzlocke)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3766,7 +3685,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3777,7 +3695,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [Dani]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3806,7 +3724,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3817,7 +3734,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [gzetk]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3857,7 +3774,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Ritaglia\/aggiungi una cornice",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -3875,7 +3792,6 @@
             ],
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -3886,7 +3802,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Nuzlocke Capture [gzetk]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3958,7 +3874,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Nuzlocke",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -3970,7 +3886,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4006,7 +3921,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4042,7 +3956,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4078,7 +3991,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4116,7 +4028,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4152,7 +4063,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4188,7 +4098,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4224,7 +4133,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4262,7 +4170,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4298,7 +4205,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -4334,7 +4240,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4372,7 +4277,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4408,7 +4312,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4444,7 +4347,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4482,7 +4384,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -4518,7 +4419,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -4554,7 +4454,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4592,7 +4491,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4628,7 +4526,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4664,7 +4561,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4700,7 +4596,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4738,7 +4633,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4774,7 +4668,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4810,7 +4703,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4846,7 +4738,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4882,7 +4773,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -4918,7 +4808,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4954,7 +4843,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -4990,7 +4878,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5026,7 +4913,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5073,7 +4959,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -5084,7 +4969,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Discord Voice Chat (Focus)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -5140,7 +5025,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Focus (Unite)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -5152,7 +5037,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5188,7 +5072,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5224,7 +5107,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5260,7 +5142,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5296,7 +5177,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5332,7 +5212,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -5368,7 +5247,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5404,7 +5282,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5442,7 +5319,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -5478,7 +5354,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5514,7 +5389,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5550,7 +5424,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5586,7 +5459,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5622,7 +5494,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5658,7 +5529,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5694,7 +5564,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5732,7 +5601,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5768,7 +5636,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5817,7 +5684,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -5828,7 +5694,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Loading Eggs",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -5860,7 +5726,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture Source (PC)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -5891,7 +5757,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Capture Source (Console)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {
                 "mixer_hidden": true
             },
@@ -5950,7 +5816,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Focus (Just Chatting)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -5962,7 +5828,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -5998,7 +5863,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6034,7 +5898,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6070,7 +5933,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6106,7 +5968,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6144,7 +6005,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6180,7 +6040,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6216,7 +6075,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6252,7 +6110,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6288,7 +6145,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6326,7 +6182,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -6362,7 +6217,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6398,7 +6252,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6434,7 +6287,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6470,7 +6322,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6506,7 +6357,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6542,7 +6392,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6578,7 +6427,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6616,7 +6464,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6652,7 +6499,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6726,7 +6572,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Be Right Back",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -6738,7 +6584,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6774,7 +6619,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6810,7 +6654,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6846,7 +6689,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6884,7 +6726,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6920,7 +6761,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6956,7 +6796,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -6992,7 +6831,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7028,7 +6866,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7064,7 +6901,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7100,7 +6936,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7136,7 +6971,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7174,7 +7008,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7210,7 +7043,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7282,7 +7114,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Starting Soon",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -7294,7 +7126,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7330,7 +7161,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7366,7 +7196,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7402,7 +7231,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7440,7 +7268,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7476,7 +7303,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7512,7 +7338,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7548,7 +7373,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7584,7 +7408,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7620,7 +7443,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7656,7 +7478,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7692,7 +7513,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -7741,7 +7561,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -7752,7 +7571,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Discord Voice Chat",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -7793,7 +7612,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Chiave chroma",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -7820,7 +7639,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Nitidizza",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -7845,7 +7664,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Correzione del colore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -7870,7 +7689,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Chiave colore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -7899,7 +7718,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Main Webcam Source",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {
                 "mixer_hidden": true
             },
@@ -7938,7 +7757,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -7949,7 +7767,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcam #1 Overlay",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -7984,7 +7802,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Screen Capture Background",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8011,7 +7829,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Window Capture JC",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8036,7 +7854,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8047,7 +7864,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Screen Overlay JC",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8079,7 +7896,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8090,7 +7906,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcams JC",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8120,7 +7936,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8131,7 +7946,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Discord Voice Chat JC",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8161,7 +7976,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8172,7 +7986,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "ChatBox in JC",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8202,7 +8016,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8213,7 +8026,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Sub goal",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8243,7 +8056,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8254,7 +8066,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "BRB Bar",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8284,7 +8096,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8295,7 +8106,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "ChatBox in Loading",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8325,7 +8136,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8336,7 +8146,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Timer Bar",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8372,7 +8182,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Main Webcam Background",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8394,7 +8204,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8405,7 +8214,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Capture Overlay",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8437,7 +8246,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8448,7 +8256,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Social Tag 1",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8480,7 +8288,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8491,7 +8298,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Social Tag 2",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8524,7 +8331,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8535,7 +8341,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcam #5",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8565,7 +8371,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8576,7 +8381,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcam #4",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8606,7 +8411,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8617,7 +8421,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcam #3",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8647,7 +8451,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8658,7 +8461,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcam #2",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8688,7 +8491,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8699,7 +8501,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Webcam #1",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8731,7 +8533,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8742,7 +8543,7 @@
             "monitoring_type": 2,
             "muted": false,
             "name": "AlertBox",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8772,7 +8573,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -8783,7 +8583,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "ChatBox",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8818,7 +8618,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Background",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8851,7 +8651,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Chiave chroma",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -8875,7 +8675,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Spectralizer",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8960,7 +8760,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Full (JC Video Review)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -8972,7 +8772,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9008,7 +8807,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9044,7 +8842,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -9080,7 +8877,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9116,7 +8912,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9152,7 +8947,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9190,7 +8984,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9226,7 +9019,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -9262,7 +9054,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9298,7 +9089,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9336,7 +9126,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9372,7 +9161,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9408,7 +9196,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9444,7 +9231,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9480,7 +9266,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9516,7 +9301,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9552,7 +9336,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9588,7 +9371,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9624,7 +9406,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9660,7 +9441,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9696,7 +9476,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9732,7 +9511,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9768,7 +9546,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9804,7 +9581,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9842,7 +9618,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9878,7 +9653,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -9938,7 +9712,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Guadagno",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -9963,7 +9737,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Limitatore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -9991,7 +9765,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "1. Music",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -10035,7 +9809,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Limitatore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -10063,7 +9837,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "3. Discord",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -10106,7 +9880,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Riduzione del rumore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -10129,7 +9903,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Limitatore",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -10154,7 +9928,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Guadagno",
-                    "prev_ver": 453115905,
+                    "prev_ver": 453050371,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -10180,7 +9954,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "2. Mic",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -10228,7 +10002,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Focus (Elden Ring)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -10240,7 +10014,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10276,7 +10049,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10312,7 +10084,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10348,7 +10119,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10384,7 +10154,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10420,7 +10189,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -10456,7 +10224,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10492,7 +10259,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10530,7 +10296,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -10566,7 +10331,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10602,7 +10366,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10638,7 +10401,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10674,7 +10436,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10710,7 +10471,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10746,7 +10506,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10782,7 +10541,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10818,7 +10576,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10856,7 +10613,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10892,7 +10648,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -10970,7 +10725,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Focus (Yugi)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -10982,7 +10737,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11018,7 +10772,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11054,7 +10807,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11090,7 +10842,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11126,7 +10877,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11162,7 +10912,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -11198,7 +10947,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11234,7 +10982,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11272,7 +11019,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -11308,7 +11054,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11344,7 +11089,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11380,7 +11124,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11416,7 +11159,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11452,7 +11194,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11488,7 +11229,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11524,7 +11264,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11562,7 +11301,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11598,7 +11336,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11634,7 +11371,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11690,7 +11426,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "$LOCAL_SOURCES",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11717,7 +11453,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Nuzlocke Capture [Lori]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11739,7 +11475,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -11750,7 +11485,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Webcam [Lori]",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11777,7 +11512,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture (Fortnite)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11806,7 +11541,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Capture (Yugi)",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11830,7 +11565,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -11841,7 +11575,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Announcement Pad",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11891,7 +11625,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Drafter",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -11903,7 +11637,6 @@
                 "items": [
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11939,7 +11672,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -11975,7 +11707,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12011,7 +11742,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -12047,7 +11777,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12083,7 +11812,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12121,7 +11849,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12157,7 +11884,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 1,
                             "y": 1
@@ -12193,7 +11919,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12229,7 +11954,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12265,7 +11989,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12301,7 +12024,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12337,7 +12059,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12375,7 +12096,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12411,7 +12131,6 @@
                     },
                     {
                         "align": 5,
-                        "blend_type": "normal",
                         "bounds": {
                             "x": 0,
                             "y": 0
@@ -12460,7 +12179,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -12471,7 +12189,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Drafter Source",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -12503,7 +12221,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "ObsBrowser.Refresh": [],
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
@@ -12514,7 +12231,7 @@
             "monitoring_type": 2,
             "muted": false,
             "name": "SoundAlerts",
-            "prev_ver": 453115905,
+            "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
