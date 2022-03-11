@@ -7,7 +7,7 @@ var presets = {
  "gzetk": {
   "screen_name": "gzetk",
   "egg": "crustle",
-  "border": "rgb(142, 61, 34)"
+  "border": "rgb(177, 74, 37)"
  },
  "pietro": {
   "screen_name": "Pietro",
