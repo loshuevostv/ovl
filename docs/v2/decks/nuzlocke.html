@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
     <script type="text/javascript" src="obs-websocket.js"></script>
-    <script type="text/javascript" src="../webcam_presets.json"></script>
+    <script type="text/javascript" src="../settings.js"></script>
 
     <script type="text/javascript">
         window.onload = function() {
@@ -48,7 +48,7 @@
                  for (var ch of fastButtonWrapper.children) ch.disabled = true;
 
                  
-                 var url = "https://botv2.loshuevostv.repl.co/obsc/"+ sourceid.replace(" ", "").replace(" ", "");
+                 var url = server_url +"/obsc/"+ sourceid.replace(" ", "").replace(" ", "");
                  fetch(new Request(url +"?value="+ inputDeaths.value))
                    .then(() => {
                      console.log("Started listening for url: "+ url);

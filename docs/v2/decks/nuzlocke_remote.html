@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
     <script type="text/javascript" src="obs-websocket.js"></script>
-    <script type="text/javascript" src="../webcam_presets.json"></script>
+    <script type="text/javascript" src="../settings.js"></script>
 
     <script type="text/javascript">
         var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
 
-        var url = "https://botv2.loshuevostv.repl.co/obsc/SkullCounter"+ q["t"];
+        var url = server_url +"/obsc/SkullCounter"+ q["t"];
         window.onload = function() {
             var deathCounter = function(sourceid, initialValue) {
                 var wrapper = document.createElement("div");
