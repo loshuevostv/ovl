@@ -47,7 +47,7 @@ body.drafter {
 
 .draft-text {
     position: relative;
-    top: -30px;
+    top: 50px;
     text-align: center;
     margin: auto;
     font-size: 50px;

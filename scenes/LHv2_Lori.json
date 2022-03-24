@@ -1912,7 +1912,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "css": ".timer {\n    top: -2px;\n    font-size: 50px;\n    background: none;\n}",
+                "css": "",
                 "fps": 30,
                 "fps_custom": false,
                 "height": 1080,
