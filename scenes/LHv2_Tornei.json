@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Game",
-    "current_scene": "Game",
+    "current_program_scene": "Drafter",
+    "current_scene": "Drafter",
     "current_transition": "Dissolvenza",
     "groups": [],
     "modules": {},
@@ -40,6 +40,9 @@
         },
         {
             "name": "Game"
+        },
+        {
+            "name": "Drafter"
         }
     ],
     "sources": [
@@ -59,7 +62,7 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Match Pad",
+            "name": "Drafter Source",
             "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
@@ -68,16 +71,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "css": "",
-                "fps": 30,
-                "fps_custom": false,
-                "height": 200,
-                "is_local_file": true,
-                "local_file": "${lh.git.path.docs}\/v2\/tournament\/matchpad.html",
-                "reroute_audio": false,
-                "restart_when_active": false,
-                "shutdown": false,
-                "url": "https:\/\/obsproject.com\/browser-source",
-                "webpage_control_level": 1,
+                "height": 1080,
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/drafter\/drafter.html?c=943910150270505042",
                 "width": 1920
             },
             "sync": 0,
@@ -90,12 +85,16 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Drafter Source": [],
+                "libobs.show_scene_item.Drafter Source": []
+            },
+            "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Sample",
+            "name": "Drafter",
             "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
@@ -103,10 +102,77 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:\/Users\/lore9\/Desktop\/unite_example.jpg"
+                "custom_size": false,
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 1,
+                        "locked": false,
+                        "name": "Drafter Source",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
-            "versioned_id": "image_source",
+            "versioned_id": "scene",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scena",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 0,
+                "items": []
+            },
+            "sync": 0,
+            "versioned_id": "scene",
             "volume": 1
         },
         {
@@ -219,14 +285,12 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": []
-            },
-            "id": "scene",
+            "hotkeys": {},
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Scena",
+            "name": "Sample",
             "prev_ver": 453050371,
             "private_settings": {},
             "push-to-mute": false,
@@ -234,12 +298,51 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "custom_size": false,
-                "id_counter": 0,
-                "items": []
+                "file": "C:\/Users\/lore9\/Desktop\/unite_example.jpg"
             },
             "sync": 0,
-            "versioned_id": "scene",
+            "versioned_id": "image_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Match Pad",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "",
+                "fps": 30,
+                "fps_custom": false,
+                "height": 200,
+                "is_local_file": true,
+                "local_file": "${lh.git.path.docs}\/v2\/tournament\/matchpad.html",
+                "reroute_audio": false,
+                "restart_when_active": false,
+                "shutdown": false,
+                "url": "https:\/\/obsproject.com\/browser-source",
+                "webpage_control_level": 1,
+                "width": 1920
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
             "volume": 1
         }
     ],
