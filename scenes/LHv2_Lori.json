@@ -1912,7 +1912,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "css": ".pick-pool ul.draft-picks {\n  padding: 440px 170px;\n}\n.pick-pool .draft-picks li {\n    width: 62.5px;\n    height: 72px;\n}\n\n.team-panel .draft-picks li {\n    width: 150px;\n    height: 172.8px;\n}\n\n.team-panel.team1 .draft-picks li:nth-child(1) {\n    right: 120px;\n    top: -40px;\n}\n\n.team-panel.team1 .draft-picks li:nth-child(2) {\n    right: -50px;\n    top: 65px;\n}\n\n.team-panel.team1 .draft-picks li:nth-child(3) {\n    right: 120px;\n    top: 155px;\n}\n\n.team-panel.team1 .draft-picks li:nth-child(4) {\n    right: -50px;\n    top: 260px;\n}\n\n.team-panel.team1 .draft-picks li:nth-child(5) {\n    right: 120px;\n    top: 350px;\n}",
+                "css": ".timer {\n    top: -2px;\n    font-size: 50px;\n    background: none;\n}",
                 "fps": 30,
                 "fps_custom": false,
                 "height": 1080,
