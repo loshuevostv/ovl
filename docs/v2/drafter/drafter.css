@@ -189,27 +189,27 @@ ul.draft-picks {
     top: 350px;
 }
 
-.team-panel.team1 .draft-picks li:nth-child(1) {
+.team-panel.team2 .draft-picks li:nth-child(1) {
     left: 120px;
     top: -40px;
 }
 
-.team-panel.team1 .draft-picks li:nth-child(2) {
+.team-panel.team2 .draft-picks li:nth-child(2) {
     left: -50px;
     top: 65px;
 }
 
-.team-panel.team1 .draft-picks li:nth-child(3) {
+.team-panel.team2 .draft-picks li:nth-child(3) {
     left: 120px;
     top: 155px;
 }
 
-.team-panel.team1 .draft-picks li:nth-child(4) {
+.team-panel.team2 .draft-picks li:nth-child(4) {
     left: -50px;
     top: 260px;
 }
 
-.team-panel.team1 .draft-picks li:nth-child(5) {
+.team-panel.team2 .draft-picks li:nth-child(5) {
     left: 120px;
     top: 350px;
 }
