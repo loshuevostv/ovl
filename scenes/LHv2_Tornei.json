@@ -52,6 +52,31 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Drafter Background",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "${lh.git.path.docs}\/v2\/images\/drafter-bg.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
@@ -87,8 +112,12 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Drafter Background": [],
                 "libobs.hide_scene_item.Drafter Source": [],
-                "libobs.show_scene_item.Drafter Source": []
+                "libobs.hide_scene_item.Match Pad": [],
+                "libobs.show_scene_item.Drafter Background": [],
+                "libobs.show_scene_item.Drafter Source": [],
+                "libobs.show_scene_item.Match Pad": []
             },
             "id": "scene",
             "mixers": 0,
@@ -103,7 +132,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 1,
+                "id_counter": 3,
                 "items": [
                     {
                         "align": 5,
@@ -122,8 +151,78 @@
                             "duration": 0
                         },
                         "id": 1,
-                        "locked": false,
+                        "locked": true,
                         "name": "Drafter Source",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": true,
+                        "name": "Match Pad",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 3,
+                        "locked": false,
+                        "name": "Drafter Background",
                         "pos": {
                             "x": 0,
                             "y": 0

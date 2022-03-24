@@ -6,7 +6,7 @@
   <script type="text/javascript">
     var q = Object.fromEntries((new URLSearchParams(window.location.search)).entries());
     var unite_data_url = server_url +"/data/unite";
-    var url = server_url +"/draft/"+ q["c"];
+    var url = server_url + (q["c"] ? "/draft/"+ q["c"] : "/livedraft");
   </script>
   <script type="text/javascript" src="drafter.js"></script>
  </head>
