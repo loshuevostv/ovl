@@ -9,8 +9,10 @@
 body { margin: 0; overflow: hidden; }
 
 body.drafter {
-    background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0) 38%), url(../images/unite-bg.jpg);
-    background-size: 100%, 400px;
+    /*background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0) 38%), url(../images/unite-bg.jpg);
+    background-size: 100%, 400px;*/
+    background: url(../images/drafter-bg.png);
+    background-size: 100%;
 }
 
 .drafter-header {
