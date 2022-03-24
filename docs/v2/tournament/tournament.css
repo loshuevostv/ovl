@@ -135,6 +135,7 @@ body.match-hidden .team-pad, body.match-hidden .team-name {
     top: -10px;
     right: -10px;
     box-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+    display: none;
 }
 
 .objectives > div {
