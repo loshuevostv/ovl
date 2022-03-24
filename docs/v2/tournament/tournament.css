@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+body.match-pad {
+  width: 1920px;
+  height: 100px;
+}
+
+body.match-hidden .team-pad, body.match-hidden .team-name {
+  transform: translateY(-150px);
+}
+
+.team-pad {
+    position: absolute;
+    background: rgba(0,0,0,.7);
+    width: 300px;
+    height: 67px;
+    top: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translateY(0px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-name {
+    font-size: 23px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: white;
+    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+    -webkit-text-size-adjust: 100%;
+    width: 240px;
+    height: 67px;
+    line-height: 67px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    transform: translateY(0px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-name p {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.1;
+    width: 240px;
+}
+
+.team-name.team1 {
+    right: 1195px;
+}
+
+.team-name.team2 {
+    left: 1185px;
+}
+
+.points-pad {
+    width: 50px;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    padding: 0;
+    margin: 0;
+}
+
+.points-pad li {
+    list-style: none;
+    background: rgba(0,0,0,1);
+    height: 15px;
+    margin: 12px 10px;
+}
+
+.points-pad li i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgb(209 203 13);
+    border-radius: 5px;
+    box-shadow: inset 3px -3px 2px rgb(0 0 0 / 30%);
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transform: scale(0);
+}
+
+.points-pad.score-1 li:nth-child(1) i {
+    transform: scale(1);
+}
+
+.points-pad.score-2 li:nth-child(1) i, .points-pad.score-2 li:nth-child(2) i {
+    transform: scale(1);
+}
+
+.points-pad.score-3 li:nth-child(1) i, .points-pad.score-3 li:nth-child(2) i,.points-pad.score-3 li:nth-child(3) i {
+    transform: scale(1);
+}
+
+.points-pad.score-4 li:nth-child(1) i, .points-pad.score-4 li:nth-child(2) i,.points-pad.score-4 li:nth-child(3) i, .points-pad.score-4 li:nth-child(4) i {
+    transform: scale(1);
+}
+
+
+.team-pad.team1 {
+    right: 1143px;
+    transform: skewX(23deg);
+}
+.team-pad.team2 {
+    left: 1128px;
+    transform: skewX(-23deg);
+}
+
+.team-pad.team1 .points-pad {
+    float: right;
+}
+.team-pad.team2 .points-pad {
+    float: left;
+}
+
+.objectives img {
+    width: 65px;
+    height: 65px;
+    border: solid 3px #ddd;
+    border-radius: 50%;
+}
+
+.objectives {
+    background: linear-gradient(120deg, rgb(255 255 255) 0%, rgb(227 227 227) 100%);
+    position: absolute;
+    padding: 20px 20px 15px 10px;
+    border-left: solid 2px #ccc;
+    border-bottom: solid 2px #ccc;
+    border-radius: 15px;
+    top: -10px;
+    right: -10px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 60%);
+}
+
+.objectives > div {
+    position: relative;
+    float: left;
+    width: 130px;
+    text-align: center;
+}
+
+.objectives ul.objective-pad {
+    width: 108px;
+    height: 35px;
+    list-style: none;
+    margin: -5px 0 0 6px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    background: #ddd;
+}
+
+.objectives ul.objective-pad.zapdos {
+    width: 36px;
+    margin: -5px 20px 0 42px;
+}
+
+.objectives ul li {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 1px;
+    background: linear-gradient(180deg, #444 0%, #999 100%);
+    border: solid 2px #fff;
+    border-radius: 50%;
+}

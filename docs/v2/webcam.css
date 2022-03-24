@@ -30,6 +30,13 @@
   margin: 0 5px 30px 0;
 }
 
+.overlay-box.circular {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.webcam-box.circular { margin: 0 5px 15px 0; }
+
 .webcam-box iframe {
   border: none;
   border-radius: 5px;

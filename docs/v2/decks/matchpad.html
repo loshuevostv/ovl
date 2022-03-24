@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="deck.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <script type="text/javascript" src="../settings.js"></script>
+    <script type="text/javascript">
+      var matchpadHidden = true;
+      window.onload = function() {
+        var url = server_url +"/obsc/matchpad";
+
+        let boSelect = document.getElementById('pad-bo');
+        let togShow = document.getElementById('pad-toggle-show');
+        let team1Name = document.getElementById('pad-team1-name');
+        let team2Name = document.getElementById('pad-team2-name');
+        let team1Score = document.getElementById('pad-score1');
+        let team2Score = document.getElementById('pad-score2');
+        let swapButton = document.getElementById('pad-swap-teams');
+        let updateButton = document.getElementById('pad-update');
+
+        togShow.onclick = () => {
+          matchpadHidden = !matchpadHidden;
+
+          if (matchpadHidden) togShow.classList.add('fa-eye-slash');
+          else togShow.classList.remove('fa-eye-slash');
+        };
+
+        swapButton.onclick = () => {
+          var temp = team1Name.value;
+          team1Name.value = team2Name.value;
+          team2Name.value = temp;
+
+          temp = team1Score.value;
+          team1Score.value = team2Score.value;
+          team2Score.value = temp;
+        };
+
+        updateButton.onclick = () => {
+          const data = {};
+          data.bo = boSelect.value;
+          data.matchHidden = matchpadHidden;
+          data.team1 = team1Name.value;
+          data.team2 = team2Name.value;
+          data.score1 = team1Score.value;
+          data.score2 = team2Score.value;
+          console.log(data);
+
+          fetch(new Request(url+"?value="+ encodeURI(JSON.stringify(data)))).then(() => {  });
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <div class="deck">
+      <div class="deck-webcams">
+          <div class="deck-entry">
+            <span>Match</span>
+            <div>
+              <select id="pad-bo">
+                <option value="3">Best of 3</option>
+                <option value="5">Best of 5</option>
+                <option value="7">Best of 7</option>
+              </select>
+              <i class="fas fa-eye fa-eye-slash" id="pad-toggle-show"></i>
+            </div>
+          </div>
+          <div class="deck-entry">
+            <span>Team 1</span>
+            <div><input type="text" id="pad-team1-name" /></div>
+          </div>
+          <div class="deck-entry">
+            <span>Team 2</span>
+            <div><input type="text" id="pad-team2-name" /></div>
+          </div>
+          <div class="deck-entry">
+            <span>Scores</span>
+            <div><input type="number" id="pad-score1" value="0" min="0" max="4" /><input type="number" id="pad-score2" value="0" min="0" max="4" /></div>
+          </div>
+          <div class="deck-entry"><span>-</span></div>
+          <div class="deck-entry">
+            <span></span>
+            <div><button id="pad-swap-teams">Swap Teams</button> <button id="pad-update">Update</button></div>
+          </div>
+      </div>
+    </div>
+    <div class="deck">
+      <div class="deck-webcams">
+        <div class="deck-entry counter"><span>Lori</span><div id="counter-1"></div></div>
+        <div class="deck-entry counter"><span>gzetk</span><div id="counter-2"></div></div>
+        <div class="deck-entry counter"><span>Dani</span><div id="counter-3"></div></div>
+      </div>
+    </div>
+  </body>
+</html>

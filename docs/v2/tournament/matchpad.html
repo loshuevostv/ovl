@@ -1,0 +1,92 @@
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" type="text/css" href="tournament.css" />
+  <script type="text/javascript" src="../settings.js"></script>
+  <script type="text/javascript" src="polling.js"></script>
+  <script type="text/javascript">
+   var url = server_url +"/obsc/matchpad";
+
+   var matchHidden = true;
+   var team1Name = "";
+   var team2Name = "";
+   var team1Score = "0";
+   var team2Score = "0";
+   window.onload = () => {
+     startPolling(url, (val) => {
+       if (!val || !val.value) return;
+       data = JSON.parse(val.value);
+       
+       if (data.matchHidden != matchHidden) {
+         if (data.matchHidden)
+           document.body.classList.add('match-hidden');
+         else document.body.classList.remove('match-hidden');
+         matchHidden = data.matchHidden;
+       }
+
+       if (team1Name != data.team1) {
+         document.getElementById('team1-name').innerHTML = data.team1;
+         team1Name = data.team1;
+       }
+
+       if (team2Name != data.team2) {
+         document.getElementById('team2-name').innerHTML = data.team2;
+         team2Name = data.team2;
+       }
+
+       if (team1Score != data.score1) {
+         document.getElementById('team1-score').className = 'points-pad score-'+ data.score1;
+         team1Score = data.score1;
+       }
+
+       if (team2Score != data.score2) {
+         document.getElementById('team2-score').className = 'points-pad score-'+ data.score2;
+         team2Score = data.score2;
+       }
+       
+     });
+   };
+  </script>
+ </head>
+ <body class="match-pad match-hidden">
+  <div class="team-pad team1">
+   <ul id="team1-score" class="points-pad">
+    <li><i></i></li>
+    <li><i></i></li>
+   </ul>
+  </div>
+  <div class="team-pad team2">
+   <ul id="team2-score" class="points-pad">
+    <li><i></i></li>
+    <li><i></i></li>
+   </ul>
+  </div>
+  <div class="team-name team1"><p id="team1-name"></p></div>
+  <div class="team-name team2"><p id="team2-name"></p></div>
+
+  <div class="objectives">
+   <div>
+    <img src="images/drednaw.png" />
+    <ul class="objective-pad drednaw">
+     <li><i></i></li>
+     <li><i></i></li>
+     <li><i></i></li>
+    </ul>
+   </div>
+   <div>
+    <img src="images/zapdos.png" />
+    <ul class="objective-pad zapdos">
+     <li><i></i></li>
+    </ul>
+   </div>
+   <div>
+    <img src="images/rotom.png" />
+    <ul class="objective-pad rotom">
+     <li><i></i></li>
+     <li><i></i></li>
+     <li><i></i></li>
+    </ul>
+   </div>
+  </div>
+ </body>
+</html>
