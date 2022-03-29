@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Drafter",
-    "current_scene": "Drafter",
+    "current_program_scene": "Game",
+    "current_scene": "Game",
     "current_transition": "Dissolvenza",
     "groups": [],
     "modules": {},
@@ -39,10 +39,13 @@
             "name": "Scena"
         },
         {
-            "name": "Game"
+            "name": "Bracket"
         },
         {
             "name": "Drafter"
+        },
+        {
+            "name": "Game"
         }
     ],
     "sources": [
@@ -243,7 +246,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": false
+                        "visible": true
                     }
                 ]
             },
@@ -445,6 +448,205 @@
                 "url": "https:\/\/obsproject.com\/browser-source",
                 "webpage_control_level": 1,
                 "width": 1920
+            },
+            "sync": 0,
+            "versioned_id": "browser_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Background": [],
+                "libobs.hide_scene_item.Bracket Source": [],
+                "libobs.show_scene_item.Background": [],
+                "libobs.show_scene_item.Bracket Source": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Bracket",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 2,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 1,
+                        "locked": true,
+                        "name": "Background",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": true,
+                        "name": "Bracket Source",
+                        "pos": {
+                            "x": 0,
+                            "y": -120
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Background",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "${lh.git.path.docs}\/v2\/images\/background.png",
+                "linear_alpha": false,
+                "unload": false
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Ritaglia\/aggiungi una cornice",
+                    "prev_ver": 453050371,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "left": 0,
+                        "right": 20,
+                        "top": 0
+                    },
+                    "sync": 0,
+                    "versioned_id": "crop_filter",
+                    "volume": 1
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "browser_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Bracket Source",
+            "prev_ver": 453050371,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "\/* cyrillic-ext *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n\/* cyrillic *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2) format('woff2');\n  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n\/* greek-ext *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n\/* greek *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2) format('woff2');\n  unicode-range: U+0370-03FF;\n}\n\/* hebrew *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2) format('woff2');\n  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;\n}\n\/* vietnamese *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;\n}\n\/* latin-ext *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2) format('woff2');\n  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n\/* latin *\/\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  font-stretch: 100%;\n  src: url(https:\/\/fonts.gstatic.com\/s\/opensans\/v28\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n\nbfy-bracket .score-report-box {\n    fill: #7f59c1 !important;\n    rx: 5px !important;\n    ry: 5px !important;\n}\n\nbfy-bracket .team-container {\n    fill: rgb(51,52,56) !important;\n    rx: 5px !important;\n    ry: 5px !important;\n}\n\nbfy-bracket .match-container {\n    stroke-width: 5px !important;\n    stroke: rgb(248,125,23) !important;\n    rx: 5px !important;\n    ry: 5px !important;\n    filter: drop-shadow(3px 3px 4px rgb(0 0 0 \/ 40%)) !important;\n}\n\nbfy-bracket .path.team-divider {\n    filter: none !important;\n}\n\nbfy-bracket .path {\n    stroke: rgb(248,125,23) !important;\n    stroke-width: 3px !important;\n    filter: drop-shadow(3px 3px 4px rgb(0 0 0 \/ 40%)) !important;\n}\n\nhtml, body {\n    background-color: transparent !important;\n    font-family: \"Open Sans\" !important;\n    font-weight: 800 !important;\n    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000 !important;\n    -webkit-text-size-adjust: 100% !important;\n}\n\ntext {\n    fill: white !important;\n}\n\nbfy-bracket .path.team-divider {\n    filter: none !important;\n}\n\nbfy-bracket .team-loser {\n    fill: #727272 !important;\n}\n\nbfy-bracket .team-winner {\n    fill: #78ff8f !important;\n}",
+                "fps": 30,
+                "fps_custom": false,
+                "height": 1200,
+                "reroute_audio": false,
+                "restart_when_active": false,
+                "shutdown": false,
+                "url": "https:\/\/battlefy.com\/embeds\/621254cfed456c117ca33d47\/stage\/62125598376f540e2355a28f?showFullscreen=true",
+                "webpage_control_level": 1,
+                "width": 1940
             },
             "sync": 0,
             "versioned_id": "browser_source",
