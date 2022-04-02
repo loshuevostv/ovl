@@ -10,8 +10,8 @@ var presets = {
   "screen_name": "gzetk",
   "egg": "crustle",
   "border": "rgb(177, 74, 37)",
-  "c1": "rgb(138, 108, 84)",
-  "c2": "rgb(206, 158, 76)"
+  "c1": "rgb(206, 158, 76)",
+  "c2": "rgb(138, 108, 84)"
  },
  "pietro": {
   "screen_name": "Pietro",
@@ -60,7 +60,7 @@ var presets = {
   "egg": "pikachu",
   "border": "rgb(234,222,42)",
   "c1": "rgb(234, 222, 42)",
-  "c2": "rgb(222, 60, 45)"
+  "c2": "rgb(75, 61, 34)"
  },
  "cant": {
   "screen_name": "Cant",
