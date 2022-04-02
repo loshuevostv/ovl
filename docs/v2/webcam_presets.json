@@ -2,72 +2,107 @@ var presets = {
  "lori": {
   "screen_name": "Lori2608",
   "egg": "lucario",
-  "border": "rgb(88, 134, 168)"
+  "border": "rgb(88, 134, 168)",
+  "c1": "rgb(0, 177, 227)",
+  "c2": "rgb(31, 40, 47)"
  },
  "gzetk": {
   "screen_name": "gzetk",
   "egg": "crustle",
-  "border": "rgb(177, 74, 37)"
+  "border": "rgb(177, 74, 37)",
+  "c1": "rgb(138, 108, 84)",
+  "c2": "rgb(206, 158, 76)"
  },
  "pietro": {
   "screen_name": "Pietro",
   "egg": "decidueye",
-  "border": "rgb(117, 171, 128)"
+  "border": "rgb(117, 171, 128)",
+  "c1": "rgb(1, 166, 90)",
+  "c2": "rgb(229, 196, 129)"
  },
  "dani": {
   "screen_name": "Danlion",
   "egg": "venusaur",
-  "border": "rgb(135, 201, 216)"
+  "border": "rgb(135, 201, 216)",
+  "c1": "rgb(34, 202, 217)",
+  "c2": "rgb(43, 154, 32)"
  },
  "marghe": {
   "screen_name": "Marghe",
   "egg": "eldegoss",
-  "border": "rgb(108, 112, 43)"
+  "border": "rgb(108, 112, 43)",
+  "c1": "rgb(230, 224, 221)",
+  "c2": "rgb(107, 113, 31)"
  },
  "ilaria": {
   "screen_name": "Amaya",
   "egg": "wigglytuff",
-  "border": "rgb(217, 174, 192)"
- },
- "kappa": {
-  "screen_name": "Kappa2TK",
-  "egg": "cramorant",
-  "border": "rgb(77, 125, 212)"
- },
- "zero": {
-  "screen_name": "Zer0",
-  "egg": "cinderace",
-  "border": "rgb(203, 74, 55)"
+  "border": "rgb(217, 174, 192)",
+  "c1": "rgb(232, 175, 194)",
+  "c2": "rgb(37, 126, 143)"
  },
  "dome": {
   "screen_name": "D0m3",
-  "egg": "snorlax",
-  "border": "rgb(51, 79, 117)"
- },
- "raccomandato": {
-  "screen_name": "racco",
-  "egg": "mamoswine",
-  "border": "rgb(152, 103, 54)"
+  "egg": "garchomp",
+  "border": "rgb(51, 79, 117)",
+  "c1": "rgb(78, 77, 143)",
+  "c2": "rgb(235, 188, 48)"
  },
  "virg": {
-  "screen_name": "VIRG",
-  "egg": "gardevoir",
-  "border": "rgb(209, 235, 143)"
- },
- "dugo": {
-  "screen_name": "Dugo",
+  "screen_name": "V1RG",
   "egg": "charizard",
-  "border": "rgb(248, 166, 15)"
- },
- "cotton": {
-  "screen_name": "Cotton",
-  "egg": "tsareena",
-  "border": "rgb(194, 212, 106)"
+  "border": "rgb(209, 235, 143)",
+  "c1": "rgb(248, 166, 15)",
+  "c2": "rgb(0, 84, 104)"
  },
  "deni": {
   "screen_name": "Deni",
   "egg": "pikachu",
-  "border": "rgb(234,222,42)"
+  "border": "rgb(234,222,42)",
+  "c1": "rgb(234, 222, 42)",
+  "c2": "rgb(222, 60, 45)"
+ },
+ "cant": {
+  "screen_name": "Cant",
+  "egg": "greninja",
+  "border": "rgb(20,116,211)",
+  "c1": "rgb(20,116,211)",
+  "c2": "rgb(249,187,219)"
+ },
+ "kaneki": {
+  "screen_name": "Kaneki",
+  "egg": "greninja",
+  "border": "rgb(20,116,211)",
+  "c1": "rgb(20,116,211)",
+  "c2": "rgb(249,187,219)"
+ },
+ "coco": {
+  "screen_name": "Coco",
+  "egg": "talonflame",
+  "border": "rgb(140,27,20)",
+  "c1": "rgb(140,27,20)",
+  "c2": "rgb(15,13,15)"
+ },
+ "aky": {
+  "screen_name": "Aky",
+  "egg": "hoopa",
+  "border": "rgb(195,49,103)",
+  "c1": "rgb(195,49,103)",
+  "c2": "rgb(215,187,38)"
+ },
+ "sumiwake": {
+  "screen_name": "Sumiwake",
+  "egg": "cinderace",
+  "border": "rgb(236,72,35)",
+  "c1": "rgb(236,72,35)",
+  "c2": "rgb(3,43,95)"
+ },
+ "zero": {
+  "screen_name": "Zer0",
+  "egg": "cinderace",
+  "border": "rgb(236,72,35)",
+  "c1": "rgb(236,72,35)",
+  "c2": "rgb(3,43,95)"
  },
  "bubo": {
   "screen_name": "Bubo",

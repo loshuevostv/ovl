@@ -14,7 +14,6 @@
        var ifm = document.createElement("iframe");
        ifm.src = "https://obs.ninja/?view=LHTVface_" + q["t"];
        document.getElementById("cambox").appendChild(ifm);
-       document.getElementById("cambox").style["background-color"] = "black";
       }
 
       var data = presets[q["t"]];
@@ -24,13 +23,30 @@
 
       document.getElementById("nametag").style["border-color"] = data.border;
       //document.getElementById("cambox").style["border-color"] = data.border;
+
+      let cam_border = document.getElementById("cambox-border");
+      if (data.c1) cam_border.style.setProperty("--color-low", data.c1);
+      if (data.c2) cam_border.style.setProperty("--color-high", data.c2);
+
+      var border_angle = 0;
+      var border_int = 0;
+      setInterval(function() {
+       border_angle = -20;
+       border_int = setInterval(function() {
+        border_angle += 3.6;
+        cam_border.style.setProperty("--angle", border_angle +"deg");
+        if (border_angle >= 400) clearInterval(border_int);
+       }, 20);
+      }, 10000);
      }
+
    };
   </script>
  </head>
  <body class="webcam-box circular">
-  <div id="cambox" class="overlay-box webcam-capture-box circular">
-    <div id="eggicon" class="webcam-egg"></div>
+  <div id="eggicon" class="webcam-egg"></div>
+  <div id="cambox" class="overlay-box webcam-capture-box circular border-gradient">
+    <div id="cambox-border" class="overlay-box-border"></div>
     <div id="nametag" class="webcam-name-tag overlay-box"></div>
   </div>
  </body>
