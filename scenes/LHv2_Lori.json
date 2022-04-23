@@ -1,8 +1,218 @@
 {
-    "current_program_scene": "Focus (Isaac)",
-    "current_scene": "Focus (HS)",
+    "current_program_scene": "Pokemon_Showdown",
+    "current_scene": "Pokemon_Showdown",
     "current_transition": "Los Huevos Stinger",
     "groups": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Webcam",
+            "prev_ver": 453115905,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 386,
+                "cy": 1080,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 6,
+                        "locked": true,
+                        "name": "Webcam #5",
+                        "pos": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 7,
+                        "locked": true,
+                        "name": "Webcam #4",
+                        "pos": {
+                            "x": 2,
+                            "y": 140
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 8,
+                        "locked": true,
+                        "name": "Webcam #3",
+                        "pos": {
+                            "x": 2,
+                            "y": 375
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 9,
+                        "locked": true,
+                        "name": "Webcam #2",
+                        "pos": {
+                            "x": 2,
+                            "y": 610
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 13,
+                        "locked": true,
+                        "name": "Webcam #1",
+                        "pos": {
+                            "x": 2,
+                            "y": 845
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -186,10 +396,10 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.hide_scene_item.Nuzlocke Capture Overlay": [],
                 "libobs.hide_scene_item.RR_Dani": [],
-                "libobs.show_scene_item.Nuzlocke Capture Overlay": [],
-                "libobs.show_scene_item.RR_Dani": []
+                "libobs.hide_scene_item.Showdown Capture Overlay": [],
+                "libobs.show_scene_item.RR_Dani": [],
+                "libobs.show_scene_item.Showdown Capture Overlay": []
             },
             "id": "group",
             "mixers": 0,
@@ -263,7 +473,7 @@
                         },
                         "id": 1,
                         "locked": true,
-                        "name": "Nuzlocke Capture Overlay",
+                        "name": "Showdown Capture Overlay",
                         "pos": {
                             "x": 0,
                             "y": 0
@@ -293,10 +503,10 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.hide_scene_item.Nuzlocke Capture Overlay": [],
-                "libobs.hide_scene_item.Nuzlocke Capture [Lori]": [],
-                "libobs.show_scene_item.Nuzlocke Capture Overlay": [],
-                "libobs.show_scene_item.Nuzlocke Capture [Lori]": []
+                "libobs.hide_scene_item.Showdown Capture": [],
+                "libobs.hide_scene_item.Showdown Capture Overlay": [],
+                "libobs.show_scene_item.Showdown Capture": [],
+                "libobs.show_scene_item.Showdown Capture Overlay": []
             },
             "id": "group",
             "mixers": 0,
@@ -311,8 +521,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 631,
-                "cy": 425,
+                "cx": 1096,
+                "cy": 558,
                 "id_counter": 2,
                 "items": [
                     {
@@ -333,17 +543,17 @@
                             "duration": 0
                         },
                         "id": 32,
-                        "locked": true,
-                        "name": "Nuzlocke Capture [Lori]",
+                        "locked": false,
+                        "name": "Showdown Capture",
                         "pos": {
-                            "x": 3.1465380191802979,
-                            "y": 4.7134933471679688
+                            "x": 136.57072448730469,
+                            "y": 0
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.64397346973419189,
-                            "y": 0.64565026760101318
+                            "x": 0.85396260023117065,
+                            "y": 0.85446012020111084
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -370,10 +580,10 @@
                         },
                         "id": 2,
                         "locked": true,
-                        "name": "Nuzlocke Capture Overlay",
+                        "name": "Showdown Capture Overlay",
                         "pos": {
                             "x": 0,
-                            "y": 0
+                            "y": 133.6876220703125
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -385,7 +595,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     }
                 ]
             },
@@ -399,10 +609,7 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "libobs.hide_scene_item.Webcam [Lori]": [],
-                "libobs.show_scene_item.Webcam [Lori]": []
-            },
+            "hotkeys": {},
             "id": "group",
             "mixers": 0,
             "monitoring_type": 0,
@@ -416,47 +623,10 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 290,
-                "cy": 200,
+                "cx": 0,
+                "cy": 0,
                 "id_counter": 0,
-                "items": [
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 36,
-                        "locked": true,
-                        "name": "Webcam [Lori]",
-                        "pos": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    }
-                ]
+                "items": []
             },
             "sync": 0,
             "versioned_id": "group",
@@ -469,10 +639,10 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.hide_scene_item.Nuzlocke Capture Overlay": [],
                 "libobs.hide_scene_item.Nuzlocke Capture [gzetk]": [],
-                "libobs.show_scene_item.Nuzlocke Capture Overlay": [],
-                "libobs.show_scene_item.Nuzlocke Capture [gzetk]": []
+                "libobs.hide_scene_item.Showdown Capture Overlay": [],
+                "libobs.show_scene_item.Nuzlocke Capture [gzetk]": [],
+                "libobs.show_scene_item.Showdown Capture Overlay": []
             },
             "id": "group",
             "mixers": 0,
@@ -546,7 +716,7 @@
                         },
                         "id": 22,
                         "locked": true,
-                        "name": "Nuzlocke Capture Overlay",
+                        "name": "Showdown Capture Overlay",
                         "pos": {
                             "x": 0,
                             "y": 0
@@ -596,8 +766,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": true,
-                "cx": 1535,
-                "cy": 860,
+                "cx": 1529,
+                "cy": 983,
                 "id_counter": 4,
                 "items": [
                     {
@@ -621,8 +791,8 @@
                         "locked": true,
                         "name": "Screen Capture Background",
                         "pos": {
-                            "x": 5.539276123046875,
-                            "y": 2.6979827880859375
+                            "x": 0,
+                            "y": 125.697998046875
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -634,7 +804,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -657,14 +827,14 @@
                         "locked": true,
                         "name": "Capture Source (PC)",
                         "pos": {
-                            "x": 8,
-                            "y": 12
+                            "x": 13.460723876953125,
+                            "y": 5
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.79166668653488159,
-                            "y": 0.76851850748062134
+                            "x": 1.3452274799346924,
+                            "y": 1.3457814455032349
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -693,7 +863,7 @@
                         "locked": true,
                         "name": "Capture Overlay",
                         "pos": {
-                            "x": 0,
+                            "x": 8.460723876953125,
                             "y": 0
                         },
                         "private_settings": {},
@@ -1854,7 +2024,7 @@
             "name": "Be Right Back"
         },
         {
-            "name": "Full (JC Video Review)"
+            "name": "Pokemon_Showdown"
         },
         {
             "name": "Focus (Unite)"
@@ -2702,7 +2872,7 @@
             },
             "sync": 0,
             "versioned_id": "audio_capture",
-            "volume": 1
+            "volume": 0.99808794260025024
         },
         {
             "balance": 0.5,
@@ -4461,7 +4631,7 @@
             "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Nuzlocke Capture Overlay",
+            "name": "Showdown Capture Overlay",
             "prev_ver": 453115905,
             "private_settings": {},
             "push-to-mute": false,
@@ -4577,7 +4747,7 @@
             "mixers": 192,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Webcam [gzetk]",
+            "name": "Webcam [Pietro]",
             "prev_ver": 453115905,
             "private_settings": {},
             "push-to-mute": false,
@@ -4592,7 +4762,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": false,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=gzetk",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=pietro",
                 "webpage_control_level": 0,
                 "width": 290
             },
@@ -4694,7 +4864,7 @@
                 "libobs.hide_scene_item.SoundAlerts": [],
                 "libobs.hide_scene_item.Sub goal": [],
                 "libobs.hide_scene_item.Webcam [Dani]": [],
-                "libobs.hide_scene_item.Webcam [gzetk]": [],
+                "libobs.hide_scene_item.Webcam [Pietro]": [],
                 "libobs.show_scene_item.AlertBox": [],
                 "libobs.show_scene_item.Announcement Pad": [],
                 "libobs.show_scene_item.Audio Sources (Nuzlocke)": [],
@@ -4712,7 +4882,7 @@
                 "libobs.show_scene_item.SoundAlerts": [],
                 "libobs.show_scene_item.Sub goal": [],
                 "libobs.show_scene_item.Webcam [Dani]": [],
-                "libobs.show_scene_item.Webcam [gzetk]": []
+                "libobs.show_scene_item.Webcam [Pietro]": []
             },
             "id": "scene",
             "mixers": 0,
@@ -5076,7 +5246,7 @@
                         },
                         "id": 1,
                         "locked": true,
-                        "name": "Nuzlocke Capture Overlay",
+                        "name": "Showdown Capture Overlay",
                         "pos": {
                             "x": 1052.546630859375,
                             "y": 274
@@ -5186,7 +5356,7 @@
                         },
                         "id": 22,
                         "locked": true,
-                        "name": "Nuzlocke Capture Overlay",
+                        "name": "Showdown Capture Overlay",
                         "pos": {
                             "x": 1116.546630859375,
                             "y": 0
@@ -5259,17 +5429,17 @@
                             "duration": 0
                         },
                         "id": 32,
-                        "locked": true,
-                        "name": "Nuzlocke Capture [Lori]",
+                        "locked": false,
+                        "name": "Showdown Capture",
                         "pos": {
-                            "x": 547.0997314453125,
-                            "y": 270
+                            "x": 716.989013671875,
+                            "y": 264
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.81997251510620117,
-                            "y": 0.82187485694885254
+                            "x": 1.0873520374298096,
+                            "y": 1.0876774787902832
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -5296,10 +5466,10 @@
                         },
                         "id": 2,
                         "locked": true,
-                        "name": "Nuzlocke Capture Overlay",
+                        "name": "Showdown Capture Overlay",
                         "pos": {
                             "x": 543.09326171875,
-                            "y": 264
+                            "y": 434.17648315429688
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -5311,7 +5481,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -5370,7 +5540,7 @@
                         },
                         "id": 7,
                         "locked": true,
-                        "name": "Webcam [gzetk]",
+                        "name": "Webcam [Pietro]",
                         "pos": {
                             "x": 1629,
                             "y": 529
@@ -5422,42 +5592,6 @@
                             "duration": 0
                         },
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 36,
-                        "locked": true,
-                        "name": "Webcam [Lori]",
-                        "pos": {
-                            "x": 234,
-                            "y": 5
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1.3448275327682495,
-                            "y": 1.3450000286102295
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
                     },
                     {
                         "align": 5,
@@ -6614,6 +6748,35 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Ritaglia\/aggiungi una cornice",
+                    "prev_ver": 453115905,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 201,
+                        "right": 798,
+                        "top": 100
+                    },
+                    "sync": 0,
+                    "versioned_id": "crop_filter",
+                    "volume": 1
+                }
+            ],
             "flags": 0,
             "hotkeys": {},
             "id": "window_capture",
@@ -6629,7 +6792,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "method": 2,
-                "window": "Pokémon Scarlet and Violet - Reveal Trailer (Gen 9 - Pokémon Presents) - YouTube - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
+                "window": "Rocsy vs. Lori2608 - Showdown! - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
             },
             "sync": 0,
             "versioned_id": "window_capture",
@@ -8528,7 +8691,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/streamkit.discord.com\/overlay\/voice\/680184930340306979\/933437196172689468?icon=true&online=true&logo=white&text_color=%23ffffff&text_size=14&text_outline_color=%23000000&text_outline_size=0&text_shadow_color=%23000000&text_shadow_size=0&bg_color=%231e2124&bg_opacity=0.95&bg_shadow_color=%23000000&bg_shadow_size=0&invite_code=lickylair&limit_speaking=false&small_avatars=false&hide_names=false&fade_chat=0",
+                "url": "https:\/\/streamkit.discord.com\/overlay\/voice\/873921326459535400\/946136887423295518?icon=true&online=true&logo=white&text_color=%23ffffff&text_size=14&text_outline_color=%23000000&text_outline_size=0&text_shadow_color=%23000000&text_shadow_size=0&bg_color=%231e2124&bg_opacity=0.95&bg_shadow_color=%23000000&bg_shadow_size=0&invite_code=jVfnz5zQ5r&limit_speaking=false&small_avatars=false&hide_names=false&fade_chat=0",
                 "webpage_control_level": 0,
                 "width": 1000
             },
@@ -9098,7 +9261,7 @@
                 "reroute_audio": false,
                 "restart_when_active": true,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/timer_bar.html?t=360",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/widgets\/timer_bar.html?t=600",
                 "webpage_control_level": 0,
                 "width": 1920
             },
@@ -9161,7 +9324,7 @@
                 "css": "",
                 "fps": 30,
                 "fps_custom": false,
-                "height": 860,
+                "height": 983,
                 "is_local_file": true,
                 "is_media_flag": false,
                 "local_file": "${lh.git.path.docs}\/v2\/general_border.html",
@@ -9170,7 +9333,7 @@
                 "shutdown": true,
                 "url": "https:\/\/loshuevostv.github.io\/ovl\/general_border.html",
                 "webpage_control_level": 0,
-                "width": 1535
+                "width": 1520
             },
             "sync": 0,
             "versioned_id": "browser_source",
@@ -9337,7 +9500,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=pietro",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=kaneki",
                 "webpage_control_level": 0,
                 "width": 384
             },
@@ -9419,7 +9582,7 @@
                 "reroute_audio": false,
                 "restart_when_active": false,
                 "shutdown": true,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=deni",
+                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=pietro",
                 "webpage_control_level": 0,
                 "width": 384
             },
@@ -9539,7 +9702,7 @@
                 "css": "#log .mex-pad {\n    margin: 4px 2px !important;\n    padding: 7px 9px 5px 9px !important;\n    background: linear-gradient(45deg, rgb(51,52,56), rgb(18,16,19)) !important;\n    border: solid 2px rgb(139,80,233) !important;\n    border-radius: 10px !important;\n    box-shadow: 3px 3px 4px rgb(0,0,0,.4) !important;\n    box-sizing: border-box !important;\n    -webkit-box-sizing: border-box !important;\n}",
                 "fps": 30,
                 "fps_custom": false,
-                "height": 710,
+                "height": 380,
                 "is_media_flag": false,
                 "reroute_audio": false,
                 "restart_when_active": false,
@@ -9671,30 +9834,30 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.AlertBox": [],
+                "libobs.hide_scene_item.Announcement Pad": [],
                 "libobs.hide_scene_item.Audio Sources (PC)": [],
                 "libobs.hide_scene_item.Background": [],
                 "libobs.hide_scene_item.Capture (SC PC)": [],
                 "libobs.hide_scene_item.ChatBox": [],
                 "libobs.hide_scene_item.Discord Voice Chat": [],
-                "libobs.hide_scene_item.Marathon": [],
-                "libobs.hide_scene_item.Social Tags": [],
                 "libobs.hide_scene_item.SoundAlerts": [],
                 "libobs.hide_scene_item.Sub goal": [],
+                "libobs.hide_scene_item.Webcam": [],
                 "libobs.hide_scene_item.Webcam #1": [],
                 "libobs.hide_scene_item.Webcam #2": [],
                 "libobs.hide_scene_item.Webcam #3": [],
                 "libobs.hide_scene_item.Webcam #4": [],
                 "libobs.hide_scene_item.Webcam #5": [],
                 "libobs.show_scene_item.AlertBox": [],
+                "libobs.show_scene_item.Announcement Pad": [],
                 "libobs.show_scene_item.Audio Sources (PC)": [],
                 "libobs.show_scene_item.Background": [],
                 "libobs.show_scene_item.Capture (SC PC)": [],
                 "libobs.show_scene_item.ChatBox": [],
                 "libobs.show_scene_item.Discord Voice Chat": [],
-                "libobs.show_scene_item.Marathon": [],
-                "libobs.show_scene_item.Social Tags": [],
                 "libobs.show_scene_item.SoundAlerts": [],
                 "libobs.show_scene_item.Sub goal": [],
+                "libobs.show_scene_item.Webcam": [],
                 "libobs.show_scene_item.Webcam #1": [],
                 "libobs.show_scene_item.Webcam #2": [],
                 "libobs.show_scene_item.Webcam #3": [],
@@ -9705,16 +9868,18 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Full (JC Video Review)",
+            "name": "Pokemon_Showdown",
             "prev_ver": 453115905,
-            "private_settings": {},
+            "private_settings": {
+                "show_in_multiview": false
+            },
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 21,
+                "id_counter": 23,
                 "items": [
                     {
                         "align": 5,
@@ -9765,188 +9930,6 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 2,
-                        "locked": true,
-                        "name": "ChatBox",
-                        "pos": {
-                            "x": 0,
-                            "y": 370
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 3,
-                        "locked": true,
-                        "name": "Sub goal",
-                        "pos": {
-                            "x": 1422.2059326171875,
-                            "y": 57.307701110839844
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1.2857142686843872,
-                            "y": 1.2857142686843872
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 5,
-                        "locked": true,
-                        "name": "Social Tag 2",
-                        "pos": {
-                            "x": 0,
-                            "y": 209
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 14,
-                        "locked": true,
-                        "name": "Social Tag 1",
-                        "pos": {
-                            "x": 98,
-                            "y": 257
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 4,
-                        "locked": true,
-                        "name": "Social Tags",
-                        "pos": {
-                            "x": 0,
-                            "y": 209
-                        },
-                        "private_settings": {
-                            "collapsed": true
-                        },
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
                         "group_item_backup": true,
                         "hide_transition": {
                             "duration": 0
@@ -9955,8 +9938,8 @@
                         "locked": true,
                         "name": "Screen Capture Background",
                         "pos": {
-                            "x": 390.53927612304688,
-                            "y": 222.69798278808594
+                            "x": 0.539276123046875,
+                            "y": 222.697998046875
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -9968,7 +9951,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -9991,14 +9974,14 @@
                         "locked": true,
                         "name": "Capture Source (PC)",
                         "pos": {
-                            "x": 393,
-                            "y": 232
+                            "x": 14,
+                            "y": 102
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.79166668653488159,
-                            "y": 0.76851850748062134
+                            "x": 1.3452274799346924,
+                            "y": 1.3457814455032349
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -10027,8 +10010,8 @@
                         "locked": true,
                         "name": "Capture Overlay",
                         "pos": {
-                            "x": 385,
-                            "y": 220
+                            "x": 9,
+                            "y": 97
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -10063,11 +10046,11 @@
                         "locked": true,
                         "name": "Capture (SC PC)",
                         "pos": {
-                            "x": 385,
-                            "y": 220
+                            "x": 0.539276123046875,
+                            "y": 97
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         },
                         "rot": 0,
                         "scale": {
@@ -10093,7 +10076,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "hide_transition": {
                             "duration": 0
                         },
@@ -10129,7 +10112,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "hide_transition": {
                             "duration": 0
                         },
@@ -10137,8 +10120,8 @@
                         "locked": true,
                         "name": "Webcam #4",
                         "pos": {
-                            "x": 1150,
-                            "y": 0
+                            "x": 1536,
+                            "y": 140
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -10150,7 +10133,7 @@
                         "show_transition": {
                             "duration": 0
                         },
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -10165,7 +10148,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "hide_transition": {
                             "duration": 0
                         },
@@ -10173,8 +10156,8 @@
                         "locked": true,
                         "name": "Webcam #3",
                         "pos": {
-                            "x": 766,
-                            "y": 0
+                            "x": 1536,
+                            "y": 375
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -10201,7 +10184,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "group_item_backup": false,
+                        "group_item_backup": true,
                         "hide_transition": {
                             "duration": 0
                         },
@@ -10209,8 +10192,44 @@
                         "locked": true,
                         "name": "Webcam #2",
                         "pos": {
-                            "x": 382,
+                            "x": 1536,
+                            "y": 610
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
                             "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 13,
+                        "locked": true,
+                        "name": "Webcam #1",
+                        "pos": {
+                            "x": 1536,
+                            "y": 845
                         },
                         "private_settings": {},
                         "rot": 0,
@@ -10241,18 +10260,92 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 13,
+                        "id": 22,
                         "locked": true,
-                        "name": "Webcam #1",
+                        "name": "Webcam",
                         "pos": {
+                            "x": 1534,
+                            "y": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        },
+                        "rot": 0,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
                             "x": 0,
                             "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 2,
+                        "locked": true,
+                        "name": "ChatBox",
+                        "pos": {
+                            "x": 1536,
+                            "y": -2
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
                             "x": 1,
                             "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 3,
+                        "locked": true,
+                        "name": "Sub goal",
+                        "pos": {
+                            "x": 22.2059326171875,
+                            "y": 7
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 1.2857142686843872,
+                            "y": 1.2857142686843872
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -10281,14 +10374,50 @@
                         "locked": true,
                         "name": "Discord Voice Chat",
                         "pos": {
-                            "x": 404.8358154296875,
-                            "y": 4
+                            "x": 483.2059326171875,
+                            "y": -9
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
                             "x": 1,
                             "y": 1
+                        },
+                        "scale_filter": "disable",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "blend_type": "normal",
+                        "bounds": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "id": 12,
+                        "locked": false,
+                        "name": "AlertBox",
+                        "pos": {
+                            "x": 1003.380126953125,
+                            "y": 11
+                        },
+                        "private_settings": {},
+                        "rot": 0,
+                        "scale": {
+                            "x": 0.75393432378768921,
+                            "y": 0.75393432378768921
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -10313,18 +10442,18 @@
                         "hide_transition": {
                             "duration": 0
                         },
-                        "id": 12,
+                        "id": 23,
                         "locked": true,
-                        "name": "AlertBox",
+                        "name": "Announcement Pad",
                         "pos": {
-                            "x": 1391.380126953125,
-                            "y": 37.919479370117188
+                            "x": 23,
+                            "y": 555
                         },
                         "private_settings": {},
                         "rot": 0,
                         "scale": {
-                            "x": 0.75393432378768921,
-                            "y": 0.75393432378768921
+                            "x": 1,
+                            "y": 1
                         },
                         "scale_filter": "disable",
                         "show_transition": {
@@ -10574,80 +10703,6 @@
                         },
                         "private_settings": {
                             "collapsed": true
-                        },
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 17,
-                        "locked": true,
-                        "name": "Marathon Timer",
-                        "pos": {
-                            "x": 1534,
-                            "y": 49.99993896484375
-                        },
-                        "private_settings": {},
-                        "rot": 0,
-                        "scale": {
-                            "x": 1,
-                            "y": 1
-                        },
-                        "scale_filter": "disable",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "blend_type": "normal",
-                        "bounds": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "id": 20,
-                        "locked": true,
-                        "name": "Marathon",
-                        "pos": {
-                            "x": 1534,
-                            "y": 49.99993896484375
-                        },
-                        "private_settings": {
-                            "collapsed": false
                         },
                         "rot": 0,
                         "scale": {
@@ -10958,8 +11013,8 @@
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "close_threshold": -34,
-                        "open_threshold": -19
+                        "close_threshold": -35,
+                        "open_threshold": -20
                     },
                     "sync": 0,
                     "versioned_id": "noise_gate_filter",
@@ -11313,7 +11368,7 @@
                             "y": 3
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0,
                         "scale": {
@@ -12508,13 +12563,43 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "crop_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Ritaglia\/aggiungi una cornice",
+                    "prev_ver": 453115905,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "bottom": 197,
+                        "left": 0,
+                        "right": 796,
+                        "top": 188
+                    },
+                    "sync": 0,
+                    "versioned_id": "crop_filter",
+                    "volume": 1
+                }
+            ],
             "flags": 0,
             "hotkeys": {},
             "id": "window_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Nuzlocke Capture [Lori]",
+            "name": "Showdown Capture",
             "prev_ver": 453115905,
             "private_settings": {},
             "push-to-mute": false,
@@ -12524,43 +12609,10 @@
             "settings": {
                 "compatibility": true,
                 "method": 0,
-                "window": "VisualBoyAdvance- 99%:Afx#3A400000#3A0#3A0#3A900011#3Aa0ae6:VisualBoyAdvance.exe"
+                "window": "UrBrick_ vs. Archapegasi - Showdown! - Google Chrome:Chrome_WidgetWin_1:chrome.exe"
             },
             "sync": 0,
             "versioned_id": "window_capture",
-            "volume": 1
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "ObsBrowser.Refresh": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "browser_source",
-            "mixers": 192,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Webcam [Lori]",
-            "prev_ver": 453115905,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "height": 200,
-                "url": "https:\/\/loshuevostv.github.io\/ovl\/v2\/webcam.html?t=lori",
-                "width": 290
-            },
-            "sync": 0,
-            "versioned_id": "browser_source",
             "volume": 1
         },
         {
@@ -13332,7 +13384,7 @@
             },
             "sync": 0,
             "versioned_id": "browser_source",
-            "volume": 0.26405400037765503
+            "volume": 0.26000669598579407
         }
     ],
     "transition_duration": 300,
